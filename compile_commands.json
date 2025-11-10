@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DHAS_OPENMP @CMakeFiles/test_brkga.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -fopenmp -o CMakeFiles\\test_brkga.dir\\app\\test_brkga.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\cpp\\app\\test_brkga.cpp\"",
+  "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/cpp/app/test_brkga.cpp",
+  "output": "CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj"
+}
+]

@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Win64-MinGW",
+      "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/src/cpp",
+        "${workspaceFolder}/src/cpp/brkga_mp_ipr_cpp/brkga_mp_ipr"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/src/cpp",
+          "${workspaceFolder}/src/cpp/brkga_mp_ipr_cpp/brkga_mp_ipr"
+        ]
+      }
+    }
+  ],
+  "version": 4
+}
