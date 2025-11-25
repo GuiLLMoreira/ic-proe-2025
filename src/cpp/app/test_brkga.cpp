@@ -1,44 +1,48 @@
-#include <iostream>       // entrada/saída padrão (std::cout, std::cerr)
-#include <vector>         // std::vector usado para cromossomos e coleções
-#include <cmath>          // funções matemáticas (não usado explicitamente aqui, mas comumente incluído)
-#include <random>         // geradores aleatórios (pode ser usado dentro da biblioteca BRKGA)
-#include <clocale>        // setlocale para configurar localidade (separador decimal, etc.)
-#include "brkga_mp_ipr.hpp" // cabeçalho da implementação da biblioteca BRKGA usada (implementação própria/externa)
+#include <iostream>
+#include <clocale>
+#include "brkga_mp_ipr.hpp"
+#include "../decoder/PROEDecoder.hpp"
 
-class QuadraticDecoder {
-public:
-    // Método que decodifica um cromossomo (vetor de genes) para calcular o fitness.
-    // Aqui assume-se que o cromossomo tem tamanho 2 e o problema é minimizar x^2
-    double decode(const std::vector<double>& c, bool /*write_back*/ = false) {
-        if (c.size() != 2) throw std::runtime_error("Chromosome size must be 2");
-        // converte o gene [0,1] para o intervalo [-5,5]
-        double x = c[0] * 10.0 - 5.0;
-        // retorna o valor objetivo x^2 (problema de minimização)
-        return x * x;
-    }
-};
+// Mini-instância de teste (8 paradas em cruz)
+static PROEInstance build_tiny_instance() {
+    PROEInstance I;
+    I.school = {0.0, 0.0};
+    I.stops = {
+        {{ 1.0,  0.0}, 1}, {{ 2.0,  0.0}, 1},
+        {{-1.0,  0.0}, 1}, {{-2.0,  0.0}, 1},
+        {{ 0.0,  1.0}, 1}, {{ 0.0,  2.0}, 1},
+        {{ 0.0, -1.0}, 1}, {{ 0.0, -2.0}, 1}
+    };
+    I.vehicle_capacity   = 3;
+    I.penalty_capacity   = 1e6;
+    I.penalty_open_route = 1e2;
+    return I;
+}
 
 int main() {
-    std::setlocale(LC_ALL, "C"); // configura a localidade para "C" (garante separador decimal "." em impressões)
+    std::setlocale(LC_ALL, "C");
 
-    constexpr unsigned CHR = 2; // const expressando o tamanho do cromossomo (número de genes)
-    static_assert(CHR >= 2, "Chromosome size must be >= 2"); // verificação em tempo de compilação: CHR >= 2
+    // 1) Instância
+    PROEInstance inst = build_tiny_instance();
+    const unsigned CHR = static_cast<unsigned>(inst.stops.size());
 
-    QuadraticDecoder decoder; // instancia o decodificador (função objetivo)
+    // 2) Decoder
+    PROEDecoder decoder(inst);
 
-    BRKGA::BrkgaParams params; // estrutura de parâmetros da biblioteca BRKGA
-    params.population_size = 400;               // tamanho da população total
-    params.elite_percentage = 0.30;             // porcentagem de elite (30% da população será considerada elite)
-    params.mutants_percentage = 0.05;           // porcentagem de mutantes introduzidos por geração (5%)
-    params.num_elite_parents = 1;               // número de pais da elite usados na recombinação (por indivíduo filho)
-    params.total_parents = 2;                   // número total de pais usados na recombinação (mínimo exigido é 2)
-    params.bias_type = BRKGA::BiasFunctionType::LOGINVERSE; // função de bias para seleção entre pais (loginverse)
-    params.num_independent_populations = 1;     // número de populações independentes (multi-população)
-    params.num_independent_populations = 1;     // (linha repetida; é redundante mas inofensiva)
-    params.alpha_block_size = 1.0; // <-- adicione esta linha (parâmetro específico da implementação usada)
-    params.pr_percentage = 1.0; // ou outro valor entre 0.0 e 1.0, por exemplo 0.5 (parâmetro específico: prob. de reintrodução / repair)
+    // 3) Parâmetros BRKGA
+    BRKGA::BrkgaParams params;
+    params.population_size             = 400;
+    params.elite_percentage            = 0.30;
+    params.mutants_percentage          = 0.05;
+    params.num_elite_parents           = 1;
+    params.total_parents               = 2;
+    params.bias_type                   = BRKGA::BiasFunctionType::LOGINVERSE;
+    params.num_independent_populations = 1;
 
-    // imprime informações resumidas dos parâmetros configurados
+    // >>> parâmetros específicos da sua versão do BRKGA_MP_IPR
+    params.alpha_block_size = 1.0;   // > 0.0
+    params.pr_percentage    = 1.0;   // ∈ (0,1], ex: 1.0 ou 0.5
+
     std::cout << "Pop=" << params.population_size
               << " | elite%=" << params.elite_percentage
               << " | elite_set=" << int(params.population_size * params.elite_percentage)
@@ -48,58 +52,50 @@ int main() {
               << " | CHR=" << CHR
               << std::endl;
 
-    std::cout << "Antes de criar o BRKGA" << std::endl;
+    std::cout << "Antes de criar o BRKGA\n";
 
-    // cria o objeto BRKGA com template do tipo de decodificador
-    BRKGA::BRKGA_MP_IPR<QuadraticDecoder> brkga(
-        decoder,                               // decodificador (avalia cromossomos)
-        BRKGA::Sense::MINIMIZE,                // objetivo: minimizar a função fitness
-        params.num_independent_populations,    // número de populações independentes
-        CHR,                                   // comprimento do cromossomo (número de genes)
-        params,                                // parâmetros configurados acima
-        42u,                                   // semente do gerador aleatório (seed)
-        false                                  // flag adicional (provavelmente verbose ou similar) — depende da API
+    BRKGA::BRKGA_MP_IPR<PROEDecoder> brkga(
+        decoder,
+        BRKGA::Sense::MINIMIZE,
+        params.num_independent_populations,
+        CHR,
+        params,
+        42u,
+        false
     );
 
-    std::cout << "BRKGA criado com sucesso!" << std::endl;
-    brkga.evolve(); // Inicializa a população e executa uma primeira evolução (gera população inicial)
-
-    // 🔹 Diagnóstico correto: usar métodos públicos
-    std::cout << "Numero de populacoes: " << params.num_independent_populations << std::endl;
+    std::cout << "BRKGA criado com sucesso!\n";
 
     try {
-        // obtém o melhor fitness atual (após inicialização) — método público da classe BRKGA
         double best = brkga.getBestFitness();
-        // obtém o cromossomo que produziu esse melhor fitness
-        const auto& bestChrom = brkga.getBestChromosome();
-        std::cout << "Fitness inicial: " << best << std::endl;
-        std::cout << "Cromossomo inicial: ";
-        for (auto g : bestChrom) std::cout << g << " "; // imprime cada gene do cromossomo
-        std::cout << "\n";
+        std::cout << "Fitness inicial: " << best << '\n';
 
-        // loop que executa 50 evoluções (gerações) adicionais
-        for (unsigned g = 0; g < 50; ++g) {
-            brkga.evolve(); // gera a próxima geração (selecao, recombinacao, mutacao, substituicao)
-            double cur = brkga.getBestFitness(); // obtém o melhor fitness da geração atual
-            if (cur < best) best = cur;          // atualiza o melhor global se encontramos melhor valor (menor no caso)
-            if ((g + 1) % 10 == 0)               // a cada 10 gerações, imprime um status
-                std::cout << "Geracao " << (g + 1) << " | Melhor = " << best << '\n';
+        for (unsigned g = 0; g < 100; ++g) {
+            brkga.evolve();
+            double cur = brkga.getBestFitness();
+            if (cur < best) best = cur;
+
+            if ((g + 1) % 10 == 0) {
+                std::cout << "Geracao " << (g + 1)
+                          << " | Melhor = " << best << '\n';
+            }
         }
 
         std::cout << "\nFinalizado. Melhor valor encontrado: " << best << '\n';
-        const auto& best_final = brkga.getBestChromosome(); // obtém o melhor cromossomo final
-        std::cout << "Melhor cromossomo: ";
-        for (auto g : best_final) std::cout << g << " "; // imprime genes do melhor cromossomo encontrado
-        std::cout << "\n";
-    }
-    catch (const std::exception& e) {
-        // tratamento de exceções: imprime mensagem de erro e retorna código de falha
+
+        const auto& bestChrom = brkga.getBestChromosome();
+        std::cout << "Melhor cromossomo (random keys): ";
+        for (double g : bestChrom) std::cout << g << ' ';
+        std::cout << '\n';
+
+    } catch (const std::exception& e) {
         std::cerr << "Erro durante execucao: " << e.what() << std::endl;
         return 1;
     }
 
-    return 0; // término bem-sucedido do programa
+    return 0;
 }
+
 
 
 

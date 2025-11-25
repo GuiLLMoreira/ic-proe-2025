@@ -76,15 +76,15 @@ CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj: CMakeFiles/test_brkga.dir/incl
 CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj: C:/Users/Guilherme\ Moreira/Documents/GitHub/ic-proe-2025/src/cpp/app/test_brkga.cpp
 CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj: CMakeFiles/test_brkga.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj -MF CMakeFiles\test_brkga.dir\app\test_brkga.cpp.obj.d -o CMakeFiles\test_brkga.dir\app\test_brkga.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj -MF CMakeFiles\test_brkga.dir\app\test_brkga.cpp.obj.d -o CMakeFiles\test_brkga.dir\app\test_brkga.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp"
 
 CMakeFiles/test_brkga.dir/app/test_brkga.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_brkga.dir/app/test_brkga.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp" > CMakeFiles\test_brkga.dir\app\test_brkga.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp" > CMakeFiles\test_brkga.dir\app\test_brkga.cpp.i
 
 CMakeFiles/test_brkga.dir/app/test_brkga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_brkga.dir/app/test_brkga.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp" -o CMakeFiles\test_brkga.dir\app\test_brkga.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp\app\test_brkga.cpp" -o CMakeFiles\test_brkga.dir\app\test_brkga.cpp.s
 
 # Object files for target test_brkga
 test_brkga_OBJECTS = \
