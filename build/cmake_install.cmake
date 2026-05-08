@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/cpp
+# Install script for directory: C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ic_proe_2025_brkga")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ic_proe_2025")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()

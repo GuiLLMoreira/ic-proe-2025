@@ -53,7 +53,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp"
+CMAKE_SOURCE_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build"
@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/test_brkga.dir/all
+all: CMakeFiles/proe_brkga.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/test_brkga.dir/codegen
+codegen: CMakeFiles/proe_brkga.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/test_brkga.dir/clean
+clean: CMakeFiles/proe_brkga.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test_brkga.dir
+# Target rules for target CMakeFiles/proe_brkga.dir
 
 # All Build rule for target.
-CMakeFiles/test_brkga.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=1,2 "Built target test_brkga"
-.PHONY : CMakeFiles/test_brkga.dir/all
+CMakeFiles/proe_brkga.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=1,2,3,4 "Built target proe_brkga"
+.PHONY : CMakeFiles/proe_brkga.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test_brkga.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test_brkga.dir/all
+CMakeFiles/proe_brkga.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/proe_brkga.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" 0
-.PHONY : CMakeFiles/test_brkga.dir/rule
+.PHONY : CMakeFiles/proe_brkga.dir/rule
 
 # Convenience name for target.
-test_brkga: CMakeFiles/test_brkga.dir/rule
-.PHONY : test_brkga
+proe_brkga: CMakeFiles/proe_brkga.dir/rule
+.PHONY : proe_brkga
 
 # codegen rule for target.
-CMakeFiles/test_brkga.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=1,2 "Finished codegen for target test_brkga"
-.PHONY : CMakeFiles/test_brkga.dir/codegen
+CMakeFiles/proe_brkga.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=1,2,3,4 "Finished codegen for target proe_brkga"
+.PHONY : CMakeFiles/proe_brkga.dir/codegen
 
 # clean rule for target.
-CMakeFiles/test_brkga.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/clean
-.PHONY : CMakeFiles/test_brkga.dir/clean
+CMakeFiles/proe_brkga.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/clean
+.PHONY : CMakeFiles/proe_brkga.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

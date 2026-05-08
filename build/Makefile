@@ -56,7 +56,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\cpp"
+CMAKE_SOURCE_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build"
@@ -116,41 +116,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_brkga
+# Target rules for targets named proe_brkga
 
 # Build rule for target.
-test_brkga: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_brkga
-.PHONY : test_brkga
+proe_brkga: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 proe_brkga
+.PHONY : proe_brkga
 
 # fast build rule for target.
-test_brkga/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/build
-.PHONY : test_brkga/fast
+proe_brkga/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/build
+.PHONY : proe_brkga/fast
 
-app/test_brkga.obj: app/test_brkga.cpp.obj
-.PHONY : app/test_brkga.obj
+instance.obj: instance.cpp.obj
+.PHONY : instance.obj
 
 # target to build an object file
-app/test_brkga.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/app/test_brkga.cpp.obj
-.PHONY : app/test_brkga.cpp.obj
+instance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.obj
+.PHONY : instance.cpp.obj
 
-app/test_brkga.i: app/test_brkga.cpp.i
-.PHONY : app/test_brkga.i
+instance.i: instance.cpp.i
+.PHONY : instance.i
 
 # target to preprocess a source file
-app/test_brkga.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/app/test_brkga.cpp.i
-.PHONY : app/test_brkga.cpp.i
+instance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.i
+.PHONY : instance.cpp.i
 
-app/test_brkga.s: app/test_brkga.cpp.s
-.PHONY : app/test_brkga.s
+instance.s: instance.cpp.s
+.PHONY : instance.s
 
 # target to generate assembly for a file
-app/test_brkga.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_brkga.dir\build.make CMakeFiles/test_brkga.dir/app/test_brkga.cpp.s
-.PHONY : app/test_brkga.cpp.s
+instance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.s
+.PHONY : instance.cpp.s
+
+src/decoder/PROEDecoder.obj: src/decoder/PROEDecoder.cpp.obj
+.PHONY : src/decoder/PROEDecoder.obj
+
+# target to build an object file
+src/decoder/PROEDecoder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj
+.PHONY : src/decoder/PROEDecoder.cpp.obj
+
+src/decoder/PROEDecoder.i: src/decoder/PROEDecoder.cpp.i
+.PHONY : src/decoder/PROEDecoder.i
+
+# target to preprocess a source file
+src/decoder/PROEDecoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.i
+.PHONY : src/decoder/PROEDecoder.cpp.i
+
+src/decoder/PROEDecoder.s: src/decoder/PROEDecoder.cpp.s
+.PHONY : src/decoder/PROEDecoder.s
+
+# target to generate assembly for a file
+src/decoder/PROEDecoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.s
+.PHONY : src/decoder/PROEDecoder.cpp.s
+
+src/main/main.obj: src/main/main.cpp.obj
+.PHONY : src/main/main.obj
+
+# target to build an object file
+src/main/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj
+.PHONY : src/main/main.cpp.obj
+
+src/main/main.i: src/main/main.cpp.i
+.PHONY : src/main/main.i
+
+# target to preprocess a source file
+src/main/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/main/main.cpp.i
+.PHONY : src/main/main.cpp.i
+
+src/main/main.s: src/main/main.cpp.s
+.PHONY : src/main/main.s
+
+# target to generate assembly for a file
+src/main/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/main/main.cpp.s
+.PHONY : src/main/main.cpp.s
 
 # Help Target
 help:
@@ -160,10 +208,16 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test_brkga
-	@echo ... app/test_brkga.obj
-	@echo ... app/test_brkga.i
-	@echo ... app/test_brkga.s
+	@echo ... proe_brkga
+	@echo ... instance.obj
+	@echo ... instance.i
+	@echo ... instance.s
+	@echo ... src/decoder/PROEDecoder.obj
+	@echo ... src/decoder/PROEDecoder.i
+	@echo ... src/decoder/PROEDecoder.s
+	@echo ... src/main/main.obj
+	@echo ... src/main/main.i
+	@echo ... src/main/main.s
 .PHONY : help
 
 

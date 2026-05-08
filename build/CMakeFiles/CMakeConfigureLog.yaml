@@ -27,10 +27,6 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -64,21 +60,12 @@ events:
       - "C:/msys64/mingw64/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
       - "C:/Program Files/CodeBlocks/MinGW/bin/"
     searched_directories:
-      - "C:/Users/Guilherme Moreira/bin/mingw32-make.exe.com"
-      - "C:/Users/Guilherme Moreira/bin/mingw32-make.exe"
-      - "C:/Program Files/Git/mingw64/bin/mingw32-make.exe.com"
-      - "C:/Program Files/Git/mingw64/bin/mingw32-make.exe"
-      - "C:/Program Files/Git/usr/local/bin/mingw32-make.exe.com"
-      - "C:/Program Files/Git/usr/local/bin/mingw32-make.exe"
-      - "C:/Program Files/Git/usr/bin/mingw32-make.exe.com"
-      - "C:/Program Files/Git/usr/bin/mingw32-make.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mingw32-make.exe.com"
@@ -143,43 +130,35 @@ events:
     found: "C:/msys64/mingw64/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -189,8 +168,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -216,10 +194,6 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -253,81 +227,8 @@ events:
       - "C:/msys64/mingw64/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/Users/Guilherme Moreira/bin/c++.com"
-      - "C:/Users/Guilherme Moreira/bin/c++.exe"
-      - "C:/Users/Guilherme Moreira/bin/c++"
-      - "C:/Users/Guilherme Moreira/bin/g++.com"
-      - "C:/Users/Guilherme Moreira/bin/g++.exe"
-      - "C:/Users/Guilherme Moreira/bin/g++"
-      - "C:/Users/Guilherme Moreira/bin/cl.com"
-      - "C:/Users/Guilherme Moreira/bin/cl.exe"
-      - "C:/Users/Guilherme Moreira/bin/cl"
-      - "C:/Users/Guilherme Moreira/bin/bcc.com"
-      - "C:/Users/Guilherme Moreira/bin/bcc.exe"
-      - "C:/Users/Guilherme Moreira/bin/bcc"
-      - "C:/Users/Guilherme Moreira/bin/icx.com"
-      - "C:/Users/Guilherme Moreira/bin/icx.exe"
-      - "C:/Users/Guilherme Moreira/bin/icx"
-      - "C:/Users/Guilherme Moreira/bin/clang++.com"
-      - "C:/Users/Guilherme Moreira/bin/clang++.exe"
-      - "C:/Users/Guilherme Moreira/bin/clang++"
-      - "C:/Program Files/Git/mingw64/bin/c++.com"
-      - "C:/Program Files/Git/mingw64/bin/c++.exe"
-      - "C:/Program Files/Git/mingw64/bin/c++"
-      - "C:/Program Files/Git/mingw64/bin/g++.com"
-      - "C:/Program Files/Git/mingw64/bin/g++.exe"
-      - "C:/Program Files/Git/mingw64/bin/g++"
-      - "C:/Program Files/Git/mingw64/bin/cl.com"
-      - "C:/Program Files/Git/mingw64/bin/cl.exe"
-      - "C:/Program Files/Git/mingw64/bin/cl"
-      - "C:/Program Files/Git/mingw64/bin/bcc.com"
-      - "C:/Program Files/Git/mingw64/bin/bcc.exe"
-      - "C:/Program Files/Git/mingw64/bin/bcc"
-      - "C:/Program Files/Git/mingw64/bin/icx.com"
-      - "C:/Program Files/Git/mingw64/bin/icx.exe"
-      - "C:/Program Files/Git/mingw64/bin/icx"
-      - "C:/Program Files/Git/mingw64/bin/clang++.com"
-      - "C:/Program Files/Git/mingw64/bin/clang++.exe"
-      - "C:/Program Files/Git/mingw64/bin/clang++"
-      - "C:/Program Files/Git/usr/local/bin/c++.com"
-      - "C:/Program Files/Git/usr/local/bin/c++.exe"
-      - "C:/Program Files/Git/usr/local/bin/c++"
-      - "C:/Program Files/Git/usr/local/bin/g++.com"
-      - "C:/Program Files/Git/usr/local/bin/g++.exe"
-      - "C:/Program Files/Git/usr/local/bin/g++"
-      - "C:/Program Files/Git/usr/local/bin/cl.com"
-      - "C:/Program Files/Git/usr/local/bin/cl.exe"
-      - "C:/Program Files/Git/usr/local/bin/cl"
-      - "C:/Program Files/Git/usr/local/bin/bcc.com"
-      - "C:/Program Files/Git/usr/local/bin/bcc.exe"
-      - "C:/Program Files/Git/usr/local/bin/bcc"
-      - "C:/Program Files/Git/usr/local/bin/icx.com"
-      - "C:/Program Files/Git/usr/local/bin/icx.exe"
-      - "C:/Program Files/Git/usr/local/bin/icx"
-      - "C:/Program Files/Git/usr/local/bin/clang++.com"
-      - "C:/Program Files/Git/usr/local/bin/clang++.exe"
-      - "C:/Program Files/Git/usr/local/bin/clang++"
-      - "C:/Program Files/Git/usr/bin/c++.com"
-      - "C:/Program Files/Git/usr/bin/c++.exe"
-      - "C:/Program Files/Git/usr/bin/c++"
-      - "C:/Program Files/Git/usr/bin/g++.com"
-      - "C:/Program Files/Git/usr/bin/g++.exe"
-      - "C:/Program Files/Git/usr/bin/g++"
-      - "C:/Program Files/Git/usr/bin/cl.com"
-      - "C:/Program Files/Git/usr/bin/cl.exe"
-      - "C:/Program Files/Git/usr/bin/cl"
-      - "C:/Program Files/Git/usr/bin/bcc.com"
-      - "C:/Program Files/Git/usr/bin/bcc.exe"
-      - "C:/Program Files/Git/usr/bin/bcc"
-      - "C:/Program Files/Git/usr/bin/icx.com"
-      - "C:/Program Files/Git/usr/bin/icx.exe"
-      - "C:/Program Files/Git/usr/bin/icx"
-      - "C:/Program Files/Git/usr/bin/clang++.com"
-      - "C:/Program Files/Git/usr/bin/clang++.exe"
-      - "C:/Program Files/Git/usr/bin/clang++"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
@@ -872,43 +773,35 @@ events:
     found: "C:/msys64/mingw64/bin/c++.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -918,8 +811,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -947,43 +839,35 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -993,8 +877,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -1038,10 +921,6 @@ events:
       - "ar"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1074,50 +953,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ar.com"
     found: "C:/msys64/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1127,8 +997,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1150,10 +1019,6 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1186,50 +1051,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ranlib.com"
     found: "C:/msys64/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1239,8 +1095,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1262,10 +1117,6 @@ events:
       - "strip"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1298,50 +1149,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/strip.com"
     found: "C:/msys64/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1351,8 +1193,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1374,10 +1215,6 @@ events:
       - "ld"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1410,50 +1247,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ld.com"
     found: "C:/msys64/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1463,8 +1291,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1486,10 +1313,6 @@ events:
       - "nm"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1522,50 +1345,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/nm.com"
     found: "C:/msys64/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1575,8 +1389,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1598,10 +1411,6 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1634,50 +1443,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objdump.com"
     found: "C:/msys64/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1687,8 +1487,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1710,10 +1509,6 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1746,50 +1541,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objcopy.com"
     found: "C:/msys64/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1799,8 +1585,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1822,10 +1607,6 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1858,50 +1639,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/readelf.com"
     found: "C:/msys64/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1911,8 +1683,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1934,10 +1705,6 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -1970,50 +1737,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/dlltool.com"
     found: "C:/msys64/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2023,8 +1781,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2046,10 +1803,6 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -2082,50 +1835,41 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/addr2line.com"
     found: "C:/msys64/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2135,8 +1879,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2158,10 +1901,6 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -2194,24 +1933,11 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/tapi.com"
       - "C:/msys64/mingw64/bin/tapi.exe"
       - "C:/msys64/mingw64/bin/tapi"
-      - "C:/Users/Guilherme Moreira/bin/tapi.com"
-      - "C:/Users/Guilherme Moreira/bin/tapi.exe"
-      - "C:/Users/Guilherme Moreira/bin/tapi"
-      - "C:/Program Files/Git/mingw64/bin/tapi.com"
-      - "C:/Program Files/Git/mingw64/bin/tapi.exe"
-      - "C:/Program Files/Git/mingw64/bin/tapi"
-      - "C:/Program Files/Git/usr/local/bin/tapi.com"
-      - "C:/Program Files/Git/usr/local/bin/tapi.exe"
-      - "C:/Program Files/Git/usr/local/bin/tapi"
-      - "C:/Program Files/Git/usr/bin/tapi.com"
-      - "C:/Program Files/Git/usr/bin/tapi.exe"
-      - "C:/Program Files/Git/usr/bin/tapi"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
@@ -2308,52 +2034,41 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/tapi.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/tapi.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/tapi"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi"
-      - "C:/Program Files/Git/usr/bin/core_perl/tapi.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/tapi.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/tapi"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2363,8 +2078,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2389,10 +2103,6 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -2425,24 +2135,11 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ar-14.2.com"
       - "C:/msys64/mingw64/bin/gcc-ar-14.2.exe"
       - "C:/msys64/mingw64/bin/gcc-ar-14.2"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14.2.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14.2.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14.2"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14.2.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14.2.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14.2"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14.2.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14.2.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14.2"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14.2.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14.2"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
@@ -2539,27 +2236,12 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14.2"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14.2.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14.2"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14.2.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14.2"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14.2.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14.2.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14.2"
       - "C:/msys64/mingw64/bin/gcc-ar-14.com"
       - "C:/msys64/mingw64/bin/gcc-ar-14.exe"
       - "C:/msys64/mingw64/bin/gcc-ar-14"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar-14"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar-14"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar-14"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ar-14"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14"
@@ -2656,27 +2338,12 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar-14"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-14"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-14"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-14"
       - "C:/msys64/mingw64/bin/gcc-ar14.com"
       - "C:/msys64/mingw64/bin/gcc-ar14.exe"
       - "C:/msys64/mingw64/bin/gcc-ar14"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar14.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar14.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ar14"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar14.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar14.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ar14"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar14.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar14.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ar14"
-      - "C:/Program Files/Git/usr/bin/gcc-ar14.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ar14.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ar14"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14"
@@ -2773,53 +2440,42 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar14.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ar14"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar14.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar14.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar14"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar14.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar14.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar14"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar14.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar14.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar14"
       - "C:/msys64/mingw64/bin/gcc-ar.com"
     found: "C:/msys64/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2829,8 +2485,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2855,10 +2510,6 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -2891,24 +2542,11 @@ events:
       - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-14.2.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib-14.2"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14.2.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14.2.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14.2"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14.2.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14.2"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14.2.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14.2"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14.2.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14.2"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
@@ -3005,27 +2643,12 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.2"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14.2.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14.2"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14.2.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14.2"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.2.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.2.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.2"
       - "C:/msys64/mingw64/bin/gcc-ranlib-14.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib-14"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib-14"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-14"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-14"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib-14"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14"
@@ -3122,27 +2745,12 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib-14"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-14"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-14"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14"
       - "C:/msys64/mingw64/bin/gcc-ranlib14.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib14.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib14"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib14.com"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib14.exe"
-      - "C:/Users/Guilherme Moreira/bin/gcc-ranlib14"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib14.com"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib14.exe"
-      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib14"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib14.com"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib14.exe"
-      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib14"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib14.com"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib14.exe"
-      - "C:/Program Files/Git/usr/bin/gcc-ranlib14"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14"
@@ -3239,53 +2847,42 @@ events:
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib14.com"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib14.exe"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/gcc-ranlib14"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib14.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib14.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib14"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib14.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib14.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib14"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib14.com"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib14.exe"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib14"
       - "C:/msys64/mingw64/bin/gcc-ranlib.com"
     found: "C:/msys64/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -3295,8 +2892,7 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3320,10 +2916,6 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/gurobi1200/win64/bin/"
@@ -3357,11 +2949,7 @@ events:
       - "C:/msys64/mingw64/bin/"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
       - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/mingw64/sbin/"
-      - "C:/Program Files/Git/mingw64/"
+      - "C:/Users/Guilherme Moreira/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -3371,22 +2959,10 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/bin/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/sbin/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/"
+      - "C:/Program Files (x86)/ic_proe_2025/bin/"
+      - "C:/Program Files (x86)/ic_proe_2025/sbin/"
+      - "C:/Program Files (x86)/ic_proe_2025/"
     searched_directories:
-      - "C:/Users/Guilherme Moreira/bin/windres.com"
-      - "C:/Users/Guilherme Moreira/bin/windres.exe"
-      - "C:/Users/Guilherme Moreira/bin/windres"
-      - "C:/Program Files/Git/mingw64/bin/windres.com"
-      - "C:/Program Files/Git/mingw64/bin/windres.exe"
-      - "C:/Program Files/Git/mingw64/bin/windres"
-      - "C:/Program Files/Git/usr/local/bin/windres.com"
-      - "C:/Program Files/Git/usr/local/bin/windres.exe"
-      - "C:/Program Files/Git/usr/local/bin/windres"
-      - "C:/Program Files/Git/usr/bin/windres.com"
-      - "C:/Program Files/Git/usr/bin/windres.exe"
-      - "C:/Program Files/Git/usr/bin/windres"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.com"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.exe"
       - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres"
@@ -3481,43 +3057,35 @@ events:
     found: "C:/msys64/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nodejs\\"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -3527,15 +3095,13 @@ events:
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
         - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ic_proe_2025_brkga"
+        - "c:\\Users\\Guilherme Moreira\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ic_proe_2025"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files/Git/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/ic_proe_2025_brkga"
+        - "C:/Program Files (x86)/ic_proe_2025"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -3545,8 +3111,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk"
-      binary: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk"
+      source: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4"
+      binary: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3556,13 +3122,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk'
+        Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ca4e1/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ca4e1.dir\\build.make CMakeFiles/cmTC_ca4e1.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk'
-        Building CXX object CMakeFiles/cmTC_ca4e1.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_87546/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_87546.dir\\build.make CMakeFiles/cmTC_87546.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4'
+        Building CXX object CMakeFiles/cmTC_87546.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -3570,8 +3136,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev1, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_ca4e1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccOvNJrM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_87546.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccnrQsdk.s
         GNU C++17 (Rev1, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -3596,14 +3162,14 @@ events:
          /mingw64/include
         End of search list.
         Compiler executable checksum: 678014a71281e916d315b268a3a7352f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccOvNJrM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccnrQsdk.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ca4e1.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ca4e1.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_87546.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_87546.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -3614,16 +3180,16 @@ events:
         gcc version 14.2.0 (Rev1, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca4e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ca4e1.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccsInskk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca4e1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca4e1.dir/objects.a --no-whole-archive --out-implib libcmTC_ca4e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87546.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_87546.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccp2ipNO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_87546.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_87546.dir/objects.a --no-whole-archive --out-implib libcmTC_87546.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccsInskk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca4e1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca4e1.dir/objects.a --no-whole-archive --out-implib libcmTC_ca4e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccp2ipNO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_87546.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_87546.dir/objects.a --no-whole-archive --out-implib libcmTC_87546.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca4e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ca4e1.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ca4e1.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ca4e1.dir/objects.a @CMakeFiles\\cmTC_ca4e1.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_ca4e1.dir/objects.a -Wl,--no-whole-archive -o cmTC_ca4e1.exe -Wl,--out-implib,libcmTC_ca4e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87546.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_87546.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_87546.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_87546.dir/objects.a @CMakeFiles\\cmTC_87546.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_87546.dir/objects.a -Wl,--no-whole-archive -o cmTC_87546.exe -Wl,--out-implib,libcmTC_87546.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4'
         
       exitCode: 0
   -
@@ -3664,13 +3230,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk']
+        ignore line: [Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ca4e1/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ca4e1.dir\\build.make CMakeFiles/cmTC_ca4e1.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-8rzndk']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ca4e1.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_87546/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_87546.dir\\build.make CMakeFiles/cmTC_87546.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9zthq4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_87546.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3678,8 +3244,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev1  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_ca4e1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccOvNJrM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_87546.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccnrQsdk.s]
         ignore line: [GNU C++17 (Rev1  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3704,8 +3270,8 @@ events:
         ignore line: [ /mingw64/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 678014a71281e916d315b268a3a7352f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccOvNJrM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccnrQsdk.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -3716,9 +3282,9 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ca4e1.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ca4e1.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ca4e1.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_87546.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_87546.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_87546.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -3736,14 +3302,14 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca4e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ca4e1.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccsInskk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca4e1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca4e1.dir/objects.a --no-whole-archive --out-implib libcmTC_ca4e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87546.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_87546.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccp2ipNO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_87546.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_87546.dir/objects.a --no-whole-archive --out-implib libcmTC_87546.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
           arg [-plugin-opt=-fresolution=C:\\Users\\Guilherme] ==> ignore
-          arg [Moreira\\AppData\\Local\\Temp\\ccsInskk.res] ==> ignore
+          arg [Moreira\\AppData\\Local\\Temp\\ccp2ipNO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3765,7 +3331,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ca4e1.exe] ==> ignore
+          arg [cmTC_87546.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -3776,10 +3342,10 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_ca4e1.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_87546.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ca4e1.dll.a] ==> ignore
+          arg [libcmTC_87546.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3805,7 +3371,7 @@ events:
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccsInskk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca4e1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca4e1.dir/objects.a --no-whole-archive --out-implib libcmTC_ca4e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccp2ipNO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_87546.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_87546.dir/objects.a --no-whole-archive --out-implib libcmTC_87546.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -3835,476 +3401,4 @@ events:
     message: |
       Running the CXX compiler's linker: "C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.43.1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:29 (find_package)"
-    description: "Detecting CXX OpenMP compiler info"
-    directories:
-      source: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs"
-      binary: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_53dbb/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_53dbb.dir\\build.make CMakeFiles/cmTC_53dbb.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs'
-        Building CXX object CMakeFiles/cmTC_53dbb.dir/OpenMPTryFlag.cpp.obj
-        C:\\msys64\\mingw64\\bin\\c++.exe   -fopenmp -std=c++20 -o CMakeFiles\\cmTC_53dbb.dir\\OpenMPTryFlag.cpp.obj -c "C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3vegs\\OpenMPTryFlag.cpp"
-        Linking CXX executable cmTC_53dbb.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_53dbb.dir\\link.txt --verbose=1
-        Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe
-        COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../gcc-14.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,rust,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (Rev1, Built by MSYS2 project) 
-        COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        Reading specs from C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_53dbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_53dbb.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\cc2Dcsck.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_53dbb.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. @C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccq2nuFu -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_53dbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_53dbb.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_53dbb.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_53dbb.dir/objects.a @CMakeFiles\\cmTC_53dbb.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\c++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_53dbb.dir/objects.a -Wl,--no-whole-archive -o cmTC_53dbb.exe -Wl,--out-implib,libcmTC_53dbb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_53dbb.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs'
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:295 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:29 (find_package)"
-    message: |
-      Parsed CXX OpenMP implicit link information from above output:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs']
-        ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_53dbb/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_53dbb.dir\\build.make CMakeFiles/cmTC_53dbb.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-i3vegs']
-        ignore line: [Building CXX object CMakeFiles/cmTC_53dbb.dir/OpenMPTryFlag.cpp.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\c++.exe   -fopenmp -std=c++20 -o CMakeFiles\\cmTC_53dbb.dir\\OpenMPTryFlag.cpp.obj -c "C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3vegs\\OpenMPTryFlag.cpp"]
-        ignore line: [Linking CXX executable cmTC_53dbb.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_53dbb.dir\\link.txt --verbose=1]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
-        ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../gcc-14.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,rust,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (Rev1  Built by MSYS2 project) ]
-        ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
-        ignore line: [LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [Reading specs from C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_53dbb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_53dbb.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\cc2Dcsck.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_53dbb.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. @C:\\Users\\Guilherme Moreira\\AppData\\Local\\Temp\\ccq2nuFu -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-          arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
-          arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Guilherme] ==> ignore
-          arg [Moreira\\AppData\\Local\\Temp\\cc2Dcsck.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-m] ==> ignore
-          arg [i386pep] ==> ignore
-          arg [-Bdynamic] ==> search dynamic
-          arg [-o] ==> ignore
-          arg [cmTC_53dbb.exe] ==> ignore
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc] ==> dir [C:/msys64/mingw64/bin/../lib/gcc]
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
-          arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
-          arg [@C:\\Users\\Guilherme] ==> ignore
-          arg [Moreira\\AppData\\Local\\Temp\\ccq2nuFu] ==> ignore
-          arg [-lgomp] ==> lib [gomp]
-          arg [-lmingwthrd] ==> lib [mingwthrd]
-          arg [-lmingw32] ==> lib [mingw32]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lpthread] ==> lib [pthread]
-          arg [-ladvapi32] ==> lib [advapi32]
-          arg [-lshell32] ==> lib [shell32]
-          arg [-luser32] ==> lib [user32]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lmingwthrd] ==> lib [mingwthrd]
-          arg [-lmingw32] ==> lib [mingw32]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-        remove lib [msvcrt]
-        remove lib [msvcrt]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc] ==> [C:/msys64/mingw64/lib/gcc]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> [C:/msys64/mingw64/lib]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> [C:/msys64/mingw64/lib]
-        implicit libs: [gomp;mingwthrd;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingwthrd;mingw32;gcc_s;gcc;mingwex;kernel32]
-        implicit objs: []
-        implicit dirs: [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0;C:/msys64/mingw64/lib/gcc;C:/msys64/mingw64/x86_64-w64-mingw32/lib;C:/msys64/mingw64/lib]
-        implicit fwks: []
-      
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:313 (find_library)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:29 (find_package)"
-    mode: "library"
-    variable: "OpenMP_gomp_LIBRARY"
-    description: "Path to the gomp library for OpenMP"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gomp"
-    candidate_directories:
-      - "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/"
-      - "C:/msys64/mingw64/lib/gcc/"
-      - "C:/msys64/mingw64/x86_64-w64-mingw32/lib/"
-      - "C:/msys64/mingw64/lib/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/gurobi1200/win64/bin/"
-      - "C:/Python312/Scripts/"
-      - "C:/Python312/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/nodejs/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/Java/jdk-1.8.0_421/bin/"
-      - "C:/Program Files/R/R-4.4.1/bin/"
-      - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
-      - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
-      - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
-      - "C:/Program Files/Git/mingw64/lib/"
-      - "C:/Program Files/Git/mingw64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/lib/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/bin/"
-      - "/bin/"
-    searched_directories:
-      - "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/"
-      - "C:/msys64/mingw64/lib/gcc/"
-      - "C:/msys64/mingw64/x86_64-w64-mingw32/lib/"
-    found: "C:/msys64/mingw64/lib/libgomp.dll.a"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\Java\\jdk-1.8.0_421\\bin"
-        - "C:\\Program Files\\R\\R-4.4.1\\bin"
-        - "C:\\Program Files\\R\\R-4.4.1\\library\\irace\\bin\\x64"
-        - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ic_proe_2025_brkga"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files/Git/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/ic_proe_2025_brkga"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/ic_proe_2025_brkga/bin"
-        - "C:/Program Files/CMake/bin"
-        - "/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:313 (find_library)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:29 (find_package)"
-    mode: "library"
-    variable: "OpenMP_mingwthrd_LIBRARY"
-    description: "Path to the mingwthrd library for OpenMP"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mingwthrd"
-    candidate_directories:
-      - "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/"
-      - "C:/msys64/mingw64/lib/gcc/"
-      - "C:/msys64/mingw64/x86_64-w64-mingw32/lib/"
-      - "C:/msys64/mingw64/lib/"
-      - "C:/Users/Guilherme Moreira/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/gurobi1200/win64/bin/"
-      - "C:/Python312/Scripts/"
-      - "C:/Python312/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/nodejs/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/Java/jdk-1.8.0_421/bin/"
-      - "C:/Program Files/R/R-4.4.1/bin/"
-      - "C:/Program Files/R/R-4.4.1/library/irace/bin/x64/"
-      - "C:/msys64/mingw64/bin/"
-      - "C:/Users/Guilherme Moreira/AppData/Roaming/npm/"
-      - "C:/Users/Guilherme Moreira/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
-      - "C:/Program Files/Git/mingw64/lib/"
-      - "C:/Program Files/Git/mingw64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/lib/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/"
-      - "C:/Program Files (x86)/ic_proe_2025_brkga/bin/"
-      - "/bin/"
-    searched_directories:
-      - "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/"
-      - "C:/msys64/mingw64/lib/gcc/"
-      - "C:/msys64/mingw64/x86_64-w64-mingw32/lib/"
-    found: "C:/msys64/mingw64/lib/libmingwthrd.a"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\Guilherme Moreira\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\gurobi1200\\win64\\bin"
-        - "C:\\Python312\\Scripts"
-        - "C:\\Python312"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\Windows\\System32\\OpenSSH"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\dotnet"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\nodejs"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
-        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\Java\\jdk-1.8.0_421\\bin"
-        - "C:\\Program Files\\R\\R-4.4.1\\bin"
-        - "C:\\Program Files\\R\\R-4.4.1\\library\\irace\\bin\\x64"
-        - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Guilherme Moreira\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ic_proe_2025_brkga"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files/Git/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/ic_proe_2025_brkga"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/ic_proe_2025_brkga/bin"
-        - "C:/Program Files/CMake/bin"
-        - "/bin"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:29 (find_package)"
-    description: "Detecting CXX OpenMP version"
-    directories:
-      source: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9gp11y"
-      binary: "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9gp11y"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "OpenMP_SPECTEST_CXX_"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9gp11y'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c75c6/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c75c6.dir\\build.make CMakeFiles/cmTC_c75c6.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9gp11y'
-        Building CXX object CMakeFiles/cmTC_c75c6.dir/OpenMPCheckVersion.cpp.obj
-        C:\\msys64\\mingw64\\bin\\c++.exe   -fopenmp -std=c++20 -o CMakeFiles\\cmTC_c75c6.dir\\OpenMPCheckVersion.cpp.obj -c "C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gp11y\\OpenMPCheckVersion.cpp"
-        Linking CXX executable cmTC_c75c6.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c75c6.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c75c6.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c75c6.dir/objects.a @CMakeFiles\\cmTC_c75c6.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\c++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_c75c6.dir/objects.a -Wl,--no-whole-archive -o cmTC_c75c6.exe -Wl,--out-implib,libcmTC_c75c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c75c6.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build/CMakeFiles/CMakeScratch/TryCompile-9gp11y'
-        
-      exitCode: 0
 ...
