@@ -3,10 +3,18 @@
 #include "brkga_mp_ipr.hpp"
 
 #include <algorithm>
+#include <chrono>
+#include <cstdlib>
+#include <ctime>
 #include <exception>
+#include <filesystem>
+#include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <set>
+#include <sstream>
 #include <stdexcept>
+#include <streambuf>
 #include <string>
 #include <utility>
 #include <vector>
@@ -14,7 +22,242 @@
 using namespace std;
 using namespace BRKGA;
 
+namespace fs = std::filesystem;
+
+// -----------------------------------------------------------------------------
+// Classe para duplicar a saida do cout:
+// tudo que aparece no PowerShell tambem sera salvo no arquivo de log.
+// -----------------------------------------------------------------------------
+class TeeBuffer : public std::streambuf {
+public:
+    TeeBuffer(std::streambuf* buffer1, std::streambuf* buffer2):
+        buffer1(buffer1),
+        buffer2(buffer2)
+    {}
+
+protected:
+    int overflow(int c) override {
+        if(c == EOF) {
+            return !EOF;
+        }
+
+        const int r1 = buffer1->sputc(static_cast<char>(c));
+        const int r2 = buffer2->sputc(static_cast<char>(c));
+
+        if(r1 == EOF || r2 == EOF) {
+            return EOF;
+        }
+
+        return c;
+    }
+
+    int sync() override {
+        const int r1 = buffer1->pubsync();
+        const int r2 = buffer2->pubsync();
+
+        return (r1 == 0 && r2 == 0) ? 0 : -1;
+    }
+
+private:
+    std::streambuf* buffer1;
+    std::streambuf* buffer2;
+};
+
+// -----------------------------------------------------------------------------
+// Gera data no formato DIAMESANO.
+// Exemplo: 08052026
+// -----------------------------------------------------------------------------
+string get_current_date_stamp() {
+    const auto now = std::chrono::system_clock::now();
+    const std::time_t now_time = std::chrono::system_clock::to_time_t(now);
+
+    std::tm local_time{};
+
+#ifdef _WIN32
+    localtime_s(&local_time, &now_time);
+#else
+    localtime_r(&now_time, &local_time);
+#endif
+
+    std::ostringstream oss;
+    oss << std::put_time(&local_time, "%d%m%Y");
+
+    return oss.str();
+}
+
+// -----------------------------------------------------------------------------
+// Funcoes auxiliares
+// -----------------------------------------------------------------------------
+string dot_escape(const string& text) {
+    string result;
+
+    for(char c : text) {
+        if(c == '"') {
+            result += "\\\"";
+        }
+        else if(c == '\\') {
+            result += "\\\\";
+        }
+        else {
+            result += c;
+        }
+    }
+
+    return result;
+}
+
+string build_route_sequence(const PROEDecoder::Route& route) {
+    ostringstream oss;
+
+    oss << "Escola";
+
+    for(unsigned stop : route.stops) {
+        oss << " -> Parada " << stop;
+    }
+
+    oss << " -> Escola";
+
+    return oss.str();
+}
+
+void export_route_table_csv(
+    const PROEDecoder::Solution& solution,
+    const fs::path& output_file
+) {
+    ofstream file(output_file);
+
+    if(!file) {
+        throw runtime_error("Nao foi possivel criar a tabela de rotas: " + output_file.string());
+    }
+
+    file << fixed << setprecision(3);
+
+    file << "rota;"
+         << "sequencia;"
+         << "numero_paradas;"
+         << "carga_estudantes;"
+         << "distancia_km;"
+         << "tempo_segundos\n";
+
+    for(size_t r = 0; r < solution.routes.size(); ++r) {
+        const auto& route = solution.routes[r];
+
+        file << (r + 1) << ";"
+             << "\"" << build_route_sequence(route) << "\"" << ";"
+             << route.stops.size() << ";"
+             << route.load << ";"
+             << route.distance << ";"
+             << route.time << "\n";
+    }
+}
+
+void export_solution_graph_dot(
+    const PROEDecoder::Solution& solution,
+    const Instance& instance,
+    const fs::path& output_file
+) {
+    ofstream file(output_file);
+
+    if(!file) {
+        throw runtime_error("Nao foi possivel criar o arquivo DOT do grafo: " + output_file.string());
+    }
+
+    file << fixed << setprecision(8);
+
+    file << "digraph SolucaoPROE {\n";
+    file << "  graph [layout=neato, overlap=false, splines=true];\n";
+    file << "  node [shape=circle, fontsize=10];\n";
+    file << "  edge [fontsize=9];\n\n";
+
+    // No arquivo .bus, Point.x = latitude e Point.y = longitude.
+    // Para visualizacao, usamos pos=\"longitude,latitude!\".
+    file << "  Escola ["
+         << "label=\"Escola\\n" << dot_escape(instance.school_name) << "\", "
+         << "shape=box, "
+         << "pos=\"" << instance.school.y << "," << instance.school.x << "!\""
+         << "];\n\n";
+
+    set<unsigned> used_stops;
+
+    for(const auto& route : solution.routes) {
+        for(unsigned stop : route.stops) {
+            used_stops.insert(stop);
+        }
+    }
+
+    for(unsigned stop : used_stops) {
+        const auto& s = instance.stops[stop];
+
+        // No .bus, indice 0 = escola.
+        // Portanto, a parada interna stop corresponde ao indice original stop + 1.
+        const unsigned original_index = stop + 1;
+
+        file << "  P" << stop << " ["
+             << "label=\"Parada " << stop
+             << "\\nOrig. " << original_index
+             << "\\nDem. " << solution.demand_by_stop[stop]
+             << "\", "
+             << "pos=\"" << s.coord.y << "," << s.coord.x << "!\""
+             << "];\n";
+    }
+
+    file << "\n";
+
+    for(size_t r = 0; r < solution.routes.size(); ++r) {
+        const auto& route = solution.routes[r];
+
+        if(route.stops.empty()) {
+            continue;
+        }
+
+        file << "  // Rota " << (r + 1) << "\n";
+
+        file << "  Escola -> P" << route.stops.front()
+             << " [label=\"R" << (r + 1) << "\"];\n";
+
+        for(size_t i = 1; i < route.stops.size(); ++i) {
+            file << "  P" << route.stops[i - 1]
+                 << " -> P" << route.stops[i]
+                 << " [label=\"R" << (r + 1) << "\"];\n";
+        }
+
+        file << "  P" << route.stops.back()
+             << " -> Escola"
+             << " [label=\"R" << (r + 1) << "\"];\n\n";
+    }
+
+    file << "}\n";
+}
+
+void export_solution_graph_png(
+    const PROEDecoder::Solution& solution,
+    const Instance& instance,
+    const fs::path& dot_file,
+    const fs::path& png_file
+) {
+    export_solution_graph_dot(solution, instance, dot_file);
+
+    // Usa Graphviz/neato para converter DOT em PNG.
+    // O Graphviz precisa estar instalado e adicionado ao PATH do Windows.
+    const string command =
+        "neato -Tpng \"" + dot_file.string() + "\" -o \"" + png_file.string() + "\"";
+
+    const int result = std::system(command.c_str());
+
+    if(result != 0) {
+        throw runtime_error(
+            "Nao foi possivel gerar o PNG do grafo. "
+            "Verifique se o Graphviz esta instalado e se o comando 'neato' esta no PATH. "
+            "Comando executado: " + command
+        );
+    }
+}
+
 int main(int argc, char* argv[]) {
+    ofstream log_file;
+    streambuf* original_cout_buffer = cout.rdbuf();
+    TeeBuffer* tee_buffer = nullptr;
+
     try {
         if(argc < 3) {
             cerr << "Uso:\n"
@@ -37,7 +280,50 @@ int main(int argc, char* argv[]) {
         const unsigned num_threads =
             argc >= 5 ? static_cast<unsigned>(stoul(argv[4])) : 1u;
 
+        // ---------------------------------------------------------------------
+        // Pastas de resultados ja padronizadas no repositorio
+        // ---------------------------------------------------------------------
+        const fs::path results_dir = "results";
+        const fs::path figures_dir = results_dir / "figures";
+        const fs::path logs_dir    = results_dir / "logs";
+        const fs::path tables_dir  = results_dir / "tables";
+
+        fs::create_directories(figures_dir);
+        fs::create_directories(logs_dir);
+        fs::create_directories(tables_dir);
+
+        const string instance_name = fs::path(instance_file).stem().string();
+        const string date_stamp = get_current_date_stamp();
+
+        // Padrao:
+        // DIAMESANOnomeinstancia_figure.png
+        // DIAMESANOnomeinstancia_logs.txt
+        // DIAMESANOnomeinstancia_table.csv
+        const string prefix = date_stamp + instance_name;
+
+        const fs::path graph_png_path = figures_dir / (prefix + "_figure.png");
+        const fs::path graph_dot_path = figures_dir / (prefix + "_figure.dot");
+        const fs::path log_path       = logs_dir    / (prefix + "_logs.txt");
+        const fs::path table_path     = tables_dir  / (prefix + "_table.csv");
+
+        // ---------------------------------------------------------------------
+        // Ativa o log em arquivo duplicando o cout
+        // ---------------------------------------------------------------------
+        log_file.open(log_path);
+
+        if(!log_file) {
+            throw runtime_error("Nao foi possivel criar o arquivo de log: " + log_path.string());
+        }
+
+        tee_buffer = new TeeBuffer(original_cout_buffer, log_file.rdbuf());
+        cout.rdbuf(tee_buffer);
+
         cout << fixed << setprecision(3);
+
+        cout << "Arquivos de saida desta execucao:\n";
+        cout << "  Log da execucao: " << log_path.string() << "\n";
+        cout << "  Tabela de rotas: " << table_path.string() << "\n";
+        cout << "  Grafo da melhor solucao: " << graph_png_path.string() << "\n\n";
 
         // ----------------------------
         // Ler configuração do BRKGA
@@ -162,15 +448,8 @@ int main(int argc, char* argv[]) {
         cout << "Fitness: "
              << best_solution.fitness << "\n";
 
-        if(best_solution.total_penalty > 0.0) {
-            cout << "Penalidades aplicadas: "
-                 << best_solution.total_penalty << "\n";
-        }
-        else {
-            cout << "Penalidades aplicadas: 0.000\n";
-        }
-
-        cout << "\n";
+        cout << "Penalidades aplicadas: "
+             << best_solution.total_penalty << "\n\n";
 
         for(size_t r = 0; r < best_solution.routes.size(); ++r) {
             const auto& route = best_solution.routes[r];
@@ -214,11 +493,38 @@ int main(int argc, char* argv[]) {
             cout << item.second << " ";
         }
 
-        cout << "\n";
+        cout << "\n\n";
+
+        // ----------------------------
+        // Exportações padronizadas
+        // ----------------------------
+        cout << "Exportando arquivos padronizados da melhor solucao...\n";
+
+        export_route_table_csv(best_solution, table_path);
+        cout << "  Tabela de rotas salva em: " << table_path.string() << "\n";
+
+        export_solution_graph_png(best_solution, instance, graph_dot_path, graph_png_path);
+        cout << "  Grafo da solucao salvo em PNG: " << graph_png_path.string() << "\n";
+
+        cout << "  Log da execucao salvo em: " << log_path.string() << "\n\n";
+
+        cout << "Execucao finalizada com sucesso.\n";
+
+        // Restaura cout antes de encerrar.
+        cout.rdbuf(original_cout_buffer);
+        delete tee_buffer;
+        tee_buffer = nullptr;
 
         return 0;
     }
     catch(const exception& e) {
+        cout.rdbuf(original_cout_buffer);
+
+        if(tee_buffer != nullptr) {
+            delete tee_buffer;
+            tee_buffer = nullptr;
+        }
+
         cerr << "\nERRO: " << e.what() << "\n";
         return 1;
     }

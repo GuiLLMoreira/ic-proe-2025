@@ -1,0 +1,167 @@
+Arquivos de saida desta execucao:
+  Log da execucao: results\logs\08052026Suffolk_logs.txt
+  Tabela de rotas: results\tables\08052026Suffolk_table.csv
+  Grafo da melhor solucao: results\figures\08052026Suffolk_figure.png
+
+Lendo arquivo de configuracao do BRKGA...
+  Arquivo: .\config.conf
+
+Lendo instancia do PROE...
+  Arquivo: .\data\Suffolk.bus
+
+Instancia carregada com sucesso:
+  Formato: .bus da literatura
+  Numero de paradas candidatas: 173
+  Numero de enderecos: 123
+  Capacidade dos veiculos: 40
+  Escola: Debenham High School
+  Distancia minima de elegibilidade: 4.800
+  Distancia maxima de caminhada: 1.600
+  Semente utilizada: 123
+  Numero de threads: 1
+
+Criando decodificador do PROE...
+  Cada gene do cromossomo representa a prioridade de uma parada candidata.
+  O decodificador seleciona paradas, aloca estudantes e constroi rotas.
+
+Configuracao do cromossomo:
+  Tamanho do cromossomo: 173
+  Interpretacao: uma random key por parada candidata.
+
+Inicializando BRKGA-MP-IPR...
+  Objetivo: minimizar a distancia total percorrida.
+  Penalidades sao aplicadas apenas para violacoes de viabilidade.
+
+Executando o BRKGA...
+
+Custom stopping criteria not supplied by the user. Using max. time = 60s and max. stall_offset = 100
+Using 1 threads for decoding
+* Iteracao 1 | melhor fitness = 237.230 | tempo = 0.026ss
+* Iteracao 3 | melhor fitness = 234.987 | tempo = 0.081ss
+* Iteracao 4 | melhor fitness = 227.896 | tempo = 0.107ss
+* Iteracao 6 | melhor fitness = 224.140 | tempo = 0.206ss
+* Iteracao 8 | melhor fitness = 223.759 | tempo = 0.369ss
+* Iteracao 9 | melhor fitness = 209.561 | tempo = 0.397ss
+* Iteracao 12 | melhor fitness = 205.443 | tempo = 0.467ss
+* Iteracao 13 | melhor fitness = 202.510 | tempo = 0.494ss
+* Iteracao 14 | melhor fitness = 199.057 | tempo = 0.520ss
+* Iteracao 16 | melhor fitness = 197.568 | tempo = 0.565ss
+* Iteracao 17 | melhor fitness = 196.095 | tempo = 0.589ss
+* Iteracao 18 | melhor fitness = 195.201 | tempo = 0.617ss
+* Iteracao 19 | melhor fitness = 193.726 | tempo = 0.645ss
+* Iteracao 20 | melhor fitness = 193.537 | tempo = 0.673ss
+* Iteracao 21 | melhor fitness = 187.302 | tempo = 0.706ss
+* Iteracao 22 | melhor fitness = 186.270 | tempo = 0.738ss
+* Iteracao 23 | melhor fitness = 183.811 | tempo = 0.767ss
+* Iteracao 24 | melhor fitness = 180.169 | tempo = 0.791ss
+* Iteracao 26 | melhor fitness = 180.109 | tempo = 0.843ss
+* Iteracao 28 | melhor fitness = 178.536 | tempo = 0.899ss
+* Iteracao 30 | melhor fitness = 177.026 | tempo = 0.956ss
+* Iteracao 31 | melhor fitness = 175.991 | tempo = 0.984ss
+* Iteracao 34 | melhor fitness = 173.407 | tempo = 1.057ss
+* Iteracao 39 | melhor fitness = 173.202 | tempo = 1.161ss
+* Iteracao 42 | melhor fitness = 172.467 | tempo = 1.224ss
+* Iteracao 44 | melhor fitness = 172.403 | tempo = 1.270ss
+* Iteracao 45 | melhor fitness = 172.048 | tempo = 1.294ss
+* Iteracao 46 | melhor fitness = 171.213 | tempo = 1.327ss
+* Iteracao 48 | melhor fitness = 170.478 | tempo = 1.370ss
+* Iteracao 49 | melhor fitness = 170.414 | tempo = 1.394ss
+* Iteracao 51 | melhor fitness = 169.995 | tempo = 1.442ss
+* Iteracao 52 | melhor fitness = 168.826 | tempo = 1.465ss
+* Iteracao 55 | melhor fitness = 168.386 | tempo = 1.530ss
+* Iteracao 57 | melhor fitness = 167.967 | tempo = 1.574ss
+* Iteracao 59 | melhor fitness = 167.171 | tempo = 1.622ss
+* Iteracao 63 | melhor fitness = 167.004 | tempo = 1.732ss
+* Iteracao 67 | melhor fitness = 166.903 | tempo = 1.834ss
+* Iteracao 68 | melhor fitness = 166.851 | tempo = 1.864ss
+* Iteracao 71 | melhor fitness = 166.333 | tempo = 1.951ss
+* Iteracao 72 | melhor fitness = 166.232 | tempo = 1.981ss
+* Iteracao 86 | melhor fitness = 166.231 | tempo = 2.295ss
+* Iteracao 92 | melhor fitness = 165.482 | tempo = 2.424ss
+* Iteracao 95 | melhor fitness = 165.481 | tempo = 2.490ss
+* Iteracao 100 | melhor fitness = 164.890 | tempo = 2.601ss
+* Iteracao 105 | melhor fitness = 164.889 | tempo = 2.712ss
+* Iteracao 137 | melhor fitness = 164.844 | tempo = 3.381ss
+* Iteracao 138 | melhor fitness = 162.400 | tempo = 3.406ss
+* Iteracao 143 | melhor fitness = 161.014 | tempo = 3.516ss
+* Iteracao 147 | melhor fitness = 159.176 | tempo = 3.605ss
+* Iteracao 152 | melhor fitness = 158.859 | tempo = 3.718ss
+* Iteracao 157 | melhor fitness = 158.657 | tempo = 3.824ss
+* Iteracao 160 | melhor fitness = 158.340 | tempo = 3.891ss
+* Iteracao 163 | melhor fitness = 158.089 | tempo = 3.954ss
+* Iteracao 169 | melhor fitness = 158.044 | tempo = 4.081ss
+* Iteracao 226 | melhor fitness = 156.486 | tempo = 5.112ss
+* Iteracao 255 | melhor fitness = 155.031 | tempo = 5.591ss
+
+Status final do algoritmo:
+
+best_fitness: 155.031
+current_iteration: 355
+last_update_iteration: 255
+current_time: 7.187s
+last_update_time: 5.591s
+largest_iteration_offset: 57
+stalled_iterations: 100
+path_relink_time: 0.000s
+num_path_relink_calls: 0
+num_homogenities: 0
+num_best_improvements: 0
+num_elite_improvements: 0
+num_exchanges: 0
+num_shakes: 0
+num_resets: 0
+Melhor fitness encontrado: 155.031
+
+Reconstruindo a melhor solucao encontrada pelo decodificador...
+
+Melhor solucao:
+Distancia total: 155.031 km
+Numero de rotas: 6
+Fitness: 155.031
+Penalidades aplicadas: 0.000
+
+Rota 1:
+Escola -> Parada 52 -> Parada 151 -> Parada 172 -> Parada 27 -> Escola
+Carga: 40 estudantes
+Distancia: 38.283 km
+Tempo estimado: 2753.000 segundos
+
+Rota 2:
+Escola -> Parada 2 -> Parada 103 -> Parada 101 -> Parada 79 -> Parada 127 -> Escola
+Carga: 32 estudantes
+Distancia: 29.860 km
+Tempo estimado: 2490.000 segundos
+
+Rota 3:
+Escola -> Parada 89 -> Parada 37 -> Parada 58 -> Escola
+Carga: 35 estudantes
+Distancia: 26.682 km
+Tempo estimado: 2050.000 segundos
+
+Rota 4:
+Escola -> Parada 33 -> Parada 104 -> Parada 23 -> Escola
+Carga: 38 estudantes
+Distancia: 20.540 km
+Tempo estimado: 1743.000 segundos
+
+Rota 5:
+Escola -> Parada 159 -> Parada 124 -> Parada 41 -> Escola
+Carga: 28 estudantes
+Distancia: 20.717 km
+Tempo estimado: 1409.000 segundos
+
+Rota 6:
+Escola -> Parada 93 -> Parada 171 -> Escola
+Carga: 36 estudantes
+Distancia: 18.949 km
+Tempo estimado: 1419.000 segundos
+
+Ordem de prioridade das paradas no melhor cromossomo:
+52 151 160 172 140 129 27 34 2 66 63 72 22 166 103 46 31 143 54 101 79 127 107 19 118 156 158 68 73 89 24 162 106 96 16 37 77 165 65 58 70 33 155 147 92 49 59 154 167 85 39 104 108 84 61 23 56 117 159 95 153 62 152 76 74 126 122 82 57 124 7 6 90 41 51 113 40 99 21 139 11 25 97 112 132 138 50 35 4 18 169 15 47 88 93 42 148 98 121 157 48 114 38 26 53 69 145 1 14 131 13 60 100 94 44 17 36 81 110 29 10 87 137 28 80 55 130 5 8 120 109 67 150 125 32 144 78 163 105 119 9 128 171 64 30 86 149 116 3 142 75 170 71 20 115 102 0 136 134 135 45 146 83 43 133 111 141 123 164 12 91 161 168 
+
+Exportando arquivos padronizados da melhor solucao...
+  Tabela de rotas salva em: results\tables\08052026Suffolk_table.csv
+  Grafo da solucao salvo em PNG: results\figures\08052026Suffolk_figure.png
+  Log da execucao salvo em: results\logs\08052026Suffolk_logs.txt
+
+Execucao finalizada com sucesso.

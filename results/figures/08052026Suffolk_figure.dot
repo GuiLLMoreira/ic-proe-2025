@@ -1,0 +1,67 @@
+digraph SolucaoPROE {
+  graph [layout=neato, overlap=false, splines=true];
+  node [shape=circle, fontsize=10];
+  edge [fontsize=9];
+
+  Escola [label="Escola\nDebenham High School", shape=box, pos="1.17212000,52.22437000!"];
+
+  P2 [label="Parada 2\nOrig. 3\nDem. 5", pos="1.16753412,52.19166262!"];
+  P23 [label="Parada 23\nOrig. 24\nDem. 4", pos="1.13086354,52.23289801!"];
+  P27 [label="Parada 27\nOrig. 28\nDem. 4", pos="1.19340517,52.14754216!"];
+  P33 [label="Parada 33\nOrig. 34\nDem. 12", pos="1.11842013,52.19393429!"];
+  P37 [label="Parada 37\nOrig. 38\nDem. 17", pos="1.25922407,52.26767169!"];
+  P41 [label="Parada 41\nOrig. 42\nDem. 2", pos="1.16593257,52.27406151!"];
+  P52 [label="Parada 52\nOrig. 53\nDem. 29", pos="1.05747911,52.14827804!"];
+  P58 [label="Parada 58\nOrig. 59\nDem. 9", pos="1.25007105,52.25377678!"];
+  P79 [label="Parada 79\nOrig. 80\nDem. 8", pos="1.22039576,52.15142155!"];
+  P89 [label="Parada 89\nOrig. 90\nDem. 9", pos="1.26647756,52.22038761!"];
+  P93 [label="Parada 93\nOrig. 94\nDem. 34", pos="1.13855153,52.28265354!"];
+  P101 [label="Parada 101\nOrig. 102\nDem. 2", pos="1.16314372,52.14364554!"];
+  P103 [label="Parada 103\nOrig. 104\nDem. 5", pos="1.14775742,52.17356621!"];
+  P104 [label="Parada 104\nOrig. 105\nDem. 22", pos="1.11472803,52.25054807!"];
+  P124 [label="Parada 124\nOrig. 125\nDem. 18", pos="1.16066987,52.29260372!"];
+  P127 [label="Parada 127\nOrig. 128\nDem. 12", pos="1.20647288,52.18979150!"];
+  P151 [label="Parada 151\nOrig. 152\nDem. 6", pos="1.11817035,52.14855856!"];
+  P159 [label="Parada 159\nOrig. 160\nDem. 8", pos="1.18710081,52.26769059!"];
+  P171 [label="Parada 171\nOrig. 172\nDem. 2", pos="1.14530673,52.27129675!"];
+  P172 [label="Parada 172\nOrig. 173\nDem. 1", pos="1.12399168,52.14538855!"];
+
+  // Rota 1
+  Escola -> P52 [label="R1"];
+  P52 -> P151 [label="R1"];
+  P151 -> P172 [label="R1"];
+  P172 -> P27 [label="R1"];
+  P27 -> Escola [label="R1"];
+
+  // Rota 2
+  Escola -> P2 [label="R2"];
+  P2 -> P103 [label="R2"];
+  P103 -> P101 [label="R2"];
+  P101 -> P79 [label="R2"];
+  P79 -> P127 [label="R2"];
+  P127 -> Escola [label="R2"];
+
+  // Rota 3
+  Escola -> P89 [label="R3"];
+  P89 -> P37 [label="R3"];
+  P37 -> P58 [label="R3"];
+  P58 -> Escola [label="R3"];
+
+  // Rota 4
+  Escola -> P33 [label="R4"];
+  P33 -> P104 [label="R4"];
+  P104 -> P23 [label="R4"];
+  P23 -> Escola [label="R4"];
+
+  // Rota 5
+  Escola -> P159 [label="R5"];
+  P159 -> P124 [label="R5"];
+  P124 -> P41 [label="R5"];
+  P41 -> Escola [label="R5"];
+
+  // Rota 6
+  Escola -> P93 [label="R6"];
+  P93 -> P171 [label="R6"];
+  P171 -> Escola [label="R6"];
+
+}
