@@ -128,12 +128,26 @@ proe_brkga/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/build
 .PHONY : proe_brkga/fast
 
+#=============================================================================
+# Target rules for targets named proe_testes
+
+# Build rule for target.
+proe_testes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 proe_testes
+.PHONY : proe_testes
+
+# fast build rule for target.
+proe_testes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/build
+.PHONY : proe_testes/fast
+
 instance.obj: instance.cpp.obj
 .PHONY : instance.obj
 
 # target to build an object file
 instance.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/instance.cpp.obj
 .PHONY : instance.cpp.obj
 
 instance.i: instance.cpp.i
@@ -142,6 +156,7 @@ instance.i: instance.cpp.i
 # target to preprocess a source file
 instance.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/instance.cpp.i
 .PHONY : instance.cpp.i
 
 instance.s: instance.cpp.s
@@ -150,6 +165,7 @@ instance.s: instance.cpp.s
 # target to generate assembly for a file
 instance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/instance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/instance.cpp.s
 .PHONY : instance.cpp.s
 
 src/decoder/PROEDecoder.obj: src/decoder/PROEDecoder.cpp.obj
@@ -158,6 +174,7 @@ src/decoder/PROEDecoder.obj: src/decoder/PROEDecoder.cpp.obj
 # target to build an object file
 src/decoder/PROEDecoder.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/decoder/PROEDecoder.cpp.obj
 .PHONY : src/decoder/PROEDecoder.cpp.obj
 
 src/decoder/PROEDecoder.i: src/decoder/PROEDecoder.cpp.i
@@ -166,6 +183,7 @@ src/decoder/PROEDecoder.i: src/decoder/PROEDecoder.cpp.i
 # target to preprocess a source file
 src/decoder/PROEDecoder.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/decoder/PROEDecoder.cpp.i
 .PHONY : src/decoder/PROEDecoder.cpp.i
 
 src/decoder/PROEDecoder.s: src/decoder/PROEDecoder.cpp.s
@@ -174,6 +192,7 @@ src/decoder/PROEDecoder.s: src/decoder/PROEDecoder.cpp.s
 # target to generate assembly for a file
 src/decoder/PROEDecoder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/decoder/PROEDecoder.cpp.s
 .PHONY : src/decoder/PROEDecoder.cpp.s
 
 src/main/main.obj: src/main/main.cpp.obj
@@ -200,6 +219,30 @@ src/main/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/src/main/main.cpp.s
 .PHONY : src/main/main.cpp.s
 
+src/main/main_testes.obj: src/main/main_testes.cpp.obj
+.PHONY : src/main/main_testes.obj
+
+# target to build an object file
+src/main/main_testes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/main/main_testes.cpp.obj
+.PHONY : src/main/main_testes.cpp.obj
+
+src/main/main_testes.i: src/main/main_testes.cpp.i
+.PHONY : src/main/main_testes.i
+
+# target to preprocess a source file
+src/main/main_testes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/main/main_testes.cpp.i
+.PHONY : src/main/main_testes.cpp.i
+
+src/main/main_testes.s: src/main/main_testes.cpp.s
+.PHONY : src/main/main_testes.s
+
+# target to generate assembly for a file
+src/main/main_testes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/src/main/main_testes.cpp.s
+.PHONY : src/main/main_testes.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,6 +252,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proe_brkga
+	@echo ... proe_testes
 	@echo ... instance.obj
 	@echo ... instance.i
 	@echo ... instance.s
@@ -218,6 +262,9 @@ help:
 	@echo ... src/main/main.obj
 	@echo ... src/main/main.i
 	@echo ... src/main/main.s
+	@echo ... src/main/main_testes.obj
+	@echo ... src/main/main_testes.i
+	@echo ... src/main/main_testes.s
 .PHONY : help
 
 

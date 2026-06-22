@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ic_proe_2025",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "proe_brkga::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proe_brkga-Debug-49ac86f0184f34f4ea09.json",
+					"name" : "proe_brkga",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proe_testes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proe_testes-Debug-cc6f564bcd1fbc4df212.json",
+					"name" : "proe_testes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
+		"source" : "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

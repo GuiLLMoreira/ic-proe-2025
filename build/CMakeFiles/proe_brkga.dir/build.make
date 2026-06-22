@@ -76,45 +76,45 @@ CMakeFiles/proe_brkga.dir/instance.cpp.obj: CMakeFiles/proe_brkga.dir/includes_C
 CMakeFiles/proe_brkga.dir/instance.cpp.obj: C:/Users/Guilherme\ Moreira/Documents/GitHub/ic-proe-2025/instance.cpp
 CMakeFiles/proe_brkga.dir/instance.cpp.obj: CMakeFiles/proe_brkga.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/proe_brkga.dir/instance.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/instance.cpp.obj -MF CMakeFiles\proe_brkga.dir\instance.cpp.obj.d -o CMakeFiles\proe_brkga.dir\instance.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/instance.cpp.obj -MF CMakeFiles\proe_brkga.dir\instance.cpp.obj.d -o CMakeFiles\proe_brkga.dir\instance.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp"
 
 CMakeFiles/proe_brkga.dir/instance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proe_brkga.dir/instance.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp" > CMakeFiles\proe_brkga.dir\instance.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp" > CMakeFiles\proe_brkga.dir\instance.cpp.i
 
 CMakeFiles/proe_brkga.dir/instance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proe_brkga.dir/instance.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp" -o CMakeFiles\proe_brkga.dir\instance.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\instance.cpp" -o CMakeFiles\proe_brkga.dir\instance.cpp.s
 
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj: CMakeFiles/proe_brkga.dir/flags.make
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj: CMakeFiles/proe_brkga.dir/includes_CXX.rsp
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj: C:/Users/Guilherme\ Moreira/Documents/GitHub/ic-proe-2025/src/decoder/PROEDecoder.cpp
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj: CMakeFiles/proe_brkga.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj -MF CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.obj.d -o CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj -MF CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.obj.d -o CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp"
 
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp" > CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp" > CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.i
 
 CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp" -o CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\decoder\PROEDecoder.cpp" -o CMakeFiles\proe_brkga.dir\src\decoder\PROEDecoder.cpp.s
 
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj: CMakeFiles/proe_brkga.dir/flags.make
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj: CMakeFiles/proe_brkga.dir/includes_CXX.rsp
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj: C:/Users/Guilherme\ Moreira/Documents/GitHub/ic-proe-2025/src/main/main.cpp
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj: CMakeFiles/proe_brkga.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj -MF CMakeFiles\proe_brkga.dir\src\main\main.cpp.obj.d -o CMakeFiles\proe_brkga.dir\src\main\main.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj -MF CMakeFiles\proe_brkga.dir\src\main\main.cpp.obj.d -o CMakeFiles\proe_brkga.dir\src\main\main.cpp.obj -c "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp"
 
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proe_brkga.dir/src/main/main.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp" > CMakeFiles\proe_brkga.dir\src\main\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp" > CMakeFiles\proe_brkga.dir\src\main\main.cpp.i
 
 CMakeFiles/proe_brkga.dir/src/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proe_brkga.dir/src/main/main.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp" -o CMakeFiles\proe_brkga.dir\src\main\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\src\main\main.cpp" -o CMakeFiles\proe_brkga.dir\src\main\main.cpp.s
 
 # Object files for target proe_brkga
 proe_brkga_OBJECTS = \

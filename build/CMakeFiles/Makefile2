@@ -63,10 +63,12 @@ CMAKE_BINARY_DIR = "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\bui
 
 # The main recursive "all" target.
 all: CMakeFiles/proe_brkga.dir/all
+all: CMakeFiles/proe_testes.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/proe_brkga.dir/codegen
+codegen: CMakeFiles/proe_testes.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,6 +77,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/proe_brkga.dir/clean
+clean: CMakeFiles/proe_testes.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -108,6 +111,38 @@ CMakeFiles/proe_brkga.dir/codegen:
 CMakeFiles/proe_brkga.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_brkga.dir\build.make CMakeFiles/proe_brkga.dir/clean
 .PHONY : CMakeFiles/proe_brkga.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/proe_testes.dir
+
+# All Build rule for target.
+CMakeFiles/proe_testes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=5,6,7,8 "Built target proe_testes"
+.PHONY : CMakeFiles/proe_testes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proe_testes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/proe_testes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" 0
+.PHONY : CMakeFiles/proe_testes.dir/rule
+
+# Convenience name for target.
+proe_testes: CMakeFiles/proe_testes.dir/rule
+.PHONY : proe_testes
+
+# codegen rule for target.
+CMakeFiles/proe_testes.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Guilherme Moreira\Documents\GitHub\ic-proe-2025\build\CMakeFiles" --progress-num=5,6,7,8 "Finished codegen for target proe_testes"
+.PHONY : CMakeFiles/proe_testes.dir/codegen
+
+# clean rule for target.
+CMakeFiles/proe_testes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proe_testes.dir\build.make CMakeFiles/proe_testes.dir/clean
+.PHONY : CMakeFiles/proe_testes.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

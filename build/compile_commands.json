@@ -1,20 +1,38 @@
 [
 {
   "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\instance.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\instance.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\instance.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\instance.cpp\"",
   "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/instance.cpp",
   "output": "CMakeFiles/proe_brkga.dir/instance.cpp.obj"
 },
 {
   "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\src\\decoder\\PROEDecoder.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\decoder\\PROEDecoder.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\src\\decoder\\PROEDecoder.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\decoder\\PROEDecoder.cpp\"",
   "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/decoder/PROEDecoder.cpp",
   "output": "CMakeFiles/proe_brkga.dir/src/decoder/PROEDecoder.cpp.obj"
 },
 {
   "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\src\\main\\main.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\main\\main.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_brkga.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_brkga.dir\\src\\main\\main.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\main\\main.cpp\"",
   "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/main/main.cpp",
   "output": "CMakeFiles/proe_brkga.dir/src/main/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_testes.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_testes.dir\\instance.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\instance.cpp\"",
+  "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/instance.cpp",
+  "output": "CMakeFiles/proe_testes.dir/instance.cpp.obj"
+},
+{
+  "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_testes.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_testes.dir\\src\\decoder\\PROEDecoder.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\decoder\\PROEDecoder.cpp\"",
+  "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/decoder/PROEDecoder.cpp",
+  "output": "CMakeFiles/proe_testes.dir/src/decoder/PROEDecoder.cpp.obj"
+},
+{
+  "directory": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/proe_testes.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\proe_testes.dir\\src\\main\\main_testes.cpp.obj -c \"C:\\Users\\Guilherme Moreira\\Documents\\GitHub\\ic-proe-2025\\src\\main\\main_testes.cpp\"",
+  "file": "C:/Users/Guilherme Moreira/Documents/GitHub/ic-proe-2025/src/main/main_testes.cpp",
+  "output": "CMakeFiles/proe_testes.dir/src/main/main_testes.cpp.obj"
 }
 ]
