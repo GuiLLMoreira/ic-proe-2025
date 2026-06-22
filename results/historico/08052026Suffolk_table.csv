@@ -1,0 +1,7 @@
+rota;sequencia;numero_paradas;carga_estudantes;distancia_km;tempo_segundos
+1;"Escola -> Parada 52 -> Parada 151 -> Parada 172 -> Parada 27 -> Escola";4;40;38.283;2753.000
+2;"Escola -> Parada 2 -> Parada 103 -> Parada 101 -> Parada 79 -> Parada 127 -> Escola";5;32;29.860;2490.000
+3;"Escola -> Parada 89 -> Parada 37 -> Parada 58 -> Escola";3;35;26.682;2050.000
+4;"Escola -> Parada 33 -> Parada 104 -> Parada 23 -> Escola";3;38;20.540;1743.000
+5;"Escola -> Parada 159 -> Parada 124 -> Parada 41 -> Escola";3;28;20.717;1409.000
+6;"Escola -> Parada 93 -> Parada 171 -> Escola";2;36;18.949;1419.000
