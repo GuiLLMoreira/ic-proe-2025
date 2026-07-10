@@ -188,6 +188,54 @@ string format_yes_no(bool value) {
     return value ? "sim" : "nao";
 }
 
+double read_maximum_running_time_seconds(const string& config_file) {
+    ifstream file(config_file);
+
+    if(!file) {
+        throw runtime_error("Nao foi possivel ler o arquivo de configuracao: " + config_file);
+    }
+
+    string key;
+
+    while(file >> key) {
+        if(!key.empty() && key[0] == '#') {
+            string ignored_line;
+            getline(file, ignored_line);
+            continue;
+        }
+
+        if(key == "maximum_running_time") {
+            double value = 0.0;
+            file >> value;
+            return value;
+        }
+
+        string ignored_value;
+        getline(file, ignored_value);
+    }
+
+    return 0.0;
+}
+
+string build_running_time_filename_tag(double maximum_running_time) {
+    ostringstream oss;
+    oss << fixed << setprecision(3) << maximum_running_time;
+
+    string value = oss.str();
+
+    while(value.size() > 1 && value.back() == '0') {
+        value.pop_back();
+    }
+
+    if(!value.empty() && value.back() == '.') {
+        value.pop_back();
+    }
+
+    replace(value.begin(), value.end(), '.', 'p');
+
+    return "maximum_run_time_" + value + "s";
+}
+
 size_t find_best_route_index(const vector<PROEDecoder::Route>& routes) {
     if(routes.empty()) {
         return numeric_limits<size_t>::max();
@@ -609,6 +657,10 @@ int main(int argc, char* argv[]) {
             argc >= 6 ? fs::path(argv[5]) : fs::path("data");
 
         const string date_stamp = get_current_date_stamp();
+        const double maximum_running_time =
+            read_maximum_running_time_seconds(config_file);
+        const string running_time_tag =
+            build_running_time_filename_tag(maximum_running_time);
 
         const fs::path results_dir = "results";
         const fs::path figures_dir = results_dir / "figures";
@@ -620,25 +672,25 @@ int main(int argc, char* argv[]) {
         fs::create_directories(tables_dir);
 
         const fs::path detailed_table_path =
-            tables_dir / (date_stamp + "experimentos_detalhados_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_detalhados_table.csv");
 
         const fs::path summary_table_path =
-            tables_dir / (date_stamp + "experimentos_resumo_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_resumo_table.csv");
 
         const fs::path all_routes_table_path =
-            tables_dir / (date_stamp + "experimentos_todas_rotas_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_todas_rotas_table.csv");
 
         const fs::path best_routes_table_path =
-            tables_dir / (date_stamp + "melhor_solucao_rotas_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_rotas_table.csv");
 
         const fs::path experiment_log_path =
-            logs_dir / (date_stamp + "experimentos_logs.txt");
+            logs_dir / (date_stamp + "experimentos_" + running_time_tag + "_logs.txt");
 
         const fs::path best_graph_dot_path =
-            figures_dir / (date_stamp + "melhor_solucao_figure.dot");
+            figures_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_figure.dot");
 
         const fs::path best_graph_png_path =
-            figures_dir / (date_stamp + "melhor_solucao_figure.png");
+            figures_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_figure.png");
 
         ofstream experiment_log(experiment_log_path);
 
@@ -658,6 +710,8 @@ int main(int argc, char* argv[]) {
 
         log("Configuracao geral:\n");
         log("  Arquivo de configuracao: " + config_file + "\n");
+        log("  maximum_running_time: " + format_decimal(maximum_running_time, 1) + " s\n");
+        log("  Identificador nos arquivos de saida: " + running_time_tag + "\n");
         log("  Diretorio de instancias: " + data_dir.string() + "\n");
         log("  Execucoes por instancia: " + to_string(runs_per_instance) + "\n");
         log("  Master seed para geracao das seeds aleatorias: " + to_string(master_seed) + "\n");

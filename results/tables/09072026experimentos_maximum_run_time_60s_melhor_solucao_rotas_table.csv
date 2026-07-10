@@ -1,0 +1,3 @@
+instancia;arquivo;execucao_global;execucao;seed;threads;rota;melhor_rota_da_execucao;melhor_rota_geral;rota_da_melhor_solucao_global;sequencia;numero_paradas;carga_estudantes;distancia_km;tempo_rota_segundos;tempo_total_rotas_execucao_seg;tempo_execucao_algoritmo_seg;tempo_parede_execucao_seg
+Porthcawl;.\data\Porthcawl.bus;9;1;3090095699;1;1;nao;nao;sim;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;3,126155;3,306198
+Porthcawl;.\data\Porthcawl.bus;9;1;3090095699;1;2;sim;nao;sim;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;3,126155;3,306198

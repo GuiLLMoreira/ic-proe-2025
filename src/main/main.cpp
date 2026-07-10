@@ -136,6 +136,54 @@ string format_yes_no(bool value) {
     return value ? "sim" : "nao";
 }
 
+double read_maximum_running_time_seconds(const string& config_file) {
+    ifstream file(config_file);
+
+    if(!file) {
+        throw runtime_error("Nao foi possivel ler o arquivo de configuracao: " + config_file);
+    }
+
+    string key;
+
+    while(file >> key) {
+        if(!key.empty() && key[0] == '#') {
+            string ignored_line;
+            getline(file, ignored_line);
+            continue;
+        }
+
+        if(key == "maximum_running_time") {
+            double value = 0.0;
+            file >> value;
+            return value;
+        }
+
+        string ignored_value;
+        getline(file, ignored_value);
+    }
+
+    return 0.0;
+}
+
+string build_running_time_filename_tag(double maximum_running_time) {
+    ostringstream oss;
+    oss << fixed << setprecision(3) << maximum_running_time;
+
+    string value = oss.str();
+
+    while(value.size() > 1 && value.back() == '0') {
+        value.pop_back();
+    }
+
+    if(!value.empty() && value.back() == '.') {
+        value.pop_back();
+    }
+
+    replace(value.begin(), value.end(), '.', 'p');
+
+    return "maximum_run_time_" + value + "s";
+}
+
 size_t find_best_route_index(const vector<PROEDecoder::Route>& routes) {
     if(routes.empty()) {
         return numeric_limits<size_t>::max();
@@ -345,12 +393,16 @@ int main(int argc, char* argv[]) {
 
         const string instance_name = fs::path(instance_file).stem().string();
         const string date_stamp = get_current_date_stamp();
+        const double maximum_running_time =
+            read_maximum_running_time_seconds(config_file);
+        const string running_time_tag =
+            build_running_time_filename_tag(maximum_running_time);
 
         // Padrao:
         // DIAMESANOnomeinstancia_figure.png
         // DIAMESANOnomeinstancia_logs.txt
         // DIAMESANOnomeinstancia_table.csv
-        const string prefix = date_stamp + instance_name;
+        const string prefix = date_stamp + instance_name + "_" + running_time_tag;
 
         const fs::path graph_png_path = figures_dir / (prefix + "_figure.png");
         const fs::path graph_dot_path = figures_dir / (prefix + "_figure.dot");
@@ -372,6 +424,8 @@ int main(int argc, char* argv[]) {
         cout << fixed << setprecision(3);
 
         cout << "Arquivos de saida desta execucao:\n";
+        cout << "  maximum_running_time: " << format_decimal(maximum_running_time, 1) << " s\n";
+        cout << "  Identificador nos arquivos de saida: " << running_time_tag << "\n";
         cout << "  Log da execucao: " << log_path.string() << "\n";
         cout << "  Tabela de rotas: " << table_path.string() << "\n";
         cout << "  Grafo da melhor solucao: " << graph_png_path.string() << "\n\n";
