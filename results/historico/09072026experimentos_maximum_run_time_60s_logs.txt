@@ -31,7 +31,7 @@ Arquivo: .\data\Adelaide.bus
 ============================================================
 
 Execucao global 1/10 | instancia Adelaide | execucao 1/1 | seed aleatoria = 2991312382 ...
-  Resultado: FO = 151.15 | distancia = 151.15 km | rotas = 16 | paradas selecionadas = 24 | tempo algoritmo = 60.2673 s | tempo total das rotas = 19473 s | maior tempo de rota = 2470 s
+  Resultado: FO = 151.851 | distancia = 151.851 km | rotas = 16 | paradas selecionadas = 24 | tempo algoritmo = 60.0925 s | tempo total das rotas = 19541 s | maior tempo de rota = 2470 s
 
 ============================================================
 Instancia: Bridgend
@@ -39,7 +39,7 @@ Arquivo: .\data\Bridgend.bus
 ============================================================
 
 Execucao global 2/10 | instancia Bridgend | execucao 1/1 | seed aleatoria = 3062119789 ...
-  Resultado: FO = 100299 | distancia = 299.461 km | rotas = 11 | paradas selecionadas = 22 | tempo algoritmo = 30.194 s | tempo total das rotas = 25902 s | maior tempo de rota = 3586 s
+  Resultado: FO = 100299 | distancia = 299.461 km | rotas = 11 | paradas selecionadas = 22 | tempo algoritmo = 23.712 s | tempo total das rotas = 25902 s | maior tempo de rota = 3586 s
 
 ============================================================
 Instancia: Brisbane
@@ -47,7 +47,7 @@ Arquivo: .\data\Brisbane.bus
 ============================================================
 
 Execucao global 3/10 | instancia Brisbane | execucao 1/1 | seed aleatoria = 1228959102 ...
-  Resultado: FO = 319.605 | distancia = 319.605 km | rotas = 22 | paradas selecionadas = 28 | tempo algoritmo = 60.1648 s | tempo total das rotas = 33121 s | maior tempo de rota = 2146 s
+  Resultado: FO = 319.717 | distancia = 319.717 km | rotas = 22 | paradas selecionadas = 28 | tempo algoritmo = 60.1248 s | tempo total das rotas = 33117 s | maior tempo de rota = 2146 s
 
 ============================================================
 Instancia: Canberra
@@ -55,7 +55,7 @@ Arquivo: .\data\Canberra.bus
 ============================================================
 
 Execucao global 4/10 | instancia Canberra | execucao 1/1 | seed aleatoria = 1840268610 ...
-  Resultado: FO = 286.99 | distancia = 286.99 km | rotas = 14 | paradas selecionadas = 31 | tempo algoritmo = 30.5824 s | tempo total das rotas = 24583 s | maior tempo de rota = 3378 s
+  Resultado: FO = 286.99 | distancia = 286.99 km | rotas = 14 | paradas selecionadas = 31 | tempo algoritmo = 32.0153 s | tempo total das rotas = 24583 s | maior tempo de rota = 3378 s
 
 ============================================================
 Instancia: Cardiff
@@ -63,7 +63,7 @@ Arquivo: .\data\Cardiff.bus
 ============================================================
 
 Execucao global 5/10 | instancia Cardiff | execucao 1/1 | seed aleatoria = 974319580 ...
-  Resultado: FO = 500076 | distancia = 75.86 km | rotas = 5 | paradas selecionadas = 8 | tempo algoritmo = 27.8154 s | tempo total das rotas = 8763 s | maior tempo de rota = 2280 s
+  Resultado: FO = 500076 | distancia = 75.86 km | rotas = 5 | paradas selecionadas = 8 | tempo algoritmo = 17.1398 s | tempo total das rotas = 8763 s | maior tempo de rota = 2280 s
 
 ============================================================
 Instancia: Edinburgh-1
@@ -71,7 +71,7 @@ Arquivo: .\data\Edinburgh-1.bus
 ============================================================
 
 Execucao global 6/10 | instancia Edinburgh-1 | execucao 1/1 | seed aleatoria = 2967327842 ...
-  Resultado: FO = 1.50016e+06 | distancia = 158.265 km | rotas = 20 | paradas selecionadas = 23 | tempo algoritmo = 60.2117 s | tempo total das rotas = 22354 s | maior tempo de rota = 1740 s
+  Resultado: FO = 1.50016e+06 | distancia = 155.291 km | rotas = 20 | paradas selecionadas = 23 | tempo algoritmo = 60.0399 s | tempo total das rotas = 22042 s | maior tempo de rota = 1740 s
 
 ============================================================
 Instancia: Edinburgh-2
@@ -79,7 +79,7 @@ Arquivo: .\data\Edinburgh-2.bus
 ============================================================
 
 Execucao global 7/10 | instancia Edinburgh-2 | execucao 1/1 | seed aleatoria = 2367878886 ...
-  Resultado: FO = 600046 | distancia = 45.768 km | rotas = 9 | paradas selecionadas = 11 | tempo algoritmo = 60.4235 s | tempo total das rotas = 8125 s | maior tempo de rota = 1360 s
+  Resultado: FO = 600046 | distancia = 45.768 km | rotas = 9 | paradas selecionadas = 11 | tempo algoritmo = 60.1383 s | tempo total das rotas = 8125 s | maior tempo de rota = 1360 s
 
 ============================================================
 Instancia: MiltonKeynes
@@ -87,7 +87,7 @@ Arquivo: .\data\MiltonKeynes.bus
 ============================================================
 
 Execucao global 8/10 | instancia MiltonKeynes | execucao 1/1 | seed aleatoria = 3088727057 ...
-  Resultado: FO = 105.186 | distancia = 105.186 km | rotas = 8 | paradas selecionadas = 10 | tempo algoritmo = 18.8024 s | tempo total das rotas = 7832 s | maior tempo de rota = 1350 s
+  Resultado: FO = 105.186 | distancia = 105.186 km | rotas = 8 | paradas selecionadas = 10 | tempo algoritmo = 18.2163 s | tempo total das rotas = 7832 s | maior tempo de rota = 1350 s
 
 ============================================================
 Instancia: Porthcawl
@@ -95,7 +95,7 @@ Arquivo: .\data\Porthcawl.bus
 ============================================================
 
 Execucao global 9/10 | instancia Porthcawl | execucao 1/1 | seed aleatoria = 3090095699 ...
-  Resultado: FO = 25.483 | distancia = 25.483 km | rotas = 2 | paradas selecionadas = 3 | tempo algoritmo = 3.12615 s | tempo total das rotas = 2598 s | maior tempo de rota = 1614 s
+  Resultado: FO = 25.483 | distancia = 25.483 km | rotas = 2 | paradas selecionadas = 3 | tempo algoritmo = 2.87558 s | tempo total das rotas = 2598 s | maior tempo de rota = 1614 s
 
 ============================================================
 Instancia: Suffolk
@@ -103,7 +103,7 @@ Arquivo: .\data\Suffolk.bus
 ============================================================
 
 Execucao global 10/10 | instancia Suffolk | execucao 1/1 | seed aleatoria = 2109339754 ...
-  Resultado: FO = 158.202 | distancia = 158.202 km | rotas = 6 | paradas selecionadas = 21 | tempo algoritmo = 5.71368 s | tempo total das rotas = 12295 s | maior tempo de rota = 3115 s
+  Resultado: FO = 158.202 | distancia = 158.202 km | rotas = 6 | paradas selecionadas = 21 | tempo algoritmo = 5.65626 s | tempo total das rotas = 12295 s | maior tempo de rota = 3115 s
 
 ============================================================
 Exportando resultados consolidados.
@@ -112,7 +112,7 @@ Exportando resultados consolidados.
 Tabela detalhada salva em: results\tables\09072026experimentos_maximum_run_time_60s_detalhados_table.csv
 Tabela resumo por instancia salva em: results\tables\09072026experimentos_maximum_run_time_60s_resumo_table.csv
 Tabela com todas as rotas salva em: results\tables\09072026experimentos_maximum_run_time_60s_todas_rotas_table.csv
-Tabela de rotas da melhor solucao salva em: results\tables\09072026experimentos_maximum_run_time_60s_melhor_solucao_rotas_table.csv
+Tabela de rotas das melhores solucoes por instancia salva em: results\tables\09072026experimentos_maximum_run_time_60s_melhor_solucao_rotas_table.csv
 Grafo da melhor solucao salvo em: results\figures\09072026experimentos_maximum_run_time_60s_melhor_solucao_figure.png
 Log dos experimentos salvo em: results\logs\09072026experimentos_maximum_run_time_60s_logs.txt
 
@@ -125,6 +125,18 @@ Melhor solucao global:
   Distancia total: 25,483000 km
   Numero de rotas: 2
   Penalidade: 0,000000
+
+Melhores solucoes por instancia:
+  Adelaide | execucao global 1 | execucao na instancia 1 | seed 2991312382 | FO 151,851000 | distancia 151,851000 km | rotas 16
+  Bridgend | execucao global 2 | execucao na instancia 1 | seed 3062119789 | FO 100299,461000 | distancia 299,461000 km | rotas 11
+  Brisbane | execucao global 3 | execucao na instancia 1 | seed 1228959102 | FO 319,717000 | distancia 319,717000 km | rotas 22
+  Canberra | execucao global 4 | execucao na instancia 1 | seed 1840268610 | FO 286,990000 | distancia 286,990000 km | rotas 14
+  Cardiff | execucao global 5 | execucao na instancia 1 | seed 974319580 | FO 500075,860000 | distancia 75,860000 km | rotas 5
+  Edinburgh-1 | execucao global 6 | execucao na instancia 1 | seed 2967327842 | FO 1500155,291000 | distancia 155,291000 km | rotas 20
+  Edinburgh-2 | execucao global 7 | execucao na instancia 1 | seed 2367878886 | FO 600045,768000 | distancia 45,768000 km | rotas 9
+  MiltonKeynes | execucao global 8 | execucao na instancia 1 | seed 3088727057 | FO 105,186000 | distancia 105,186000 km | rotas 8
+  Porthcawl | execucao global 9 | execucao na instancia 1 | seed 3090095699 | FO 25,483000 | distancia 25,483000 km | rotas 2
+  Suffolk | execucao global 10 | execucao na instancia 1 | seed 2109339754 | FO 158,202000 | distancia 158,202000 km | rotas 6
 
 Melhor rota especifica (menor distancia; desempate por menor tempo):
   Instancia: Edinburgh-2
