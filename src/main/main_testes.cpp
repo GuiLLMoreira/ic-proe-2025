@@ -73,6 +73,7 @@ struct RouteRecord {
     bool best_route_in_execution{};
     bool best_route_overall{};
     bool from_global_best_solution{};
+    bool from_best_solution_for_instance{};
 
     string sequence;
     size_t number_stops{};
@@ -567,6 +568,7 @@ void export_routes_csv(
          << "melhor_rota_da_execucao;"
          << "melhor_rota_geral;"
          << "rota_da_melhor_solucao_global;"
+         << "rota_da_melhor_solucao_instancia;"
          << "sequencia;"
          << "numero_paradas;"
          << "carga_estudantes;"
@@ -587,6 +589,7 @@ void export_routes_csv(
              << format_yes_no(route.best_route_in_execution) << ";"
              << format_yes_no(route.best_route_overall) << ";"
              << format_yes_no(route.from_global_best_solution) << ";"
+             << format_yes_no(route.from_best_solution_for_instance) << ";"
              << "\"" << route.sequence << "\"" << ";"
              << route.number_stops << ";"
              << route.load << ";"
@@ -926,9 +929,37 @@ int main(int argc, char* argv[]) {
             throw runtime_error("Nenhuma melhor solucao global foi armazenada.");
         }
 
+        vector<RunResult> best_results_by_instance;
+        set<unsigned> best_execution_ids_by_instance;
+
+        for(const auto& instance_path : instance_files) {
+            const string instance_name = instance_path.stem().string();
+
+            const RunResult* best_result = nullptr;
+
+            for(const auto& result : all_results) {
+                if(result.instance_name != instance_name) {
+                    continue;
+                }
+
+                if(best_result == nullptr ||
+                   result.best_fitness < best_result->best_fitness) {
+                    best_result = &result;
+                }
+            }
+
+            if(best_result != nullptr) {
+                best_results_by_instance.push_back(*best_result);
+                best_execution_ids_by_instance.insert(best_result->global_execution_id);
+            }
+        }
+
         for(auto& route_record : all_route_records) {
             route_record.from_global_best_solution =
                 route_record.global_execution_id == global_best_result.global_execution_id;
+
+            route_record.from_best_solution_for_instance =
+                best_execution_ids_by_instance.count(route_record.global_execution_id) > 0;
         }
 
         const size_t best_route_record_index =
@@ -938,18 +969,18 @@ int main(int argc, char* argv[]) {
             all_route_records[best_route_record_index].best_route_overall = true;
         }
 
-        vector<RouteRecord> global_best_route_records;
+        vector<RouteRecord> best_instance_route_records;
 
         for(const auto& route_record : all_route_records) {
-            if(route_record.from_global_best_solution) {
-                global_best_route_records.push_back(route_record);
+            if(route_record.from_best_solution_for_instance) {
+                best_instance_route_records.push_back(route_record);
             }
         }
 
         export_detailed_results_csv(all_results, detailed_table_path);
         export_summary_by_instance_csv(all_results, summary_table_path);
         export_routes_csv(all_route_records, all_routes_table_path);
-        export_routes_csv(global_best_route_records, best_routes_table_path);
+        export_routes_csv(best_instance_route_records, best_routes_table_path);
 
         export_solution_graph_png(
             global_best_solution,
@@ -961,7 +992,7 @@ int main(int argc, char* argv[]) {
         log("Tabela detalhada salva em: " + detailed_table_path.string() + "\n");
         log("Tabela resumo por instancia salva em: " + summary_table_path.string() + "\n");
         log("Tabela com todas as rotas salva em: " + all_routes_table_path.string() + "\n");
-        log("Tabela de rotas da melhor solucao salva em: " + best_routes_table_path.string() + "\n");
+        log("Tabela de rotas das melhores solucoes por instancia salva em: " + best_routes_table_path.string() + "\n");
         log("Grafo da melhor solucao salvo em: " + best_graph_png_path.string() + "\n");
         log("Log dos experimentos salvo em: " + experiment_log_path.string() + "\n\n");
 
@@ -977,6 +1008,25 @@ int main(int argc, char* argv[]) {
                  << "  Penalidade: " << format_decimal(global_best_solution.total_penalty) << "\n\n";
 
         log(best_msg.str());
+
+        log("Melhores solucoes por instancia:\n");
+
+        for(const auto& result : best_results_by_instance) {
+            ostringstream instance_best_msg;
+            instance_best_msg << "  " << result.instance_name
+                              << " | execucao global " << result.global_execution_id
+                              << " | execucao na instancia " << result.execution_id
+                              << " | seed " << result.seed
+                              << " | FO " << format_decimal(result.best_fitness)
+                              << " | distancia "
+                              << format_decimal(result.total_distance) << " km"
+                              << " | rotas " << result.number_routes
+                              << "\n";
+
+            log(instance_best_msg.str());
+        }
+
+        log("\n");
 
         if(best_route_record_index != numeric_limits<size_t>::max()) {
             const auto& best_route = all_route_records[best_route_record_index];
