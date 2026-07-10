@@ -4,6 +4,7 @@
 
 #include <algorithm>
 #include <chrono>
+#include <cmath>
 #include <cstdlib>
 #include <ctime>
 #include <exception>
@@ -11,6 +12,7 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <limits>
 #include <set>
 #include <sstream>
 #include <stdexcept>
@@ -120,8 +122,51 @@ string build_route_sequence(const PROEDecoder::Route& route) {
     return oss.str();
 }
 
+string format_decimal(double value, int precision = 3) {
+    ostringstream oss;
+    oss << fixed << setprecision(precision) << value;
+
+    string text = oss.str();
+    replace(text.begin(), text.end(), '.', ',');
+
+    return text;
+}
+
+string format_yes_no(bool value) {
+    return value ? "sim" : "nao";
+}
+
+size_t find_best_route_index(const vector<PROEDecoder::Route>& routes) {
+    if(routes.empty()) {
+        return numeric_limits<size_t>::max();
+    }
+
+    const double eps = 1e-9;
+    size_t best_index = 0;
+
+    for(size_t i = 1; i < routes.size(); ++i) {
+        const auto& candidate = routes[i];
+        const auto& current_best = routes[best_index];
+
+        const bool shorter_distance =
+            candidate.distance + eps < current_best.distance;
+
+        const bool same_distance_shorter_time =
+            abs(candidate.distance - current_best.distance) <= eps &&
+            candidate.time + eps < current_best.time;
+
+        if(shorter_distance || same_distance_shorter_time) {
+            best_index = i;
+        }
+    }
+
+    return best_index;
+}
+
 void export_route_table_csv(
     const PROEDecoder::Solution& solution,
+    double algorithm_time,
+    double wall_time,
     const fs::path& output_file
 ) {
     ofstream file(output_file);
@@ -130,24 +175,30 @@ void export_route_table_csv(
         throw runtime_error("Nao foi possivel criar a tabela de rotas: " + output_file.string());
     }
 
-    file << fixed << setprecision(3);
+    const size_t best_route_index = find_best_route_index(solution.routes);
 
     file << "rota;"
+         << "melhor_rota_da_solucao;"
          << "sequencia;"
          << "numero_paradas;"
          << "carga_estudantes;"
          << "distancia_km;"
-         << "tempo_segundos\n";
+         << "tempo_rota_segundos;"
+         << "tempo_execucao_algoritmo_seg;"
+         << "tempo_parede_execucao_seg\n";
 
     for(size_t r = 0; r < solution.routes.size(); ++r) {
         const auto& route = solution.routes[r];
 
         file << (r + 1) << ";"
+             << format_yes_no(r == best_route_index) << ";"
              << "\"" << build_route_sequence(route) << "\"" << ";"
              << route.stops.size() << ";"
              << route.load << ";"
-             << route.distance << ";"
-             << route.time << "\n";
+             << format_decimal(route.distance) << ";"
+             << format_decimal(route.time) << ";"
+             << format_decimal(algorithm_time) << ";"
+             << format_decimal(wall_time) << "\n";
     }
 }
 
@@ -418,8 +469,15 @@ int main(int argc, char* argv[]) {
 
         cout << "Executando o BRKGA...\n\n";
 
+        const auto wall_start = chrono::steady_clock::now();
+
         const auto final_status =
             algorithm.run(control_params, &cout);
+
+        const auto wall_end = chrono::steady_clock::now();
+
+        const double wall_time =
+            chrono::duration<double>(wall_end - wall_start).count();
 
         cout << "\nStatus final do algoritmo:\n";
         cout << final_status << "\n";
@@ -434,6 +492,9 @@ int main(int argc, char* argv[]) {
 
         const PROEDecoder::Solution best_solution =
             decoder.decodeSolution(final_status.best_chromosome);
+
+        const size_t best_route_index =
+            find_best_route_index(best_solution.routes);
 
         // ----------------------------
         // Imprimir solução em português
@@ -476,6 +537,17 @@ int main(int argc, char* argv[]) {
             cout << "\n";
         }
 
+        if(best_route_index != numeric_limits<size_t>::max()) {
+            const auto& best_route = best_solution.routes[best_route_index];
+
+            cout << "Melhor rota especifica "
+                 << "(menor distancia; desempate por menor tempo):\n";
+            cout << "  Rota: " << (best_route_index + 1) << "\n";
+            cout << "  Distancia: " << best_route.distance << " km\n";
+            cout << "  Tempo estimado: " << best_route.time << " segundos\n";
+            cout << "  Sequencia: " << build_route_sequence(best_route) << "\n\n";
+        }
+
         // ----------------------------
         // Ranking completo das paradas
         // ----------------------------
@@ -500,7 +572,12 @@ int main(int argc, char* argv[]) {
         // ----------------------------
         cout << "Exportando arquivos padronizados da melhor solucao...\n";
 
-        export_route_table_csv(best_solution, table_path);
+        export_route_table_csv(
+            best_solution,
+            final_status.current_time.count(),
+            wall_time,
+            table_path
+        );
         cout << "  Tabela de rotas salva em: " << table_path.string() << "\n";
 
         export_solution_graph_png(best_solution, instance, graph_dot_path, graph_png_path);
