@@ -37,6 +37,7 @@ struct RunResult {
     string instance_name;
     string instance_file;
 
+    unsigned global_execution_id{};
     unsigned execution_id{};
     unsigned seed{};
     unsigned threads{};
@@ -55,6 +56,32 @@ struct RunResult {
 
     unsigned current_iteration{};
     unsigned last_update_iteration{};
+    double algorithm_time{};
+    double wall_time{};
+};
+
+struct RouteRecord {
+    string instance_name;
+    string instance_file;
+
+    unsigned global_execution_id{};
+    unsigned execution_id{};
+    unsigned seed{};
+    unsigned threads{};
+    unsigned route_id{};
+
+    bool best_route_in_execution{};
+    bool best_route_overall{};
+    bool from_global_best_solution{};
+    bool from_best_solution_for_instance{};
+
+    string sequence;
+    size_t number_stops{};
+    int load{};
+
+    double distance{};
+    double route_time{};
+    double total_route_time_in_execution{};
     double algorithm_time{};
     double wall_time{};
 };
@@ -146,6 +173,122 @@ string build_route_sequence(const PROEDecoder::Route& route) {
     oss << " -> Escola";
 
     return oss.str();
+}
+
+string format_decimal(double value, int precision = 6) {
+    ostringstream oss;
+    oss << fixed << setprecision(precision) << value;
+
+    string text = oss.str();
+    replace(text.begin(), text.end(), '.', ',');
+
+    return text;
+}
+
+string format_yes_no(bool value) {
+    return value ? "sim" : "nao";
+}
+
+double read_maximum_running_time_seconds(const string& config_file) {
+    ifstream file(config_file);
+
+    if(!file) {
+        throw runtime_error("Nao foi possivel ler o arquivo de configuracao: " + config_file);
+    }
+
+    string key;
+
+    while(file >> key) {
+        if(!key.empty() && key[0] == '#') {
+            string ignored_line;
+            getline(file, ignored_line);
+            continue;
+        }
+
+        if(key == "maximum_running_time") {
+            double value = 0.0;
+            file >> value;
+            return value;
+        }
+
+        string ignored_value;
+        getline(file, ignored_value);
+    }
+
+    return 0.0;
+}
+
+string build_running_time_filename_tag(double maximum_running_time) {
+    ostringstream oss;
+    oss << fixed << setprecision(3) << maximum_running_time;
+
+    string value = oss.str();
+
+    while(value.size() > 1 && value.back() == '0') {
+        value.pop_back();
+    }
+
+    if(!value.empty() && value.back() == '.') {
+        value.pop_back();
+    }
+
+    replace(value.begin(), value.end(), '.', 'p');
+
+    return "maximum_run_time_" + value + "s";
+}
+
+size_t find_best_route_index(const vector<PROEDecoder::Route>& routes) {
+    if(routes.empty()) {
+        return numeric_limits<size_t>::max();
+    }
+
+    const double eps = 1e-9;
+    size_t best_index = 0;
+
+    for(size_t i = 1; i < routes.size(); ++i) {
+        const auto& candidate = routes[i];
+        const auto& current_best = routes[best_index];
+
+        const bool shorter_distance =
+            candidate.distance + eps < current_best.distance;
+
+        const bool same_distance_shorter_time =
+            abs(candidate.distance - current_best.distance) <= eps &&
+            candidate.time + eps < current_best.time;
+
+        if(shorter_distance || same_distance_shorter_time) {
+            best_index = i;
+        }
+    }
+
+    return best_index;
+}
+
+size_t find_best_route_record_index(const vector<RouteRecord>& routes) {
+    if(routes.empty()) {
+        return numeric_limits<size_t>::max();
+    }
+
+    const double eps = 1e-9;
+    size_t best_index = 0;
+
+    for(size_t i = 1; i < routes.size(); ++i) {
+        const auto& candidate = routes[i];
+        const auto& current_best = routes[best_index];
+
+        const bool shorter_distance =
+            candidate.distance + eps < current_best.distance;
+
+        const bool same_distance_shorter_time =
+            abs(candidate.distance - current_best.distance) <= eps &&
+            candidate.route_time + eps < current_best.route_time;
+
+        if(shorter_distance || same_distance_shorter_time) {
+            best_index = i;
+        }
+    }
+
+    return best_index;
 }
 
 void export_solution_graph_dot(
@@ -258,10 +401,9 @@ void export_detailed_results_csv(
         throw runtime_error("Nao foi possivel criar a tabela detalhada: " + output_file.string());
     }
 
-    file << fixed << setprecision(6);
-
     file << "instancia;"
          << "arquivo;"
+         << "execucao_global;"
          << "execucao;"
          << "seed;"
          << "threads;"
@@ -282,22 +424,23 @@ void export_detailed_results_csv(
     for(const auto& r : results) {
         file << r.instance_name << ";"
              << r.instance_file << ";"
+             << r.global_execution_id << ";"
              << r.execution_id << ";"
              << r.seed << ";"
              << r.threads << ";"
-             << r.best_fitness << ";"
-             << r.total_distance << ";"
-             << r.total_penalty << ";"
+             << format_decimal(r.best_fitness) << ";"
+             << format_decimal(r.total_distance) << ";"
+             << format_decimal(r.total_penalty) << ";"
              << r.number_routes << ";"
              << r.selected_stops << ";"
              << r.total_load << ";"
-             << r.total_route_time << ";"
-             << r.average_route_time << ";"
-             << r.max_route_time << ";"
+             << format_decimal(r.total_route_time) << ";"
+             << format_decimal(r.average_route_time) << ";"
+             << format_decimal(r.max_route_time) << ";"
              << r.current_iteration << ";"
              << r.last_update_iteration << ";"
-             << r.algorithm_time << ";"
-             << r.wall_time << "\n";
+             << format_decimal(r.algorithm_time) << ";"
+             << format_decimal(r.wall_time) << "\n";
     }
 }
 
@@ -336,8 +479,6 @@ void export_summary_by_instance_csv(
     if(!file) {
         throw runtime_error("Nao foi possivel criar a tabela resumo: " + output_file.string());
     }
-
-    file << fixed << setprecision(6);
 
     file << "instancia;"
          << "numero_execucoes;"
@@ -394,53 +535,69 @@ void export_summary_by_instance_csv(
 
         file << name << ";"
              << objectives.size() << ";"
-             << best_objective << ";"
-             << mean(objectives) << ";"
-             << worst_objective << ";"
-             << standard_deviation(objectives) << ";"
-             << mean(routes) << ";"
-             << mean(selected_stops) << ";"
-             << mean(algorithm_times) << ";"
-             << mean(total_route_times) << ";"
-             << mean(max_route_times) << ";"
+             << format_decimal(best_objective) << ";"
+             << format_decimal(mean(objectives)) << ";"
+             << format_decimal(worst_objective) << ";"
+             << format_decimal(standard_deviation(objectives)) << ";"
+             << format_decimal(mean(routes)) << ";"
+             << format_decimal(mean(selected_stops)) << ";"
+             << format_decimal(mean(algorithm_times)) << ";"
+             << format_decimal(mean(total_route_times)) << ";"
+             << format_decimal(mean(max_route_times)) << ";"
              << best_seed << "\n";
     }
 }
 
-void export_best_routes_csv(
-    const PROEDecoder::Solution& solution,
-    const string& instance_name,
-    unsigned seed,
+void export_routes_csv(
+    const vector<RouteRecord>& routes,
     const fs::path& output_file
 ) {
     ofstream file(output_file);
 
     if(!file) {
-        throw runtime_error("Nao foi possivel criar a tabela da melhor solucao: " + output_file.string());
+        throw runtime_error("Nao foi possivel criar a tabela de rotas: " + output_file.string());
     }
 
-    file << fixed << setprecision(6);
-
     file << "instancia;"
+         << "arquivo;"
+         << "execucao_global;"
+         << "execucao;"
          << "seed;"
+         << "threads;"
          << "rota;"
+         << "melhor_rota_da_execucao;"
+         << "melhor_rota_geral;"
+         << "rota_da_melhor_solucao_global;"
+         << "rota_da_melhor_solucao_instancia;"
          << "sequencia;"
          << "numero_paradas;"
          << "carga_estudantes;"
          << "distancia_km;"
-         << "tempo_segundos\n";
+         << "tempo_rota_segundos;"
+         << "tempo_total_rotas_execucao_seg;"
+         << "tempo_execucao_algoritmo_seg;"
+         << "tempo_parede_execucao_seg\n";
 
-    for(size_t r = 0; r < solution.routes.size(); ++r) {
-        const auto& route = solution.routes[r];
-
-        file << instance_name << ";"
-             << seed << ";"
-             << (r + 1) << ";"
-             << "\"" << build_route_sequence(route) << "\"" << ";"
-             << route.stops.size() << ";"
+    for(const auto& route : routes) {
+        file << route.instance_name << ";"
+             << route.instance_file << ";"
+             << route.global_execution_id << ";"
+             << route.execution_id << ";"
+             << route.seed << ";"
+             << route.threads << ";"
+             << route.route_id << ";"
+             << format_yes_no(route.best_route_in_execution) << ";"
+             << format_yes_no(route.best_route_overall) << ";"
+             << format_yes_no(route.from_global_best_solution) << ";"
+             << format_yes_no(route.from_best_solution_for_instance) << ";"
+             << "\"" << route.sequence << "\"" << ";"
+             << route.number_stops << ";"
              << route.load << ";"
-             << route.distance << ";"
-             << route.time << "\n";
+             << format_decimal(route.distance) << ";"
+             << format_decimal(route.route_time) << ";"
+             << format_decimal(route.total_route_time_in_execution) << ";"
+             << format_decimal(route.algorithm_time) << ";"
+             << format_decimal(route.wall_time) << "\n";
     }
 }
 
@@ -503,6 +660,10 @@ int main(int argc, char* argv[]) {
             argc >= 6 ? fs::path(argv[5]) : fs::path("data");
 
         const string date_stamp = get_current_date_stamp();
+        const double maximum_running_time =
+            read_maximum_running_time_seconds(config_file);
+        const string running_time_tag =
+            build_running_time_filename_tag(maximum_running_time);
 
         const fs::path results_dir = "results";
         const fs::path figures_dir = results_dir / "figures";
@@ -514,22 +675,25 @@ int main(int argc, char* argv[]) {
         fs::create_directories(tables_dir);
 
         const fs::path detailed_table_path =
-            tables_dir / (date_stamp + "experimentos_detalhados_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_detalhados_table.csv");
 
         const fs::path summary_table_path =
-            tables_dir / (date_stamp + "experimentos_resumo_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_resumo_table.csv");
+
+        const fs::path all_routes_table_path =
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_todas_rotas_table.csv");
 
         const fs::path best_routes_table_path =
-            tables_dir / (date_stamp + "melhor_solucao_rotas_table.csv");
+            tables_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_rotas_table.csv");
 
         const fs::path experiment_log_path =
-            logs_dir / (date_stamp + "experimentos_logs.txt");
+            logs_dir / (date_stamp + "experimentos_" + running_time_tag + "_logs.txt");
 
         const fs::path best_graph_dot_path =
-            figures_dir / (date_stamp + "melhor_solucao_figure.dot");
+            figures_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_figure.dot");
 
         const fs::path best_graph_png_path =
-            figures_dir / (date_stamp + "melhor_solucao_figure.png");
+            figures_dir / (date_stamp + "experimentos_" + running_time_tag + "_melhor_solucao_figure.png");
 
         ofstream experiment_log(experiment_log_path);
 
@@ -549,6 +713,8 @@ int main(int argc, char* argv[]) {
 
         log("Configuracao geral:\n");
         log("  Arquivo de configuracao: " + config_file + "\n");
+        log("  maximum_running_time: " + format_decimal(maximum_running_time, 1) + " s\n");
+        log("  Identificador nos arquivos de saida: " + running_time_tag + "\n");
         log("  Diretorio de instancias: " + data_dir.string() + "\n");
         log("  Execucoes por instancia: " + to_string(runs_per_instance) + "\n");
         log("  Master seed para geracao das seeds aleatorias: " + to_string(master_seed) + "\n");
@@ -581,10 +747,12 @@ int main(int argc, char* argv[]) {
         log("Seeds aleatorias geradas com sucesso.\n\n");
 
         vector<RunResult> all_results;
+        vector<RouteRecord> all_route_records;
 
         double global_best_fitness = numeric_limits<double>::infinity();
         string global_best_instance_name;
         unsigned global_best_seed = 0;
+        RunResult global_best_result;
 
         PROEDecoder::Solution global_best_solution;
         unique_ptr<Instance> global_best_instance;
@@ -658,6 +826,7 @@ int main(int argc, char* argv[]) {
                 RunResult result;
                 result.instance_name = instance_name;
                 result.instance_file = instance_path.string();
+                result.global_execution_id = global_execution_counter;
                 result.execution_id = run + 1;
                 result.seed = seed;
                 result.threads = num_threads;
@@ -698,6 +867,35 @@ int main(int argc, char* argv[]) {
                 result.algorithm_time = final_status.current_time.count();
                 result.wall_time = wall_time;
 
+                const size_t best_route_index =
+                    find_best_route_index(solution.routes);
+
+                for(size_t route_index = 0; route_index < solution.routes.size(); ++route_index) {
+                    const auto& route = solution.routes[route_index];
+
+                    RouteRecord route_record;
+                    route_record.instance_name = result.instance_name;
+                    route_record.instance_file = result.instance_file;
+                    route_record.global_execution_id = result.global_execution_id;
+                    route_record.execution_id = result.execution_id;
+                    route_record.seed = result.seed;
+                    route_record.threads = result.threads;
+                    route_record.route_id = static_cast<unsigned>(route_index + 1);
+                    route_record.best_route_in_execution =
+                        route_index == best_route_index;
+                    route_record.sequence = build_route_sequence(route);
+                    route_record.number_stops = route.stops.size();
+                    route_record.load = route.load;
+                    route_record.distance = route.distance;
+                    route_record.route_time = route.time;
+                    route_record.total_route_time_in_execution =
+                        result.total_route_time;
+                    route_record.algorithm_time = result.algorithm_time;
+                    route_record.wall_time = result.wall_time;
+
+                    all_route_records.push_back(route_record);
+                }
+
                 all_results.push_back(result);
 
                 ostringstream end_msg;
@@ -716,6 +914,7 @@ int main(int argc, char* argv[]) {
                     global_best_fitness = result.best_fitness;
                     global_best_instance_name = instance_name;
                     global_best_seed = seed;
+                    global_best_result = result;
                     global_best_solution = solution;
                     global_best_instance = make_unique<Instance>(instance_path.string());
                 }
@@ -726,19 +925,62 @@ int main(int argc, char* argv[]) {
         log("Exportando resultados consolidados.\n");
         log("============================================================\n\n");
 
-        export_detailed_results_csv(all_results, detailed_table_path);
-        export_summary_by_instance_csv(all_results, summary_table_path);
-
         if(global_best_instance == nullptr) {
             throw runtime_error("Nenhuma melhor solucao global foi armazenada.");
         }
 
-        export_best_routes_csv(
-            global_best_solution,
-            global_best_instance_name,
-            global_best_seed,
-            best_routes_table_path
-        );
+        vector<RunResult> best_results_by_instance;
+        set<unsigned> best_execution_ids_by_instance;
+
+        for(const auto& instance_path : instance_files) {
+            const string instance_name = instance_path.stem().string();
+
+            const RunResult* best_result = nullptr;
+
+            for(const auto& result : all_results) {
+                if(result.instance_name != instance_name) {
+                    continue;
+                }
+
+                if(best_result == nullptr ||
+                   result.best_fitness < best_result->best_fitness) {
+                    best_result = &result;
+                }
+            }
+
+            if(best_result != nullptr) {
+                best_results_by_instance.push_back(*best_result);
+                best_execution_ids_by_instance.insert(best_result->global_execution_id);
+            }
+        }
+
+        for(auto& route_record : all_route_records) {
+            route_record.from_global_best_solution =
+                route_record.global_execution_id == global_best_result.global_execution_id;
+
+            route_record.from_best_solution_for_instance =
+                best_execution_ids_by_instance.count(route_record.global_execution_id) > 0;
+        }
+
+        const size_t best_route_record_index =
+            find_best_route_record_index(all_route_records);
+
+        if(best_route_record_index != numeric_limits<size_t>::max()) {
+            all_route_records[best_route_record_index].best_route_overall = true;
+        }
+
+        vector<RouteRecord> best_instance_route_records;
+
+        for(const auto& route_record : all_route_records) {
+            if(route_record.from_best_solution_for_instance) {
+                best_instance_route_records.push_back(route_record);
+            }
+        }
+
+        export_detailed_results_csv(all_results, detailed_table_path);
+        export_summary_by_instance_csv(all_results, summary_table_path);
+        export_routes_csv(all_route_records, all_routes_table_path);
+        export_routes_csv(best_instance_route_records, best_routes_table_path);
 
         export_solution_graph_png(
             global_best_solution,
@@ -749,20 +991,60 @@ int main(int argc, char* argv[]) {
 
         log("Tabela detalhada salva em: " + detailed_table_path.string() + "\n");
         log("Tabela resumo por instancia salva em: " + summary_table_path.string() + "\n");
-        log("Tabela de rotas da melhor solucao salva em: " + best_routes_table_path.string() + "\n");
+        log("Tabela com todas as rotas salva em: " + all_routes_table_path.string() + "\n");
+        log("Tabela de rotas das melhores solucoes por instancia salva em: " + best_routes_table_path.string() + "\n");
         log("Grafo da melhor solucao salvo em: " + best_graph_png_path.string() + "\n");
         log("Log dos experimentos salvo em: " + experiment_log_path.string() + "\n\n");
 
         ostringstream best_msg;
         best_msg << "Melhor solucao global:\n"
                  << "  Instancia: " << global_best_instance_name << "\n"
+                 << "  Execucao global: " << global_best_result.global_execution_id << "\n"
+                 << "  Execucao na instancia: " << global_best_result.execution_id << "\n"
                  << "  Seed aleatoria: " << global_best_seed << "\n"
-                 << "  Funcao objetivo: " << global_best_solution.fitness << "\n"
-                 << "  Distancia total: " << global_best_solution.total_distance << " km\n"
+                 << "  Funcao objetivo: " << format_decimal(global_best_solution.fitness) << "\n"
+                 << "  Distancia total: " << format_decimal(global_best_solution.total_distance) << " km\n"
                  << "  Numero de rotas: " << global_best_solution.number_routes << "\n"
-                 << "  Penalidade: " << global_best_solution.total_penalty << "\n\n";
+                 << "  Penalidade: " << format_decimal(global_best_solution.total_penalty) << "\n\n";
 
         log(best_msg.str());
+
+        log("Melhores solucoes por instancia:\n");
+
+        for(const auto& result : best_results_by_instance) {
+            ostringstream instance_best_msg;
+            instance_best_msg << "  " << result.instance_name
+                              << " | execucao global " << result.global_execution_id
+                              << " | execucao na instancia " << result.execution_id
+                              << " | seed " << result.seed
+                              << " | FO " << format_decimal(result.best_fitness)
+                              << " | distancia "
+                              << format_decimal(result.total_distance) << " km"
+                              << " | rotas " << result.number_routes
+                              << "\n";
+
+            log(instance_best_msg.str());
+        }
+
+        log("\n");
+
+        if(best_route_record_index != numeric_limits<size_t>::max()) {
+            const auto& best_route = all_route_records[best_route_record_index];
+
+            ostringstream best_route_msg;
+            best_route_msg << "Melhor rota especifica "
+                           << "(menor distancia; desempate por menor tempo):\n"
+                           << "  Instancia: " << best_route.instance_name << "\n"
+                           << "  Execucao global: " << best_route.global_execution_id << "\n"
+                           << "  Execucao na instancia: " << best_route.execution_id << "\n"
+                           << "  Seed aleatoria: " << best_route.seed << "\n"
+                           << "  Rota: " << best_route.route_id << "\n"
+                           << "  Distancia: " << format_decimal(best_route.distance) << " km\n"
+                           << "  Tempo da rota: " << format_decimal(best_route.route_time) << " s\n"
+                           << "  Sequencia: " << best_route.sequence << "\n\n";
+
+            log(best_route_msg.str());
+        }
 
         log("Bateria experimental finalizada com sucesso.\n");
 

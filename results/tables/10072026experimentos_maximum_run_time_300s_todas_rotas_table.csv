@@ -1,0 +1,1121 @@
+instancia;arquivo;execucao_global;execucao;seed;threads;rota;melhor_rota_da_execucao;melhor_rota_geral;rota_da_melhor_solucao_global;rota_da_melhor_solucao_instancia;sequencia;numero_paradas;carga_estudantes;distancia_km;tempo_rota_segundos;tempo_total_rotas_execucao_seg;tempo_execucao_algoritmo_seg;tempo_parede_execucao_seg
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;1;nao;nao;nao;sim;"Escola -> Parada 764 -> Escola";1;32;4,666000;976,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;2;nao;nao;nao;sim;"Escola -> Parada 429 -> Escola";1;26;12,082000;1451,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;3;nao;nao;nao;sim;"Escola -> Parada 1060 -> Escola";1;36;3,763000;897,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;4;nao;nao;nao;sim;"Escola -> Parada 733 -> Escola";1;37;12,289000;1278,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;5;nao;nao;nao;sim;"Escola -> Parada 206 -> Parada 637 -> Escola";2;35;11,402000;1411,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;6;nao;nao;nao;sim;"Escola -> Parada 227 -> Escola";1;31;12,455000;1375,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;7;nao;nao;nao;sim;"Escola -> Parada 525 -> Parada 633 -> Escola";2;40;10,911000;1355,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;8;nao;nao;nao;sim;"Escola -> Parada 664 -> Escola";1;35;10,760000;1355,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;9;nao;nao;nao;sim;"Escola -> Parada 390 -> Escola";1;40;5,087000;789,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;10;sim;nao;nao;sim;"Escola -> Parada 1053 -> Escola";1;35;2,994000;524,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;11;nao;nao;nao;sim;"Escola -> Parada 298 -> Parada 647 -> Escola";2;38;12,319000;1429,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;12;nao;nao;nao;sim;"Escola -> Parada 330 -> Escola";1;33;6,633000;778,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;13;nao;nao;nao;sim;"Escola -> Parada 747 -> Escola";1;36;6,805000;1066,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;14;nao;nao;nao;sim;"Escola -> Parada 472 -> Parada 790 -> Escola";2;37;10,535000;1495,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;15;nao;nao;nao;sim;"Escola -> Parada 678 -> Escola";1;40;5,871000;1088,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;1;1;2991312382;8;16;nao;nao;nao;sim;"Escola -> Parada 1122 -> Escola";1;34;11,321000;1598,000000;18865,000000;144,015538;156,415753
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;1;sim;nao;nao;nao;"Escola -> Parada 72 -> Escola";1;37;2,386000;597,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;2;nao;nao;nao;nao;"Escola -> Parada 91 -> Escola";1;40;9,461000;1099,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;3;nao;nao;nao;nao;"Escola -> Parada 842 -> Escola";1;38;3,763000;897,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;4;nao;nao;nao;nao;"Escola -> Parada 651 -> Escola";1;35;10,232000;1295,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;5;nao;nao;nao;nao;"Escola -> Parada 636 -> Parada 105 -> Escola";2;40;11,939000;1145,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;6;nao;nao;nao;nao;"Escola -> Parada 594 -> Escola";1;22;6,163000;1044,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;7;nao;nao;nao;nao;"Escola -> Parada 706 -> Escola";1;38;12,584000;1296,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;8;nao;nao;nao;nao;"Escola -> Parada 291 -> Parada 371 -> Parada 632 -> Escola";3;35;13,403000;1702,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;9;nao;nao;nao;nao;"Escola -> Parada 533 -> Parada 683 -> Escola";2;37;15,217000;1908,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;10;nao;nao;nao;nao;"Escola -> Parada 123 -> Escola";1;38;2,726000;478,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;11;nao;nao;nao;nao;"Escola -> Parada 979 -> Escola";1;36;9,715000;1218,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;12;nao;nao;nao;nao;"Escola -> Parada 146 -> Escola";1;30;5,929000;1133,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;13;nao;nao;nao;nao;"Escola -> Parada 789 -> Escola";1;32;8,257000;1284,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;14;nao;nao;nao;nao;"Escola -> Parada 1024 -> Escola";1;30;4,858000;937,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;15;nao;nao;nao;nao;"Escola -> Parada 442 -> Parada 330 -> Escola";2;38;13,432000;1548,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;2;2;3062119789;8;16;nao;nao;nao;nao;"Escola -> Parada 175 -> Parada 603 -> Escola";2;39;11,967000;1438,000000;19019,000000;179,713935;192,102180
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;1;nao;nao;nao;nao;"Escola -> Parada 1109 -> Escola";1;34;13,002000;1331,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;2;nao;nao;nao;nao;"Escola -> Parada 1143 -> Escola";1;36;7,505000;1171,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;3;nao;nao;nao;nao;"Escola -> Parada 83 -> Escola";1;36;4,045000;617,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;4;sim;nao;nao;nao;"Escola -> Parada 735 -> Escola";1;32;2,942000;540,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;5;nao;nao;nao;nao;"Escola -> Parada 366 -> Parada 186 -> Escola";2;26;9,995000;1298,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;6;nao;nao;nao;nao;"Escola -> Parada 958 -> Escola";1;40;4,301000;978,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;7;nao;nao;nao;nao;"Escola -> Parada 460 -> Escola";1;26;5,615000;1121,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;8;nao;nao;nao;nao;"Escola -> Parada 697 -> Escola";1;39;10,183000;1265,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;9;nao;nao;nao;nao;"Escola -> Parada 498 -> Parada 633 -> Escola";2;35;12,719000;1633,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;10;nao;nao;nao;nao;"Escola -> Parada 385 -> Parada 521 -> Escola";2;40;7,931000;1091,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;11;nao;nao;nao;nao;"Escola -> Parada 19 -> Escola";1;38;9,460000;1100,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;12;nao;nao;nao;nao;"Escola -> Parada 564 -> Escola";1;40;5,056000;799,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;13;nao;nao;nao;nao;"Escola -> Parada 685 -> Escola";1;22;8,776000;1003,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;14;nao;nao;nao;nao;"Escola -> Parada 469 -> Escola";1;35;10,766000;1355,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;15;nao;nao;nao;nao;"Escola -> Parada 1046 -> Escola";1;18;9,033000;1232,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;16;nao;nao;nao;nao;"Escola -> Parada 265 -> Escola";1;33;11,925000;1335,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;3;3;1228959102;8;17;nao;nao;nao;nao;"Escola -> Parada 131 -> Parada 865 -> Escola";2;35;12,720000;1462,000000;19331,000000;125,879329;135,415955
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;1;nao;nao;nao;nao;"Escola -> Parada 529 -> Escola";1;38;3,129000;667,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;2;nao;nao;nao;nao;"Escola -> Parada 639 -> Parada 549 -> Escola";2;40;14,537000;1583,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;3;nao;nao;nao;nao;"Escola -> Parada 979 -> Escola";1;33;9,715000;1218,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;4;nao;nao;nao;nao;"Escola -> Parada 647 -> Escola";1;28;8,777000;1001,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;5;nao;nao;nao;nao;"Escola -> Parada 297 -> Parada 1011 -> Escola";2;38;13,280000;1599,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;6;nao;nao;nao;nao;"Escola -> Parada 872 -> Escola";1;34;12,123000;1345,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;7;nao;nao;nao;nao;"Escola -> Parada 1 -> Escola";1;25;4,171000;951,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;8;nao;nao;nao;nao;"Escola -> Parada 509 -> Escola";1;36;3,763000;898,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;9;nao;nao;nao;nao;"Escola -> Parada 351 -> Escola";1;40;5,087000;790,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;10;nao;nao;nao;nao;"Escola -> Parada 747 -> Escola";1;36;6,805000;1066,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;11;nao;nao;nao;nao;"Escola -> Parada 643 -> Parada 617 -> Escola";2;40;11,269000;1801,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;12;nao;nao;nao;nao;"Escola -> Parada 296 -> Escola";1;39;12,049000;1491,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;13;nao;nao;nao;nao;"Escola -> Parada 242 -> Parada 267 -> Escola";2;40;15,889000;1626,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;14;sim;nao;nao;nao;"Escola -> Parada 347 -> Escola";1;27;1,579000;221,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;15;nao;nao;nao;nao;"Escola -> Parada 335 -> Parada 107 -> Escola";2;31;9,374000;979,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;4;4;1840268610;8;16;nao;nao;nao;nao;"Escola -> Parada 904 -> Escola";1;40;11,534000;1358,000000;18594,000000;163,348804;169,423303
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;1;nao;nao;nao;nao;"Escola -> Parada 810 -> Escola";1;40;12,431000;1345,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;2;nao;nao;nao;nao;"Escola -> Parada 634 -> Escola";1;33;8,504000;1305,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;3;nao;nao;nao;nao;"Escola -> Parada 324 -> Parada 231 -> Escola";2;34;16,422000;1659,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;4;sim;nao;nao;nao;"Escola -> Parada 125 -> Escola";1;25;1,812000;264,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;5;nao;nao;nao;nao;"Escola -> Parada 69 -> Escola";1;37;3,432000;702,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;6;nao;nao;nao;nao;"Escola -> Parada 90 -> Parada 59 -> Escola";2;31;11,135000;1211,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;7;nao;nao;nao;nao;"Escola -> Parada 947 -> Parada 187 -> Parada 207 -> Escola";3;40;13,094000;1519,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;8;nao;nao;nao;nao;"Escola -> Parada 697 -> Escola";1;38;10,183000;1265,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;9;nao;nao;nao;nao;"Escola -> Parada 1154 -> Escola";1;34;9,279000;1354,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;10;nao;nao;nao;nao;"Escola -> Parada 842 -> Escola";1;29;3,763000;897,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;11;nao;nao;nao;nao;"Escola -> Parada 664 -> Escola";1;40;10,760000;1355,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;12;nao;nao;nao;nao;"Escola -> Parada 1009 -> Parada 472 -> Escola";2;39;17,815000;2342,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;13;nao;nao;nao;nao;"Escola -> Parada 1163 -> Escola";1;39;6,365000;910,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;14;nao;nao;nao;nao;"Escola -> Parada 460 -> Escola";1;29;5,615000;1121,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;15;nao;nao;nao;nao;"Escola -> Parada 270 -> Escola";1;40;5,411000;925,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;5;5;974319580;8;16;nao;nao;nao;nao;"Escola -> Parada 577 -> Parada 1093 -> Escola";2;37;10,924000;1241,000000;19415,000000;121,508787;127,528161
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;1;nao;nao;nao;nao;"Escola -> Parada 819 -> Parada 50 -> Escola";2;37;13,773000;1564,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;2;nao;nao;nao;nao;"Escola -> Parada 68 -> Escola";1;23;4,830000;727,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;3;nao;nao;nao;nao;"Escola -> Parada 460 -> Escola";1;36;5,615000;1121,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;4;nao;nao;nao;nao;"Escola -> Parada 267 -> Parada 457 -> Escola";2;40;11,914000;1563,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;5;nao;nao;nao;nao;"Escola -> Parada 150 -> Parada 1042 -> Escola";2;39;8,817000;1428,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;6;sim;nao;nao;nao;"Escola -> Parada 112 -> Escola";1;36;1,858000;244,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;7;nao;nao;nao;nao;"Escola -> Parada 336 -> Escola";1;36;6,671000;943,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;8;nao;nao;nao;nao;"Escola -> Parada 224 -> Parada 226 -> Escola";2;40;12,046000;1342,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;9;nao;nao;nao;nao;"Escola -> Parada 47 -> Escola";1;31;10,254000;1195,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;10;nao;nao;nao;nao;"Escola -> Parada 1154 -> Escola";1;40;9,279000;1354,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;11;nao;nao;nao;nao;"Escola -> Parada 696 -> Escola";1;38;6,365000;910,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;12;nao;nao;nao;nao;"Escola -> Parada 1041 -> Escola";1;31;10,732000;1264,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;13;nao;nao;nao;nao;"Escola -> Parada 4 -> Parada 432 -> Escola";2;36;12,125000;1578,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;14;nao;nao;nao;nao;"Escola -> Parada 174 -> Parada 177 -> Escola";2;36;9,467000;1180,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;15;nao;nao;nao;nao;"Escola -> Parada 1089 -> Parada 253 -> Escola";2;37;12,739000;1637,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;6;6;2967327842;8;16;nao;nao;nao;nao;"Escola -> Parada 131 -> Parada 664 -> Escola";2;29;11,582000;1434,000000;19484,000000;134,381146;140,213477
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;1;nao;nao;nao;nao;"Escola -> Parada 334 -> Parada 861 -> Escola";2;31;11,286000;1532,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;2;nao;nao;nao;nao;"Escola -> Parada 265 -> Parada 317 -> Escola";2;39;12,073000;1335,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;3;nao;nao;nao;nao;"Escola -> Parada 685 -> Parada 1141 -> Parada 927 -> Escola";3;40;12,652000;1612,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;4;sim;sim;nao;nao;"Escola -> Parada 110 -> Escola";1;22;0,792000;103,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;5;nao;nao;nao;nao;"Escola -> Parada 844 -> Escola";1;40;4,043000;799,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;6;nao;nao;nao;nao;"Escola -> Parada 733 -> Escola";1;39;12,289000;1278,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;7;nao;nao;nao;nao;"Escola -> Parada 509 -> Escola";1;36;3,763000;898,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;8;nao;nao;nao;nao;"Escola -> Parada 36 -> Escola";1;39;5,718000;861,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;9;nao;nao;nao;nao;"Escola -> Parada 1112 -> Escola";1;33;11,677000;1461,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;10;nao;nao;nao;nao;"Escola -> Parada 1099 -> Escola";1;27;10,194000;1149,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;11;nao;nao;nao;nao;"Escola -> Parada 904 -> Parada 1001 -> Escola";2;40;11,628000;1455,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;12;nao;nao;nao;nao;"Escola -> Parada 46 -> Escola";1;32;9,461000;1099,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;13;nao;nao;nao;nao;"Escola -> Parada 255 -> Parada 1037 -> Escola";2;40;13,228000;1798,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;14;nao;nao;nao;nao;"Escola -> Parada 2 -> Parada 354 -> Escola";2;39;11,107000;1630,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;15;nao;nao;nao;nao;"Escola -> Parada 1014 -> Escola";1;39;6,812000;1228,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;7;7;2367878886;8;16;nao;nao;nao;nao;"Escola -> Parada 209 -> Parada 664 -> Escola";2;29;12,827000;1511,000000;19749,000000;50,172649;57,233090
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;1;nao;nao;nao;nao;"Escola -> Parada 38 -> Escola";1;32;4,201000;953,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;2;nao;nao;nao;nao;"Escola -> Parada 61 -> Escola";1;38;9,460000;1101,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;3;nao;nao;nao;nao;"Escola -> Parada 321 -> Escola";1;26;13,180000;1393,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;4;nao;nao;nao;nao;"Escola -> Parada 70 -> Escola";1;40;3,439000;741,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;5;sim;nao;nao;nao;"Escola -> Parada 112 -> Escola";1;37;1,858000;244,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;6;nao;nao;nao;nao;"Escola -> Parada 518 -> Escola";1;40;13,672000;1373,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;7;nao;nao;nao;nao;"Escola -> Parada 225 -> Parada 442 -> Escola";2;39;15,616000;1675,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;8;nao;nao;nao;nao;"Escola -> Parada 826 -> Parada 596 -> Escola";2;31;12,973000;1415,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;9;nao;nao;nao;nao;"Escola -> Parada 959 -> Escola";1;39;12,321000;1518,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;10;nao;nao;nao;nao;"Escola -> Parada 671 -> Escola";1;33;8,310000;1270,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;11;nao;nao;nao;nao;"Escola -> Parada 947 -> Parada 507 -> Escola";2;28;9,415000;1190,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;12;nao;nao;nao;nao;"Escola -> Parada 842 -> Escola";1;38;3,763000;897,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;13;nao;nao;nao;nao;"Escola -> Parada 135 -> Parada 482 -> Parada 967 -> Escola";3;40;13,632000;1695,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;14;nao;nao;nao;nao;"Escola -> Parada 500 -> Parada 805 -> Escola";2;37;11,590000;1319,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;15;nao;nao;nao;nao;"Escola -> Parada 617 -> Escola";1;29;5,563000;1115,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;8;8;3088727057;8;16;nao;nao;nao;nao;"Escola -> Parada 745 -> Parada 800 -> Escola";2;38;11,647000;1548,000000;19447,000000;48,443685;54,620394
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;1;nao;nao;nao;nao;"Escola -> Parada 663 -> Escola";1;32;5,087000;790,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;2;nao;nao;nao;nao;"Escola -> Parada 782 -> Escola";1;34;13,596000;1461,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;3;nao;nao;nao;nao;"Escola -> Parada 154 -> Escola";1;29;5,929000;1133,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;4;nao;nao;nao;nao;"Escola -> Parada 559 -> Escola";1;33;8,310000;1270,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;5;nao;nao;nao;nao;"Escola -> Parada 844 -> Escola";1;32;4,043000;799,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;6;nao;nao;nao;nao;"Escola -> Parada 685 -> Parada 1025 -> Escola";2;30;9,539000;1157,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;7;nao;nao;nao;nao;"Escola -> Parada 406 -> Parada 227 -> Escola";2;40;12,879000;1568,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;8;nao;nao;nao;nao;"Escola -> Parada 1099 -> Escola";1;26;10,194000;1149,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;9;nao;nao;nao;nao;"Escola -> Parada 810 -> Escola";1;35;12,431000;1345,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;10;nao;nao;nao;nao;"Escola -> Parada 29 -> Escola";1;40;5,718000;861,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;11;sim;nao;nao;nao;"Escola -> Parada 111 -> Escola";1;25;1,803000;265,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;12;nao;nao;nao;nao;"Escola -> Parada 1089 -> Escola";1;29;12,329000;1519,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;13;nao;nao;nao;nao;"Escola -> Parada 1139 -> Escola";1;37;9,279000;1354,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;14;nao;nao;nao;nao;"Escola -> Parada 624 -> Parada 776 -> Escola";2;40;6,821000;958,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;15;nao;nao;nao;nao;"Escola -> Parada 581 -> Parada 175 -> Parada 925 -> Escola";3;38;11,858000;1336,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;16;nao;nao;nao;nao;"Escola -> Parada 585 -> Parada 1111 -> Escola";2;25;12,960000;1509,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;9;9;3090095699;8;17;nao;nao;nao;nao;"Escola -> Parada 664 -> Escola";1;40;10,760000;1355,000000;19829,000000;73,641338;81,848689
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;1;nao;nao;nao;nao;"Escola -> Parada 81 -> Escola";1;39;4,045000;617,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;2;nao;nao;nao;nao;"Escola -> Parada 1042 -> Escola";1;24;7,068000;939,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;3;nao;nao;nao;nao;"Escola -> Parada 406 -> Parada 207 -> Escola";2;29;11,484000;1383,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;4;nao;nao;nao;nao;"Escola -> Parada 1122 -> Escola";1;37;11,321000;1598,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;5;nao;nao;nao;nao;"Escola -> Parada 227 -> Escola";1;31;12,455000;1375,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;6;sim;nao;nao;nao;"Escola -> Parada 167 -> Escola";1;31;1,998000;391,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;7;nao;nao;nao;nao;"Escola -> Parada 1186 -> Escola";1;33;4,201000;954,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;8;nao;nao;nao;nao;"Escola -> Parada 1165 -> Parada 470 -> Escola";2;38;14,400000;1662,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;9;nao;nao;nao;nao;"Escola -> Parada 469 -> Escola";1;40;10,766000;1355,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;10;nao;nao;nao;nao;"Escola -> Parada 572 -> Parada 555 -> Escola";2;40;13,822000;1656,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;11;nao;nao;nao;nao;"Escola -> Parada 789 -> Escola";1;36;8,257000;1284,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;12;nao;nao;nao;nao;"Escola -> Parada 695 -> Parada 62 -> Parada 63 -> Escola";3;38;13,461000;1504,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;13;nao;nao;nao;nao;"Escola -> Parada 544 -> Escola";1;39;3,764000;896,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;14;nao;nao;nao;nao;"Escola -> Parada 981 -> Parada 371 -> Escola";2;33;13,504000;1467,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;15;nao;nao;nao;nao;"Escola -> Parada 354 -> Escola";1;37;5,813000;1078,000000;19513,000000;45,326184;54,078065
+Adelaide;.\data\Adelaide.bus;10;10;2109339754;8;16;nao;nao;nao;nao;"Escola -> Parada 497 -> Parada 865 -> Escola";2;40;11,901000;1354,000000;19513,000000;45,326184;54,078065
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;1;sim;nao;nao;nao;"Escola -> Parada 614 -> Parada 546 -> Escola";2;36;23,021000;2110,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;2;nao;nao;nao;nao;"Escola -> Parada 164 -> Parada 328 -> Escola";2;39;23,859000;2351,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;3;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;4;nao;nao;nao;nao;"Escola -> Parada 276 -> Parada 334 -> Parada 20 -> Escola";3;39;41,794000;3288,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;5;nao;nao;nao;nao;"Escola -> Parada 232 -> Escola";1;35;25,898000;2261,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;6;nao;nao;nao;nao;"Escola -> Parada 253 -> Parada 223 -> Parada 390 -> Parada 290 -> Parada 399 -> Parada 576 -> Escola";6;40;39,657000;3629,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;7;nao;nao;nao;nao;"Escola -> Parada 406 -> Escola";1;41;23,818000;2297,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;8;nao;nao;nao;nao;"Escola -> Parada 382 -> Parada 431 -> Escola";2;36;39,759000;2961,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;9;nao;nao;nao;nao;"Escola -> Parada 566 -> Parada 344 -> Escola";2;40;24,862000;2158,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;11;1;1817228411;8;10;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;25320,000000;20,321210;22,263216
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;1;nao;nao;nao;nao;"Escola -> Parada 211 -> Escola";1;37;23,698000;2007,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;2;nao;nao;nao;nao;"Escola -> Parada 606 -> Escola";1;29;20,845000;1933,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;3;nao;nao;nao;nao;"Escola -> Parada 608 -> Parada 535 -> Escola";2;39;40,312000;3180,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;4;nao;nao;nao;nao;"Escola -> Parada 74 -> Parada 216 -> Parada 183 -> Escola";3;36;40,177000;3210,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;5;sim;nao;nao;nao;"Escola -> Parada 188 -> Escola";1;25;15,065000;1341,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;6;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;7;nao;nao;nao;nao;"Escola -> Parada 254 -> Parada 506 -> Parada 362 -> Parada 81 -> Parada 323 -> Escola";5;40;39,305000;3670,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;8;nao;nao;nao;nao;"Escola -> Parada 424 -> Escola";1;41;23,458000;2194,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;9;nao;nao;nao;nao;"Escola -> Parada 360 -> Escola";1;35;25,007000;2150,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;10;nao;nao;nao;nao;"Escola -> Parada 288 -> Escola";1;39;24,479000;2146,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;12;2;3350193721;8;11;nao;nao;nao;nao;"Escola -> Parada 583 -> Parada 260 -> Parada 108 -> Parada 440 -> Escola";4;24;27,119000;2877,000000;26898,000000;19,479813;21,258667
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;1;nao;nao;nao;nao;"Escola -> Parada 38 -> Parada 324 -> Escola";2;39;31,077000;2875,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;2;sim;nao;nao;nao;"Escola -> Parada 558 -> Parada 614 -> Escola";2;33;20,356000;1856,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;3;nao;nao;nao;nao;"Escola -> Parada 282 -> Parada 506 -> Escola";2;34;27,432000;2483,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;4;nao;nao;nao;nao;"Escola -> Parada 211 -> Escola";1;37;23,698000;2007,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;5;nao;nao;nao;nao;"Escola -> Parada 157 -> Parada 41 -> Parada 390 -> Parada 413 -> Escola";4;26;32,274000;3103,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;6;nao;nao;nao;nao;"Escola -> Parada 209 -> Parada 499 -> Parada 455 -> Parada 20 -> Escola";4;39;44,800000;3703,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;7;nao;nao;nao;nao;"Escola -> Parada 556 -> Parada 149 -> Escola";2;29;31,328000;2838,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;8;nao;nao;nao;nao;"Escola -> Parada 108 -> Parada 441 -> Escola";2;28;20,458000;1893,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;9;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;10;nao;nao;nao;nao;"Escola -> Parada 424 -> Escola";1;41;23,458000;2194,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;13;3;4212350166;8;11;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;27217,000000;22,053401;23,975806
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;1;sim;nao;nao;sim;"Escola -> Parada 556 -> Escola";1;40;21,975000;2095,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;2;nao;nao;nao;sim;"Escola -> Parada 149 -> Parada 512 -> Parada 157 -> Escola";3;39;38,951000;2990,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;3;nao;nao;nao;sim;"Escola -> Parada 284 -> Parada 190 -> Escola";2;40;43,450000;2835,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;4;nao;nao;nao;sim;"Escola -> Parada 390 -> Parada 290 -> Parada 505 -> Parada 224 -> Parada 412 -> Escola";5;40;38,803000;3524,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;5;nao;nao;nao;sim;"Escola -> Parada 272 -> Escola";1;40;23,326000;2190,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;6;nao;nao;nao;sim;"Escola -> Parada 361 -> Escola";1;38;25,677000;2230,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;7;nao;nao;nao;sim;"Escola -> Parada 211 -> Escola";1;34;23,698000;2007,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;8;nao;nao;nao;sim;"Escola -> Parada 406 -> Escola";1;41;23,818000;2297,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;9;nao;nao;nao;sim;"Escola -> Parada 288 -> Escola";1;39;24,479000;2146,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;14;4;1764906721;8;10;nao;nao;nao;sim;"Escola -> Parada 143 -> Parada 259 -> Parada 317 -> Parada 584 -> Parada 107 -> Parada 176 -> Escola";6;30;25,900000;2685,000000;24999,000000;48,209464;50,528053
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;1;nao;nao;nao;nao;"Escola -> Parada 76 -> Escola";1;40;25,029000;2174,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;2;nao;nao;nao;nao;"Escola -> Parada 93 -> Parada 315 -> Parada 525 -> Parada 219 -> Escola";4;39;49,398000;3405,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;3;nao;nao;nao;nao;"Escola -> Parada 429 -> Parada 150 -> Escola";2;39;33,972000;2814,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;4;nao;nao;nao;nao;"Escola -> Parada 439 -> Parada 31 -> Parada 546 -> Escola";3;35;24,684000;2424,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;5;sim;nao;nao;nao;"Escola -> Parada 34 -> Escola";1;40;21,865000;2059,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;6;nao;nao;nao;nao;"Escola -> Parada 362 -> Parada 196 -> Parada 476 -> Parada 224 -> Parada 267 -> Escola";5;40;38,791000;3522,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;7;nao;nao;nao;nao;"Escola -> Parada 360 -> Escola";1;32;25,007000;2150,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;8;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;9;nao;nao;nao;nao;"Escola -> Parada 406 -> Escola";1;41;23,818000;2297,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;15;5;2941321312;8;10;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;25110,000000;49,986082;53,122962
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;1;nao;nao;nao;nao;"Escola -> Parada 449 -> Parada 334 -> Parada 373 -> Parada 143 -> Escola";4;38;41,469000;3304,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;2;nao;nao;nao;nao;"Escola -> Parada 606 -> Escola";1;29;20,845000;1933,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;3;nao;nao;nao;nao;"Escola -> Parada 506 -> Parada 528 -> Parada 318 -> Parada 261 -> Escola";4;34;40,134000;3660,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;4;nao;nao;nao;nao;"Escola -> Parada 421 -> Parada 346 -> Parada 328 -> Escola";3;36;46,247000;3945,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;5;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;6;sim;nao;nao;nao;"Escola -> Parada 188 -> Parada 36 -> Escola";2;31;17,001000;1435,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;7;nao;nao;nao;nao;"Escola -> Parada 424 -> Escola";1;41;23,458000;2194,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;8;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;9;nao;nao;nao;nao;"Escola -> Parada 494 -> Parada 211 -> Escola";2;39;24,141000;2177,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;10;nao;nao;nao;nao;"Escola -> Parada 360 -> Escola";1;35;25,007000;2150,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;16;6;2489768049;8;11;nao;nao;nao;nao;"Escola -> Parada 121 -> Parada 584 -> Parada 91 -> Escola";3;23;21,068000;1954,000000;27017,000000;73,666907;76,611079
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;1;nao;nao;nao;nao;"Escola -> Parada 443 -> Parada 21 -> Parada 143 -> Escola";3;39;34,850000;3238,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;2;nao;nao;nao;nao;"Escola -> Parada 606 -> Escola";1;29;20,845000;1933,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;3;nao;nao;nao;nao;"Escola -> Parada 609 -> Parada 553 -> Escola";2;24;24,524000;2282,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;4;nao;nao;nao;nao;"Escola -> Parada 285 -> Escola";1;37;25,485000;2220,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;5;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;36;23,326000;2190,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;6;nao;nao;nao;nao;"Escola -> Parada 424 -> Escola";1;41;23,458000;2194,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;7;nao;nao;nao;nao;"Escola -> Parada 149 -> Parada 624 -> Escola";2;34;38,025000;2675,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;8;nao;nao;nao;nao;"Escola -> Parada 360 -> Parada 73 -> Escola";2;39;25,509000;2333,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;9;sim;nao;nao;nao;"Escola -> Parada 611 -> Parada 189 -> Parada 238 -> Escola";3;29;15,841000;1474,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;10;nao;nao;nao;nao;"Escola -> Parada 288 -> Escola";1;39;24,479000;2146,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;17;7;2065586814;8;11;nao;nao;nao;nao;"Escola -> Parada 505 -> Parada 196 -> Parada 362 -> Parada 323 -> Escola";4;34;38,544000;3464,000000;26149,000000;22,174094;24,349532
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;1;sim;nao;nao;nao;"Escola -> Parada 556 -> Escola";1;40;21,975000;2095,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;2;nao;nao;nao;nao;"Escola -> Parada 144 -> Parada 20 -> Parada 189 -> Parada 299 -> Escola";4;37;33,624000;2733,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;3;nao;nao;nao;nao;"Escola -> Parada 506 -> Parada 395 -> Parada 291 -> Parada 323 -> Parada 388 -> Escola";5;40;38,478000;3456,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;4;nao;nao;nao;nao;"Escola -> Parada 359 -> Escola";1;38;25,677000;2230,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;5;nao;nao;nao;nao;"Escola -> Parada 409 -> Parada 535 -> Escola";2;37;44,645000;2907,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;6;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;40;23,326000;2190,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;7;nao;nao;nao;nao;"Escola -> Parada 91 -> Parada 107 -> Parada 150 -> Escola";3;35;34,161000;2903,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;8;nao;nao;nao;nao;"Escola -> Parada 211 -> Escola";1;34;23,698000;2007,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;9;nao;nao;nao;nao;"Escola -> Parada 406 -> Escola";1;41;23,818000;2297,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;18;8;601083951;8;10;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;24893,000000;50,181426;51,932076
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;1;nao;nao;nao;nao;"Escola -> Parada 135 -> Parada 238 -> Escola";2;40;27,162000;2505,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;2;nao;nao;nao;nao;"Escola -> Parada 167 -> Parada 544 -> Parada 216 -> Escola";3;39;45,447000;3076,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;3;nao;nao;nao;nao;"Escola -> Parada 431 -> Parada 191 -> Parada 20 -> Escola";3;39;34,635000;3099,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;4;sim;nao;nao;nao;"Escola -> Parada 614 -> Escola";1;34;20,357000;1856,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;5;nao;nao;nao;nao;"Escola -> Parada 55 -> Parada 270 -> Parada 291 -> Parada 80 -> Escola";4;39;44,382000;4220,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;6;nao;nao;nao;nao;"Escola -> Parada 396 -> Escola";1;46;23,947000;2263,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;7;nao;nao;nao;nao;"Escola -> Parada 360 -> Escola";1;38;25,007000;2150,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;8;nao;nao;nao;nao;"Escola -> Parada 577 -> Escola";1;32;24,763000;2117,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;9;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;38;23,326000;2190,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;19;9;1684131913;8;10;nao;nao;nao;nao;"Escola -> Parada 303 -> Parada 506 -> Parada 323 -> Escola";3;36;36,882000;3484,000000;26960,000000;39,562148;41,963619
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;1;sim;nao;nao;nao;"Escola -> Parada 556 -> Escola";1;40;21,975000;2095,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;2;nao;nao;nao;nao;"Escola -> Parada 598 -> Parada 384 -> Escola";2;35;46,011000;3122,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;3;nao;nao;nao;nao;"Escola -> Parada 304 -> Parada 164 -> Parada 476 -> Escola";3;35;37,740000;3599,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;4;nao;nao;nao;nao;"Escola -> Parada 199 -> Escola";1;35;25,830000;2250,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;5;nao;nao;nao;nao;"Escola -> Parada 62 -> Escola";1;37;24,883000;2160,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;6;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;40;23,326000;2190,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;7;nao;nao;nao;nao;"Escola -> Parada 273 -> Parada 131 -> Parada 586 -> Parada 324 -> Parada 388 -> Escola";5;39;33,709000;3242,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;8;nao;nao;nao;nao;"Escola -> Parada 406 -> Escola";1;41;23,818000;2297,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;9;nao;nao;nao;nao;"Escola -> Parada 289 -> Escola";1;39;24,347000;2075,000000;26399,000000;29,029377;31,837305
+Bridgend;.\data\Bridgend.bus;20;10;1722357280;8;10;nao;nao;nao;nao;"Escola -> Parada 121 -> Parada 21 -> Parada 20 -> Escola";3;40;35,557000;3369,000000;26399,000000;29,029377;31,837305
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;1;nao;nao;nao;nao;"Escola -> Parada 1295 -> Parada 1747 -> Escola";2;26;14,792000;1615,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;2;nao;nao;nao;nao;"Escola -> Parada 477 -> Escola";1;31;12,512000;1537,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;3;nao;nao;nao;nao;"Escola -> Parada 173 -> Escola";1;37;10,408000;1033,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;4;nao;nao;nao;nao;"Escola -> Parada 612 -> Escola";1;23;18,715000;1649,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;5;nao;nao;nao;nao;"Escola -> Parada 799 -> Escola";1;37;9,541000;1176,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;6;sim;nao;nao;nao;"Escola -> Parada 286 -> Escola";1;29;6,064000;733,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;7;nao;nao;nao;nao;"Escola -> Parada 1143 -> Escola";1;34;14,967000;1699,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;8;nao;nao;nao;nao;"Escola -> Parada 1692 -> Escola";1;38;12,780000;1316,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;9;nao;nao;nao;nao;"Escola -> Parada 1386 -> Parada 745 -> Escola";2;37;24,784000;2134,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;10;nao;nao;nao;nao;"Escola -> Parada 1620 -> Escola";1;37;13,832000;1526,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;11;nao;nao;nao;nao;"Escola -> Parada 1795 -> Escola";1;33;11,776000;1366,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;12;nao;nao;nao;nao;"Escola -> Parada 488 -> Escola";1;37;12,608000;1474,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;13;nao;nao;nao;nao;"Escola -> Parada 888 -> Escola";1;37;10,802000;1176,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;14;nao;nao;nao;nao;"Escola -> Parada 740 -> Escola";1;35;13,471000;1456,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;15;nao;nao;nao;nao;"Escola -> Parada 443 -> Parada 877 -> Escola";2;36;13,578000;1698,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;16;nao;nao;nao;nao;"Escola -> Parada 1681 -> Escola";1;39;22,382000;2291,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;17;nao;nao;nao;nao;"Escola -> Parada 1098 -> Parada 1038 -> Escola";2;39;16,588000;1819,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;18;nao;nao;nao;nao;"Escola -> Parada 670 -> Escola";1;40;13,144000;1403,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;19;nao;nao;nao;nao;"Escola -> Parada 1643 -> Escola";1;40;22,956000;2045,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;20;nao;nao;nao;nao;"Escola -> Parada 1505 -> Escola";1;27;8,042000;956,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;21;nao;nao;nao;nao;"Escola -> Parada 1377 -> Escola";1;27;18,638000;1880,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;21;1;1473938350;8;22;nao;nao;nao;nao;"Escola -> Parada 1048 -> Parada 616 -> Escola";2;38;19,651000;1919,000000;33901,000000;85,628433;103,458019
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;1;nao;nao;nao;nao;"Escola -> Parada 743 -> Escola";1;37;11,928000;1247,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;2;nao;nao;nao;nao;"Escola -> Parada 1506 -> Escola";1;27;7,112000;849,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;3;nao;nao;nao;nao;"Escola -> Parada 281 -> Escola";1;27;7,060000;969,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;4;nao;nao;nao;nao;"Escola -> Parada 1749 -> Parada 1281 -> Escola";2;26;11,799000;1396,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;5;sim;nao;nao;nao;"Escola -> Parada 326 -> Escola";1;27;6,355000;765,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;6;nao;nao;nao;nao;"Escola -> Parada 427 -> Escola";1;38;10,187000;1217,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;7;nao;nao;nao;nao;"Escola -> Parada 231 -> Escola";1;34;14,116000;1518,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;8;nao;nao;nao;nao;"Escola -> Parada 616 -> Parada 624 -> Escola";2;38;19,708000;1768,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;9;nao;nao;nao;nao;"Escola -> Parada 848 -> Escola";1;39;12,369000;1355,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;10;nao;nao;nao;nao;"Escola -> Parada 258 -> Escola";1;35;11,927000;1300,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;11;nao;nao;nao;nao;"Escola -> Parada 1123 -> Escola";1;38;15,785000;1682,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;12;nao;nao;nao;nao;"Escola -> Parada 1046 -> Escola";1;38;11,380000;1304,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;13;nao;nao;nao;nao;"Escola -> Parada 1643 -> Escola";1;40;22,956000;2045,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;14;nao;nao;nao;nao;"Escola -> Parada 699 -> Escola";1;35;12,954000;1376,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;15;nao;nao;nao;nao;"Escola -> Parada 1743 -> Escola";1;22;7,639000;933,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;16;nao;nao;nao;nao;"Escola -> Parada 476 -> Escola";1;38;12,314000;1491,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;17;nao;nao;nao;nao;"Escola -> Parada 914 -> Escola";1;38;9,064000;1044,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;18;nao;nao;nao;nao;"Escola -> Parada 1156 -> Escola";1;26;14,291000;1598,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;19;nao;nao;nao;nao;"Escola -> Parada 741 -> Escola";1;39;13,221000;1384,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;20;nao;nao;nao;nao;"Escola -> Parada 1371 -> Parada 604 -> Escola";2;36;22,347000;2236,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;21;nao;nao;nao;nao;"Escola -> Parada 594 -> Parada 1392 -> Escola";2;39;23,999000;2015,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;22;2;2694306016;8;22;nao;nao;nao;nao;"Escola -> Parada 606 -> Parada 1377 -> Escola";2;40;19,690000;1933,000000;31425,000000;129,785597;142,290952
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;1;nao;nao;nao;nao;"Escola -> Parada 407 -> Parada 728 -> Escola";2;37;20,512000;1962,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;2;nao;nao;nao;nao;"Escola -> Parada 88 -> Escola";1;32;10,672000;1114,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;3;nao;nao;nao;nao;"Escola -> Parada 1609 -> Escola";1;29;8,064000;931,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;4;nao;nao;nao;nao;"Escola -> Parada 931 -> Escola";1;39;13,138000;1509,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;5;nao;nao;nao;nao;"Escola -> Parada 446 -> Escola";1;21;10,630000;1282,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;6;nao;nao;nao;nao;"Escola -> Parada 1097 -> Escola";1;38;15,301000;1653,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;7;nao;nao;nao;nao;"Escola -> Parada 1395 -> Escola";1;33;25,339000;2115,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;8;nao;nao;nao;nao;"Escola -> Parada 1539 -> Parada 918 -> Escola";2;40;17,652000;1985,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;9;nao;nao;nao;nao;"Escola -> Parada 1067 -> Escola";1;30;13,849000;1599,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;10;nao;nao;nao;nao;"Escola -> Parada 442 -> Escola";1;31;11,626000;1388,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;11;nao;nao;nao;nao;"Escola -> Parada 534 -> Escola";1;40;12,391000;1546,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;12;nao;nao;nao;nao;"Escola -> Parada 340 -> Escola";1;35;7,709000;875,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;13;nao;nao;nao;nao;"Escola -> Parada 717 -> Escola";1;37;12,399000;1275,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;14;nao;nao;nao;nao;"Escola -> Parada 1616 -> Parada 347 -> Escola";2;40;13,371000;1177,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;15;nao;nao;nao;nao;"Escola -> Parada 1575 -> Escola";1;40;14,521000;1596,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;16;nao;nao;nao;nao;"Escola -> Parada 1024 -> Escola";1;32;12,003000;1339,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;17;nao;nao;nao;nao;"Escola -> Parada 1452 -> Parada 1249 -> Escola";2;26;13,441000;1592,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;18;sim;nao;nao;nao;"Escola -> Parada 290 -> Escola";1;30;6,782000;825,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;19;nao;nao;nao;nao;"Escola -> Parada 646 -> Parada 623 -> Escola";2;38;19,600000;1743,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;20;nao;nao;nao;nao;"Escola -> Parada 1371 -> Escola";1;34;22,348000;2236,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;21;nao;nao;nao;nao;"Escola -> Parada 1385 -> Parada 611 -> Escola";2;36;23,831000;1989,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;23;3;3131244655;8;22;nao;nao;nao;nao;"Escola -> Parada 1408 -> Parada 1377 -> Escola";2;39;20,891000;2076,000000;33807,000000;82,638345;93,916784
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;1;nao;nao;nao;nao;"Escola -> Parada 1508 -> Escola";1;26;12,479000;1371,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;2;nao;nao;nao;nao;"Escola -> Parada 881 -> Parada 328 -> Escola";2;40;8,218000;984,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;3;nao;nao;nao;nao;"Escola -> Parada 742 -> Escola";1;39;13,033000;1339,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;4;nao;nao;nao;nao;"Escola -> Parada 873 -> Escola";1;38;10,361000;1231,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;5;nao;nao;nao;nao;"Escola -> Parada 701 -> Escola";1;35;12,954000;1376,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;6;nao;nao;nao;nao;"Escola -> Parada 269 -> Escola";1;37;11,208000;1176,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;7;nao;nao;nao;nao;"Escola -> Parada 1347 -> Escola";1;33;12,933000;1373,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;8;nao;nao;nao;nao;"Escola -> Parada 1406 -> Parada 891 -> Escola";2;28;20,890000;2105,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;9;nao;nao;nao;nao;"Escola -> Parada 913 -> Escola";1;39;9,026000;1040,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;10;nao;nao;nao;nao;"Escola -> Parada 453 -> Escola";1;30;11,769000;1456,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;11;nao;nao;nao;nao;"Escola -> Parada 1609 -> Parada 1807 -> Escola";2;32;11,387000;1379,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;12;nao;nao;nao;nao;"Escola -> Parada 743 -> Escola";1;32;11,928000;1247,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;13;nao;nao;nao;nao;"Escola -> Parada 438 -> Escola";1;39;12,757000;1487,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;14;sim;nao;nao;nao;"Escola -> Parada 1616 -> Escola";1;21;6,292000;670,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;15;nao;nao;nao;nao;"Escola -> Parada 1020 -> Escola";1;24;11,348000;1302,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;16;nao;nao;nao;nao;"Escola -> Parada 1139 -> Escola";1;38;13,735000;1552,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;17;nao;nao;nao;nao;"Escola -> Parada 1119 -> Escola";1;38;16,261000;1753,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;18;nao;nao;nao;nao;"Escola -> Parada 1415 -> Escola";1;37;23,546000;2146,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;19;nao;nao;nao;nao;"Escola -> Parada 612 -> Parada 609 -> Parada 1408 -> Escola";3;39;22,301000;1991,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;20;nao;nao;nao;nao;"Escola -> Parada 1371 -> Escola";1;34;22,348000;2236,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;21;nao;nao;nao;nao;"Escola -> Parada 1071 -> Parada 1676 -> Parada 1749 -> Escola";3;40;20,606000;1927,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;24;4;1392217497;8;22;nao;nao;nao;nao;"Escola -> Parada 1667 -> Parada 645 -> Parada 1377 -> Escola";3;38;23,125000;2325,000000;33466,000000;154,736033;168,486323
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;1;nao;nao;nao;sim;"Escola -> Parada 1756 -> Parada 1321 -> Escola";2;26;13,186000;1436,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;2;nao;nao;nao;sim;"Escola -> Parada 1139 -> Escola";1;39;13,735000;1552,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;3;sim;nao;nao;sim;"Escola -> Parada 323 -> Escola";1;29;6,185000;747,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;4;nao;nao;nao;sim;"Escola -> Parada 1216 -> Escola";1;28;13,092000;1521,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;5;nao;nao;nao;sim;"Escola -> Parada 415 -> Escola";1;40;9,026000;1113,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;6;nao;nao;nao;sim;"Escola -> Parada 705 -> Escola";1;34;13,670000;1504,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;7;nao;nao;nao;sim;"Escola -> Parada 478 -> Parada 454 -> Escola";2;40;13,003000;1658,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;8;nao;nao;nao;sim;"Escola -> Parada 739 -> Escola";1;33;10,940000;1260,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;9;nao;nao;nao;sim;"Escola -> Parada 1681 -> Escola";1;39;22,382000;2291,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;10;nao;nao;nao;sim;"Escola -> Parada 188 -> Escola";1;30;9,202000;1010,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;11;nao;nao;nao;sim;"Escola -> Parada 514 -> Parada 421 -> Escola";2;38;12,787000;1564,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;12;nao;nao;nao;sim;"Escola -> Parada 1035 -> Parada 1081 -> Escola";2;35;14,995000;1685,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;13;nao;nao;nao;sim;"Escola -> Parada 1391 -> Escola";1;36;23,933000;1995,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;14;nao;nao;nao;sim;"Escola -> Parada 808 -> Escola";1;31;8,363000;944,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;15;nao;nao;nao;sim;"Escola -> Parada 1506 -> Escola";1;27;7,112000;849,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;16;nao;nao;nao;sim;"Escola -> Parada 253 -> Parada 273 -> Escola";2;39;12,399000;1368,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;17;nao;nao;nao;sim;"Escola -> Parada 1381 -> Escola";1;40;19,252000;1896,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;18;nao;nao;nao;sim;"Escola -> Parada 1525 -> Escola";1;40;12,821000;1377,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;19;nao;nao;nao;sim;"Escola -> Parada 723 -> Escola";1;29;12,476000;1412,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;20;nao;nao;nao;sim;"Escola -> Parada 1613 -> Escola";1;28;7,232000;844,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;21;nao;nao;nao;sim;"Escola -> Parada 1763 -> Escola";1;38;21,326000;1841,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;25;5;1883653459;8;22;nao;nao;nao;sim;"Escola -> Parada 624 -> Parada 616 -> Escola";2;38;19,103000;1879,000000;31746,000000;202,064999;213,830615
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;1;nao;nao;nao;nao;"Escola -> Parada 1019 -> Escola";1;30;11,937000;1351,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;2;nao;nao;nao;nao;"Escola -> Parada 598 -> Escola";1;38;20,181000;1752,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;3;nao;nao;nao;nao;"Escola -> Parada 1767 -> Parada 1684 -> Parada 1756 -> Escola";3;26;11,212000;1276,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;4;nao;nao;nao;nao;"Escola -> Parada 1609 -> Escola";1;29;8,064000;931,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;5;nao;nao;nao;nao;"Escola -> Parada 249 -> Escola";1;36;10,805000;1102,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;6;nao;nao;nao;nao;"Escola -> Parada 739 -> Escola";1;32;10,940000;1260,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;7;nao;nao;nao;nao;"Escola -> Parada 1065 -> Escola";1;32;13,644000;1541,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;8;nao;nao;nao;nao;"Escola -> Parada 737 -> Escola";1;37;12,805000;1311,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;9;nao;nao;nao;nao;"Escola -> Parada 272 -> Escola";1;12;12,152000;1195,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;10;nao;nao;nao;nao;"Escola -> Parada 327 -> Escola";1;40;6,647000;793,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;11;nao;nao;nao;nao;"Escola -> Parada 233 -> Escola";1;39;11,759000;1235,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;12;nao;nao;nao;nao;"Escola -> Parada 173 -> Escola";1;38;10,408000;1033,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;13;nao;nao;nao;nao;"Escola -> Parada 1087 -> Escola";1;38;15,177000;1645,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;14;nao;nao;nao;nao;"Escola -> Parada 1425 -> Parada 1375 -> Escola";2;40;22,311000;2290,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;15;nao;nao;nao;nao;"Escola -> Parada 288 -> Parada 481 -> Escola";2;36;8,989000;1153,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;16;nao;nao;nao;nao;"Escola -> Parada 1409 -> Escola";1;37;25,277000;2115,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;17;nao;nao;nao;nao;"Escola -> Parada 430 -> Escola";1;40;11,145000;1315,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;18;nao;nao;nao;nao;"Escola -> Parada 1048 -> Parada 617 -> Escola";2;38;20,403000;2033,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;19;sim;nao;nao;nao;"Escola -> Parada 1616 -> Escola";1;23;6,292000;670,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;20;nao;nao;nao;nao;"Escola -> Parada 516 -> Escola";1;39;13,047000;1548,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;21;nao;nao;nao;nao;"Escola -> Parada 1422 -> Parada 1372 -> Escola";2;38;23,951000;2398,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;26;6;1051233102;8;22;nao;nao;nao;nao;"Escola -> Parada 697 -> Escola";1;39;13,594000;1474,000000;31421,000000;115,642198;129,166589
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;1;nao;nao;nao;nao;"Escola -> Parada 321 -> Parada 365 -> Escola";2;34;8,541000;1007,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;2;nao;nao;nao;nao;"Escola -> Parada 915 -> Escola";1;38;8,799000;1044,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;3;nao;nao;nao;nao;"Escola -> Parada 1505 -> Escola";1;27;8,042000;956,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;4;nao;nao;nao;nao;"Escola -> Parada 808 -> Escola";1;34;8,363000;944,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;5;nao;nao;nao;nao;"Escola -> Parada 1641 -> Escola";1;34;21,040000;1818,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;6;nao;nao;nao;nao;"Escola -> Parada 1383 -> Escola";1;36;19,796000;1958,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;7;nao;nao;nao;nao;"Escola -> Parada 515 -> Escola";1;37;12,609000;1513,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;8;nao;nao;nao;nao;"Escola -> Parada 1028 -> Parada 1187 -> Escola";2;40;16,498000;1794,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;9;nao;nao;nao;nao;"Escola -> Parada 1626 -> Escola";1;28;13,391000;1448,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;10;sim;nao;nao;nao;"Escola -> Parada 339 -> Escola";1;34;7,688000;924,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;11;nao;nao;nao;nao;"Escola -> Parada 188 -> Escola";1;24;9,202000;1010,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;12;nao;nao;nao;nao;"Escola -> Parada 238 -> Escola";1;37;11,443000;1203,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;13;nao;nao;nao;nao;"Escola -> Parada 1371 -> Escola";1;34;22,348000;2236,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;14;nao;nao;nao;nao;"Escola -> Parada 931 -> Escola";1;26;13,138000;1509,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;15;nao;nao;nao;nao;"Escola -> Parada 1105 -> Escola";1;35;17,181000;1902,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;16;nao;nao;nao;nao;"Escola -> Parada 1623 -> Escola";1;35;12,888000;1358,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;17;nao;nao;nao;nao;"Escola -> Parada 440 -> Escola";1;40;12,016000;1433,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;18;nao;nao;nao;nao;"Escola -> Parada 1045 -> Escola";1;35;10,844000;1271,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;19;nao;nao;nao;nao;"Escola -> Parada 1509 -> Escola";1;37;12,829000;1415,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;20;nao;nao;nao;nao;"Escola -> Parada 1754 -> Parada 1478 -> Parada 574 -> Parada 928 -> Escola";4;38;26,260000;2948,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;21;nao;nao;nao;nao;"Escola -> Parada 1391 -> Escola";1;36;23,933000;1995,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;27;7;256314621;8;22;nao;nao;nao;nao;"Escola -> Parada 624 -> Parada 616 -> Escola";2;38;19,103000;1879,000000;33565,000000;117,213901;128,706739
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;1;nao;nao;nao;nao;"Escola -> Parada 819 -> Escola";1;40;13,723000;1579,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;2;nao;nao;nao;nao;"Escola -> Parada 1506 -> Parada 1038 -> Escola";2;40;10,466000;1250,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;3;nao;nao;nao;nao;"Escola -> Parada 364 -> Escola";1;21;7,363000;880,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;4;nao;nao;nao;nao;"Escola -> Parada 710 -> Escola";1;32;11,461000;1172,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;5;nao;nao;nao;nao;"Escola -> Parada 1076 -> Escola";1;34;14,588000;1659,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;6;nao;nao;nao;nao;"Escola -> Parada 1507 -> Escola";1;33;12,435000;1365,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;7;nao;nao;nao;nao;"Escola -> Parada 179 -> Escola";1;31;11,862000;1031,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;8;nao;nao;nao;nao;"Escola -> Parada 1136 -> Escola";1;29;13,967000;1580,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;9;nao;nao;nao;nao;"Escola -> Parada 808 -> Escola";1;39;8,363000;944,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;10;nao;nao;nao;nao;"Escola -> Parada 1082 -> Escola";1;34;15,554000;1745,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;11;sim;nao;nao;nao;"Escola -> Parada 1596 -> Escola";1;36;7,041000;828,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;12;nao;nao;nao;nao;"Escola -> Parada 1377 -> Escola";1;27;18,638000;1880,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;13;nao;nao;nao;nao;"Escola -> Parada 909 -> Escola";1;37;8,783000;955,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;14;nao;nao;nao;nao;"Escola -> Parada 1365 -> Parada 728 -> Escola";2;33;21,482000;2149,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;15;nao;nao;nao;nao;"Escola -> Parada 1242 -> Parada 397 -> Escola";2;26;10,693000;1178,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;16;nao;nao;nao;nao;"Escola -> Parada 931 -> Escola";1;39;13,138000;1509,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;17;nao;nao;nao;nao;"Escola -> Parada 476 -> Escola";1;40;12,314000;1491,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;18;nao;nao;nao;nao;"Escola -> Parada 1528 -> Escola";1;38;10,993000;1135,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;19;nao;nao;nao;nao;"Escola -> Parada 1415 -> Escola";1;39;23,546000;2146,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;20;nao;nao;nao;nao;"Escola -> Parada 605 -> Parada 593 -> Parada 652 -> Escola";3;33;18,187000;1932,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;21;nao;nao;nao;nao;"Escola -> Parada 1686 -> Escola";1;39;21,704000;2179,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;28;8;2983950756;8;22;nao;nao;nao;nao;"Escola -> Parada 645 -> Parada 1071 -> Escola";2;37;19,600000;1742,000000;32329,000000;248,427934;265,616934
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;1;nao;nao;nao;nao;"Escola -> Parada 197 -> Parada 538 -> Escola";2;37;16,879000;1945,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;2;nao;nao;nao;nao;"Escola -> Parada 1505 -> Escola";1;29;8,042000;956,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;3;nao;nao;nao;nao;"Escola -> Parada 1020 -> Escola";1;36;11,348000;1302,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;4;nao;nao;nao;nao;"Escola -> Parada 703 -> Escola";1;37;13,397000;1458,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;5;nao;nao;nao;nao;"Escola -> Parada 1029 -> Escola";1;34;14,056000;1557,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;6;nao;nao;nao;nao;"Escola -> Parada 353 -> Escola";1;40;7,243000;901,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;7;nao;nao;nao;nao;"Escola -> Parada 897 -> Escola";1;36;10,541000;1069,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;8;nao;nao;nao;nao;"Escola -> Parada 503 -> Parada 602 -> Escola";2;40;25,646000;2326,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;9;nao;nao;nao;nao;"Escola -> Parada 745 -> Escola";1;39;12,704000;1295,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;10;nao;nao;nao;nao;"Escola -> Parada 407 -> Escola";1;24;22,275000;1775,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;11;sim;nao;nao;nao;"Escola -> Parada 293 -> Escola";1;28;7,226000;879,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;12;nao;nao;nao;nao;"Escola -> Parada 1098 -> Escola";1;30;16,589000;1819,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;13;nao;nao;nao;nao;"Escola -> Parada 1391 -> Escola";1;40;23,933000;1995,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;14;nao;nao;nao;nao;"Escola -> Parada 1248 -> Parada 1756 -> Escola";2;26;11,806000;1341,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;15;nao;nao;nao;nao;"Escola -> Parada 532 -> Escola";1;39;12,205000;1512,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;16;nao;nao;nao;nao;"Escola -> Parada 1528 -> Escola";1;40;10,993000;1135,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;17;nao;nao;nao;nao;"Escola -> Parada 841 -> Escola";1;20;8,548000;985,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;18;nao;nao;nao;nao;"Escola -> Parada 742 -> Escola";1;39;13,033000;1339,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;19;nao;nao;nao;nao;"Escola -> Parada 1376 -> Escola";1;27;19,502000;1984,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;20;nao;nao;nao;nao;"Escola -> Parada 1517 -> Escola";1;39;13,941000;1590,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;21;nao;nao;nao;nao;"Escola -> Parada 1681 -> Escola";1;39;22,382000;2291,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;29;9;1709587040;8;22;nao;nao;nao;nao;"Escola -> Parada 1667 -> Parada 645 -> Parada 1071 -> Escola";3;38;19,599000;1741,000000;33195,000000;123,860622;138,602499
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;1;nao;nao;nao;nao;"Escola -> Parada 232 -> Escola";1;40;11,963000;1276,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;2;nao;nao;nao;nao;"Escola -> Parada 495 -> Escola";1;35;9,405000;1162,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;3;nao;nao;nao;nao;"Escola -> Parada 1505 -> Escola";1;29;8,042000;956,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;4;sim;nao;nao;nao;"Escola -> Parada 327 -> Escola";1;32;6,647000;793,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;5;nao;nao;nao;nao;"Escola -> Parada 1341 -> Parada 1695 -> Escola";2;39;16,613000;1822,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;6;nao;nao;nao;nao;"Escola -> Parada 210 -> Escola";1;30;10,090000;1036,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;7;nao;nao;nao;nao;"Escola -> Parada 1019 -> Escola";1;30;11,937000;1351,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;8;nao;nao;nao;nao;"Escola -> Parada 1756 -> Parada 1249 -> Escola";2;26;11,740000;1337,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;9;nao;nao;nao;nao;"Escola -> Parada 1687 -> Escola";1;39;21,708000;2179,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;10;nao;nao;nao;nao;"Escola -> Parada 709 -> Escola";1;27;12,399000;1276,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;11;nao;nao;nao;nao;"Escola -> Parada 612 -> Parada 823 -> Escola";2;38;18,715000;1647,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;12;nao;nao;nao;nao;"Escola -> Parada 517 -> Escola";1;39;13,081000;1551,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;13;nao;nao;nao;nao;"Escola -> Parada 1613 -> Escola";1;25;7,232000;844,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;14;nao;nao;nao;nao;"Escola -> Parada 1368 -> Parada 628 -> Escola";2;38;29,030000;2597,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;15;nao;nao;nao;nao;"Escola -> Parada 645 -> Parada 1440 -> Parada 711 -> Escola";3;40;20,476000;2174,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;16;nao;nao;nao;nao;"Escola -> Parada 1065 -> Escola";1;32;13,644000;1541,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;17;nao;nao;nao;nao;"Escola -> Parada 1087 -> Escola";1;38;15,177000;1645,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;18;nao;nao;nao;nao;"Escola -> Parada 429 -> Escola";1;38;11,047000;1305,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;19;nao;nao;nao;nao;"Escola -> Parada 1414 -> Escola";1;39;23,548000;2146,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;20;nao;nao;nao;nao;"Escola -> Parada 808 -> Escola";1;37;8,363000;944,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;21;nao;nao;nao;nao;"Escola -> Parada 731 -> Escola";1;39;13,436000;1564,000000;33026,000000;189,438134;208,631634
+Brisbane;.\data\Brisbane.bus;30;10;2550791376;8;22;nao;nao;nao;nao;"Escola -> Parada 1377 -> Escola";1;27;18,638000;1880,000000;33026,000000;189,438134;208,631634
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;1;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;40;16,180000;1493,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;2;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;3;sim;nao;nao;nao;"Escola -> Parada 203 -> Parada 209 -> Escola";2;33;10,296000;1135,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;4;nao;nao;nao;nao;"Escola -> Parada 232 -> Parada 231 -> Parada 245 -> Parada 95 -> Escola";4;32;22,323000;2177,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;5;nao;nao;nao;nao;"Escola -> Parada 123 -> Parada 50 -> Escola";2;40;17,878000;1459,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;6;nao;nao;nao;nao;"Escola -> Parada 269 -> Parada 154 -> Escola";2;40;18,199000;1884,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;7;nao;nao;nao;nao;"Escola -> Parada 189 -> Escola";1;30;12,021000;1166,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;8;nao;nao;nao;nao;"Escola -> Parada 62 -> Escola";1;40;16,951000;1429,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;9;nao;nao;nao;nao;"Escola -> Parada 103 -> Parada 55 -> Escola";2;39;25,011000;2034,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;10;nao;nao;nao;nao;"Escola -> Parada 168 -> Parada 283 -> Escola";2;25;11,769000;1231,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;11;nao;nao;nao;nao;"Escola -> Parada 120 -> Parada 8 -> Parada 6 -> Escola";3;36;24,461000;1875,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;12;nao;nao;nao;nao;"Escola -> Parada 125 -> Parada 1 -> Parada 13 -> Escola";3;32;26,937000;1962,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;13;nao;nao;nao;nao;"Escola -> Parada 328 -> Parada 320 -> Parada 329 -> Parada 225 -> Escola";4;34;41,598000;3485,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;31;1;3169666116;8;14;nao;nao;nao;nao;"Escola -> Parada 326 -> Parada 327 -> Escola";2;38;33,650000;2670,000000;25319,000000;35,171867;36,014629
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;1;nao;nao;nao;nao;"Escola -> Parada 166 -> Parada 266 -> Escola";2;39;16,356000;1531,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;2;nao;nao;nao;nao;"Escola -> Parada 142 -> Escola";1;28;18,031000;1261,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;3;nao;nao;nao;nao;"Escola -> Parada 103 -> Parada 94 -> Parada 232 -> Parada 245 -> Escola";4;38;20,324000;2156,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;4;nao;nao;nao;nao;"Escola -> Parada 270 -> Escola";1;40;16,564000;1521,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;5;sim;nao;nao;nao;"Escola -> Parada 210 -> Escola";1;33;10,117000;1120,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;6;nao;nao;nao;nao;"Escola -> Parada 189 -> Parada 155 -> Escola";2;37;15,834000;1755,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;7;nao;nao;nao;nao;"Escola -> Parada 26 -> Parada 34 -> Escola";2;26;25,842000;1848,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;8;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;9;nao;nao;nao;nao;"Escola -> Parada 62 -> Escola";1;38;16,951000;1429,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;10;nao;nao;nao;nao;"Escola -> Parada 22 -> Parada 12 -> Parada 168 -> Escola";3;34;31,690000;2347,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;11;nao;nao;nao;nao;"Escola -> Parada 123 -> Parada 50 -> Escola";2;40;17,878000;1459,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;12;nao;nao;nao;nao;"Escola -> Parada 120 -> Escola";1;27;18,057000;1288,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;13;nao;nao;nao;nao;"Escola -> Parada 328 -> Parada 320 -> Parada 227 -> Escola";3;40;40,871000;3172,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;32;2;2713526065;8;14;nao;nao;nao;nao;"Escola -> Parada 326 -> Parada 327 -> Parada 329 -> Escola";3;39;35,392000;2931,000000;25137,000000;16,187914;16,926071
+Canberra;.\data\Canberra.bus;33;3;783796023;8;1;nao;nao;nao;sim;"Escola -> Parada 62 -> Escola";1;38;16,951000;1429,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;2;sim;nao;nao;sim;"Escola -> Parada 209 -> Escola";1;33;10,297000;1136,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;3;nao;nao;nao;sim;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;4;nao;nao;nao;sim;"Escola -> Parada 127 -> Parada 30 -> Parada 45 -> Escola";3;38;27,510000;1974,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;5;nao;nao;nao;sim;"Escola -> Parada 123 -> Parada 11 -> Parada 22 -> Escola";3;39;25,162000;2010,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;6;nao;nao;nao;sim;"Escola -> Parada 92 -> Parada 106 -> Parada 232 -> Parada 248 -> Escola";4;38;20,776000;2211,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;7;nao;nao;nao;sim;"Escola -> Parada 325 -> Parada 227 -> Escola";2;40;38,470000;2966,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;8;nao;nao;nao;sim;"Escola -> Parada 265 -> Escola";1;40;16,238000;1496,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;9;nao;nao;nao;sim;"Escola -> Parada 310 -> Escola";1;33;15,524000;1425,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;10;nao;nao;nao;sim;"Escola -> Parada 255 -> Parada 164 -> Parada 155 -> Escola";3;32;13,674000;1544,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;11;nao;nao;nao;sim;"Escola -> Parada 189 -> Escola";1;30;12,021000;1166,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;12;nao;nao;nao;sim;"Escola -> Parada 141 -> Escola";1;28;18,001000;1259,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;13;nao;nao;nao;sim;"Escola -> Parada 72 -> Escola";1;31;18,553000;1322,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;33;3;783796023;8;14;nao;nao;nao;sim;"Escola -> Parada 324 -> Parada 328 -> Parada 320 -> Parada 326 -> Parada 329 -> Escola";5;39;38,978000;3378,000000;24635,000000;12,626502;13,209118
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;1;nao;nao;nao;nao;"Escola -> Parada 265 -> Escola";1;40;16,238000;1496,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;2;sim;nao;nao;nao;"Escola -> Parada 173 -> Parada 209 -> Escola";2;38;11,784000;1311,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;3;nao;nao;nao;nao;"Escola -> Parada 141 -> Parada 240 -> Escola";2;35;22,643000;1972,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;4;nao;nao;nao;nao;"Escola -> Parada 189 -> Escola";1;25;12,021000;1166,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;5;nao;nao;nao;nao;"Escola -> Parada 62 -> Escola";1;38;16,951000;1429,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;6;nao;nao;nao;nao;"Escola -> Parada 91 -> Parada 119 -> Parada 13 -> Escola";3;33;29,266000;2432,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;7;nao;nao;nao;nao;"Escola -> Parada 310 -> Parada 155 -> Escola";2;40;17,119000;1786,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;8;nao;nao;nao;nao;"Escola -> Parada 165 -> Parada 123 -> Escola";2;40;25,893000;2207,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;9;nao;nao;nao;nao;"Escola -> Parada 246 -> Parada 44 -> Escola";2;40;22,055000;1936,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;10;nao;nao;nao;nao;"Escola -> Parada 124 -> Parada 3 -> Parada 6 -> Escola";3;36;27,574000;2016,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;11;nao;nao;nao;nao;"Escola -> Parada 174 -> Escola";1;40;13,381000;1266,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;12;nao;nao;nao;nao;"Escola -> Parada 227 -> Parada 255 -> Escola";2;35;31,132000;2497,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;13;nao;nao;nao;nao;"Escola -> Parada 326 -> Parada 323 -> Parada 327 -> Escola";3;30;33,862000;2683,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;34;4;1890890179;8;14;nao;nao;nao;nao;"Escola -> Parada 325 -> Parada 328 -> Parada 329 -> Escola";3;29;36,072000;2761,000000;26958,000000;15,942496;16,482954
+Canberra;.\data\Canberra.bus;35;5;753559554;8;1;nao;nao;nao;nao;"Escola -> Parada 270 -> Escola";1;40;16,564000;1521,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;2;nao;nao;nao;nao;"Escola -> Parada 190 -> Escola";1;30;12,030000;1186,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;3;nao;nao;nao;nao;"Escola -> Parada 104 -> Parada 224 -> Parada 114 -> Escola";3;36;20,252000;2055,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;4;sim;nao;nao;nao;"Escola -> Parada 210 -> Escola";1;33;10,117000;1120,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;5;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;6;nao;nao;nao;nao;"Escola -> Parada 67 -> Escola";1;38;19,173000;1363,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;7;nao;nao;nao;nao;"Escola -> Parada 289 -> Parada 170 -> Parada 160 -> Escola";3;32;14,512000;1807,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;8;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;33;16,180000;1493,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;9;nao;nao;nao;nao;"Escola -> Parada 65 -> Escola";1;37;16,215000;1269,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;10;nao;nao;nao;nao;"Escola -> Parada 95 -> Parada 34 -> Parada 2 -> Parada 23 -> Escola";4;39;32,212000;2538,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;11;nao;nao;nao;nao;"Escola -> Parada 19 -> Parada 119 -> Escola";2;32;22,260000;1649,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;12;nao;nao;nao;nao;"Escola -> Parada 233 -> Parada 326 -> Parada 328 -> Parada 329 -> Escola";4;40;41,927000;3680,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;13;nao;nao;nao;nao;"Escola -> Parada 327 -> Parada 323 -> Escola";2;35;33,312000;2518,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;35;5;753559554;8;14;nao;nao;nao;nao;"Escola -> Parada 122 -> Escola";1;34;18,233000;1407,000000;24925,000000;18,622486;19,451310
+Canberra;.\data\Canberra.bus;36;6;359602516;8;1;sim;nao;nao;nao;"Escola -> Parada 205 -> Escola";1;28;9,329000;1043,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;2;nao;nao;nao;nao;"Escola -> Parada 265 -> Escola";1;40;16,238000;1496,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;3;nao;nao;nao;nao;"Escola -> Parada 94 -> Parada 226 -> Parada 216 -> Escola";3;36;20,886000;2067,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;4;nao;nao;nao;nao;"Escola -> Parada 103 -> Parada 105 -> Parada 21 -> Parada 6 -> Parada 13 -> Escola";5;36;29,867000;2430,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;5;nao;nao;nao;nao;"Escola -> Parada 62 -> Escola";1;38;16,951000;1429,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;6;nao;nao;nao;nao;"Escola -> Parada 309 -> Escola";1;33;15,524000;1425,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;7;nao;nao;nao;nao;"Escola -> Parada 123 -> Escola";1;29;18,299000;1413,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;8;nao;nao;nao;nao;"Escola -> Parada 56 -> Parada 34 -> Escola";2;37;25,798000;1879,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;9;nao;nao;nao;nao;"Escola -> Parada 26 -> Parada 70 -> Escola";2;40;24,655000;1799,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;10;nao;nao;nao;nao;"Escola -> Parada 190 -> Parada 176 -> Escola";2;36;13,786000;1449,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;11;nao;nao;nao;nao;"Escola -> Parada 154 -> Parada 169 -> Parada 282 -> Escola";3;32;14,675000;1691,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;12;nao;nao;nao;nao;"Escola -> Parada 174 -> Escola";1;39;13,381000;1266,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;13;nao;nao;nao;nao;"Escola -> Parada 45 -> Parada 329 -> Parada 325 -> Escola";3;37;40,669000;3140,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;36;6;359602516;8;14;nao;nao;nao;nao;"Escola -> Parada 324 -> Parada 328 -> Parada 320 -> Parada 326 -> Escola";4;38;36,664000;3032,000000;25559,000000;20,664157;21,785768
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;1;nao;nao;nao;nao;"Escola -> Parada 168 -> Parada 6 -> Parada 35 -> Parada 17 -> Escola";4;39;37,092000;3054,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;2;nao;nao;nao;nao;"Escola -> Parada 56 -> Escola";1;37;18,651000;1313,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;3;nao;nao;nao;nao;"Escola -> Parada 189 -> Parada 282 -> Parada 159 -> Escola";3;40;14,895000;1653,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;4;nao;nao;nao;nao;"Escola -> Parada 64 -> Escola";1;29;16,403000;1345,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;5;nao;nao;nao;nao;"Escola -> Parada 104 -> Escola";1;20;16,706000;1504,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;6;nao;nao;nao;nao;"Escola -> Parada 3 -> Parada 44 -> Escola";2;40;24,565000;1738,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;7;nao;nao;nao;nao;"Escola -> Parada 116 -> Parada 228 -> Parada 226 -> Parada 241 -> Escola";4;38;22,486000;2187,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;8;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;9;nao;nao;nao;nao;"Escola -> Parada 289 -> Parada 309 -> Escola";2;36;17,022000;1703,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;10;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;40;16,180000;1493,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;11;sim;nao;nao;nao;"Escola -> Parada 208 -> Parada 210 -> Escola";2;33;10,116000;1119,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;12;nao;nao;nao;nao;"Escola -> Parada 120 -> Escola";1;27;18,057000;1288,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;13;nao;nao;nao;nao;"Escola -> Parada 122 -> Parada 326 -> Parada 320 -> Parada 329 -> Escola";4;40;42,984000;3518,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;37;7;2282995751;8;14;nao;nao;nao;nao;"Escola -> Parada 324 -> Parada 328 -> Parada 321 -> Escola";3;40;35,082000;2577,000000;25811,000000;14,946290;15,596831
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;1;nao;nao;nao;nao;"Escola -> Parada 119 -> Escola";1;24;17,639000;1254,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;2;nao;nao;nao;nao;"Escola -> Parada 67 -> Escola";1;38;19,173000;1363,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;3;sim;nao;nao;nao;"Escola -> Parada 207 -> Parada 210 -> Escola";2;33;10,116000;1119,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;4;nao;nao;nao;nao;"Escola -> Parada 65 -> Escola";1;37;16,215000;1269,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;5;nao;nao;nao;nao;"Escola -> Parada 241 -> Parada 246 -> Parada 101 -> Escola";3;28;18,697000;1887,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;6;nao;nao;nao;nao;"Escola -> Parada 169 -> Parada 163 -> Parada 159 -> Escola";3;26;13,247000;1606,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;7;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;8;nao;nao;nao;nao;"Escola -> Parada 327 -> Parada 320 -> Escola";2;19;32,345000;2271,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;9;nao;nao;nao;nao;"Escola -> Parada 189 -> Escola";1;30;12,021000;1166,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;10;nao;nao;nao;nao;"Escola -> Parada 266 -> Parada 154 -> Escola";2;39;17,775000;1854,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;11;nao;nao;nao;nao;"Escola -> Parada 95 -> Parada 226 -> Escola";2;30;21,722000;2028,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;12;nao;nao;nao;nao;"Escola -> Parada 3 -> Parada 35 -> Parada 5 -> Parada 22 -> Escola";4;36;28,256000;2136,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;13;nao;nao;nao;nao;"Escola -> Parada 270 -> Escola";1;40;16,564000;1521,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;14;nao;nao;nao;nao;"Escola -> Parada 123 -> Parada 13 -> Escola";2;39;23,147000;1794,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;38;8;3059434818;8;15;nao;nao;nao;nao;"Escola -> Parada 326 -> Parada 325 -> Parada 328 -> Parada 329 -> Escola";4;40;37,376000;3158,000000;25745,000000;26,362243;27,354885
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;1;nao;nao;nao;nao;"Escola -> Parada 81 -> Parada 226 -> Parada 216 -> Escola";3;35;20,875000;1957,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;2;nao;nao;nao;nao;"Escola -> Parada 65 -> Escola";1;37;16,215000;1269,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;3;sim;nao;nao;nao;"Escola -> Parada 210 -> Escola";1;33;10,117000;1120,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;4;nao;nao;nao;nao;"Escola -> Parada 105 -> Parada 94 -> Escola";2;23;18,034000;1804,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;5;nao;nao;nao;nao;"Escola -> Parada 168 -> Parada 185 -> Escola";2;25;11,790000;1403,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;6;nao;nao;nao;nao;"Escola -> Parada 67 -> Escola";1;38;19,173000;1363,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;7;nao;nao;nao;nao;"Escola -> Parada 119 -> Escola";1;24;17,639000;1254,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;8;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;40;16,180000;1493,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;9;nao;nao;nao;nao;"Escola -> Parada 22 -> Parada 124 -> Parada 25 -> Escola";3;35;28,571000;2223,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;10;nao;nao;nao;nao;"Escola -> Parada 122 -> Parada 11 -> Escola";2;40;23,498000;1819,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;11;nao;nao;nao;nao;"Escola -> Parada 214 -> Escola";1;40;14,630000;1319,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;12;nao;nao;nao;nao;"Escola -> Parada 309 -> Parada 154 -> Escola";2;40;17,119000;1786,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;13;nao;nao;nao;nao;"Escola -> Parada 190 -> Escola";1;30;12,030000;1186,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;14;nao;nao;nao;nao;"Escola -> Parada 326 -> Parada 328 -> Parada 321 -> Parada 329 -> Escola";4;36;37,376000;3158,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;39;9;2284182100;8;15;nao;nao;nao;nao;"Escola -> Parada 327 -> Parada 320 -> Escola";2;23;32,345000;2271,000000;25425,000000;21,694886;22,434412
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;1;nao;nao;nao;nao;"Escola -> Parada 251 -> Parada 150 -> Parada 228 -> Parada 227 -> Escola";4;37;28,069000;2827,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;2;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;40;16,180000;1493,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;3;nao;nao;nao;nao;"Escola -> Parada 309 -> Escola";1;33;15,524000;1425,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;4;sim;nao;nao;nao;"Escola -> Parada 205 -> Escola";1;28;9,329000;1043,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;5;nao;nao;nao;nao;"Escola -> Parada 122 -> Escola";1;29;18,233000;1407,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;6;nao;nao;nao;nao;"Escola -> Parada 177 -> Parada 202 -> Escola";2;40;12,359000;1225,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;7;nao;nao;nao;nao;"Escola -> Parada 95 -> Parada 237 -> Parada 240 -> Escola";3;34;19,047000;1918,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;8;nao;nao;nao;nao;"Escola -> Parada 59 -> Parada 13 -> Escola";2;38;22,088000;1581,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;9;nao;nao;nao;nao;"Escola -> Parada 63 -> Escola";1;33;17,035000;1437,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;10;nao;nao;nao;nao;"Escola -> Parada 124 -> Parada 21 -> Parada 45 -> Escola";3;35;28,232000;2129,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;11;nao;nao;nao;nao;"Escola -> Parada 215 -> Escola";1;35;14,769000;1347,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;12;nao;nao;nao;nao;"Escola -> Parada 3 -> Parada 119 -> Escola";2;39;24,867000;1808,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;13;nao;nao;nao;nao;"Escola -> Parada 327 -> Parada 326 -> Escola";2;38;34,032000;2676,000000;26190,000000;11,352520;11,984733
+Canberra;.\data\Canberra.bus;40;10;1837659695;8;14;nao;nao;nao;nao;"Escola -> Parada 320 -> Parada 328 -> Parada 329 -> Parada 168 -> Escola";4;40;46,949000;3874,000000;26190,000000;11,352520;11,984733
+Cardiff;.\data\Cardiff.bus;41;1;2724731384;8;1;nao;nao;nao;sim;"Escola -> Parada 286 -> Escola";1;38;14,882000;2389,000000;8811,000000;10,306812;11,935027
+Cardiff;.\data\Cardiff.bus;41;1;2724731384;8;2;sim;nao;nao;sim;"Escola -> Parada 121 -> Escola";1;12;9,875000;1527,000000;8811,000000;10,306812;11,935027
+Cardiff;.\data\Cardiff.bus;41;1;2724731384;8;3;nao;nao;nao;sim;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8811,000000;10,306812;11,935027
+Cardiff;.\data\Cardiff.bus;41;1;2724731384;8;4;nao;nao;nao;sim;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8811,000000;10,306812;11,935027
+Cardiff;.\data\Cardiff.bus;41;1;2724731384;8;5;nao;nao;nao;sim;"Escola -> Parada 527 -> Parada 452 -> Parada 115 -> Escola";3;28;22,787000;2305,000000;8811,000000;10,306812;11,935027
+Cardiff;.\data\Cardiff.bus;42;2;1278957501;8;1;nao;nao;nao;nao;"Escola -> Parada 488 -> Parada 411 -> Escola";2;37;18,113000;2025,000000;8465,000000;12,109972;13,886611
+Cardiff;.\data\Cardiff.bus;42;2;1278957501;8;2;nao;nao;nao;nao;"Escola -> Parada 351 -> Escola";1;25;13,777000;2131,000000;8465,000000;12,109972;13,886611
+Cardiff;.\data\Cardiff.bus;42;2;1278957501;8;3;sim;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8465,000000;12,109972;13,886611
+Cardiff;.\data\Cardiff.bus;42;2;1278957501;8;4;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8465,000000;12,109972;13,886611
+Cardiff;.\data\Cardiff.bus;42;2;1278957501;8;5;nao;nao;nao;nao;"Escola -> Parada 452 -> Parada 527 -> Escola";2;16;17,237000;1719,000000;8465,000000;12,109972;13,886611
+Cardiff;.\data\Cardiff.bus;43;3;3648281776;8;1;nao;nao;nao;nao;"Escola -> Parada 529 -> Parada 441 -> Escola";2;33;18,033000;1961,000000;8400,000000;13,065904;15,297382
+Cardiff;.\data\Cardiff.bus;43;3;3648281776;8;2;nao;nao;nao;nao;"Escola -> Parada 351 -> Escola";1;29;13,777000;2131,000000;8400,000000;13,065904;15,297382
+Cardiff;.\data\Cardiff.bus;43;3;3648281776;8;3;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8400,000000;13,065904;15,297382
+Cardiff;.\data\Cardiff.bus;43;3;3648281776;8;4;nao;nao;nao;nao;"Escola -> Parada 452 -> Parada 91 -> Escola";2;16;17,237000;1718,000000;8400,000000;13,065904;15,297382
+Cardiff;.\data\Cardiff.bus;43;3;3648281776;8;5;sim;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8400,000000;13,065904;15,297382
+Cardiff;.\data\Cardiff.bus;44;4;2113488007;8;1;sim;nao;nao;nao;"Escola -> Parada 293 -> Escola";1;18;11,267000;1749,000000;8740,000000;8,966791;11,350500
+Cardiff;.\data\Cardiff.bus;44;4;2113488007;8;2;nao;nao;nao;nao;"Escola -> Parada 352 -> Escola";1;32;13,660000;2118,000000;8740,000000;8,966791;11,350500
+Cardiff;.\data\Cardiff.bus;44;4;2113488007;8;3;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;40;15,067000;1166,000000;8740,000000;8,966791;11,350500
+Cardiff;.\data\Cardiff.bus;44;4;2113488007;8;4;nao;nao;nao;nao;"Escola -> Parada 115 -> Parada 469 -> Parada 527 -> Escola";3;21;23,011000;2283,000000;8740,000000;8,966791;11,350500
+Cardiff;.\data\Cardiff.bus;44;4;2113488007;8;5;nao;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8740,000000;8,966791;11,350500
+Cardiff;.\data\Cardiff.bus;45;5;3111511913;8;1;sim;nao;nao;nao;"Escola -> Parada 524 -> Escola";1;15;10,799000;1709,000000;8925,000000;18,388828;20,155290
+Cardiff;.\data\Cardiff.bus;45;5;3111511913;8;2;nao;nao;nao;nao;"Escola -> Parada 494 -> Escola";1;35;14,073000;2182,000000;8925,000000;18,388828;20,155290
+Cardiff;.\data\Cardiff.bus;45;5;3111511913;8;3;nao;nao;nao;nao;"Escola -> Parada 382 -> Parada 115 -> Escola";2;37;20,852000;1767,000000;8925,000000;18,388828;20,155290
+Cardiff;.\data\Cardiff.bus;45;5;3111511913;8;4;nao;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8925,000000;18,388828;20,155290
+Cardiff;.\data\Cardiff.bus;45;5;3111511913;8;5;nao;nao;nao;nao;"Escola -> Parada 317 -> Parada 527 -> Escola";2;24;18,212000;1843,000000;8925,000000;18,388828;20,155290
+Cardiff;.\data\Cardiff.bus;46;6;3179548771;8;1;nao;nao;nao;nao;"Escola -> Parada 494 -> Escola";1;38;14,073000;2182,000000;8850,000000;13,664745;16,074978
+Cardiff;.\data\Cardiff.bus;46;6;3179548771;8;2;nao;nao;nao;nao;"Escola -> Parada 237 -> Parada 108 -> Parada 470 -> Escola";3;37;27,362000;3305,000000;8850,000000;13,664745;16,074978
+Cardiff;.\data\Cardiff.bus;46;6;3179548771;8;3;nao;nao;nao;nao;"Escola -> Parada 411 -> Parada 1 -> Escola";2;36;22,633000;1939,000000;8850,000000;13,664745;16,074978
+Cardiff;.\data\Cardiff.bus;46;6;3179548771;8;4;sim;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8850,000000;13,664745;16,074978
+Cardiff;.\data\Cardiff.bus;47;7;2624326012;8;1;sim;nao;nao;nao;"Escola -> Parada 525 -> Escola";1;27;10,949000;1731,000000;8101,000000;10,984062;13,419288
+Cardiff;.\data\Cardiff.bus;47;7;2624326012;8;2;nao;nao;nao;nao;"Escola -> Parada 280 -> Parada 116 -> Escola";2;35;22,236000;2062,000000;8101,000000;10,984062;13,419288
+Cardiff;.\data\Cardiff.bus;47;7;2624326012;8;3;nao;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8101,000000;10,984062;13,419288
+Cardiff;.\data\Cardiff.bus;47;7;2624326012;8;4;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8101,000000;10,984062;13,419288
+Cardiff;.\data\Cardiff.bus;47;7;2624326012;8;5;nao;nao;nao;nao;"Escola -> Parada 452 -> Parada 360 -> Escola";2;16;17,237000;1718,000000;8101,000000;10,984062;13,419288
+Cardiff;.\data\Cardiff.bus;48;8;1536434012;8;1;nao;nao;nao;nao;"Escola -> Parada 341 -> Parada 412 -> Escola";2;35;22,312000;2064,000000;7963,000000;8,764274;10,813563
+Cardiff;.\data\Cardiff.bus;48;8;1536434012;8;2;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;40;15,067000;1166,000000;7963,000000;8,764274;10,813563
+Cardiff;.\data\Cardiff.bus;48;8;1536434012;8;3;nao;nao;nao;nao;"Escola -> Parada 524 -> Parada 360 -> Parada 469 -> Escola";3;36;27,390000;3309,000000;7963,000000;8,764274;10,813563
+Cardiff;.\data\Cardiff.bus;48;8;1536434012;8;4;sim;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;7963,000000;8,764274;10,813563
+Cardiff;.\data\Cardiff.bus;49;9;3102870708;8;1;nao;nao;nao;nao;"Escola -> Parada 412 -> Parada 457 -> Escola";2;37;17,680000;1910,000000;8336,000000;11,064049;12,794754
+Cardiff;.\data\Cardiff.bus;49;9;3102870708;8;2;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8336,000000;11,064049;12,794754
+Cardiff;.\data\Cardiff.bus;49;9;3102870708;8;3;nao;nao;nao;nao;"Escola -> Parada 352 -> Escola";1;25;13,660000;2118,000000;8336,000000;11,064049;12,794754
+Cardiff;.\data\Cardiff.bus;49;9;3102870708;8;4;sim;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8336,000000;11,064049;12,794754
+Cardiff;.\data\Cardiff.bus;49;9;3102870708;8;5;nao;nao;nao;nao;"Escola -> Parada 452 -> Parada 360 -> Escola";2;16;17,237000;1718,000000;8336,000000;11,064049;12,794754
+Cardiff;.\data\Cardiff.bus;50;10;1791903078;8;1;sim;nao;nao;nao;"Escola -> Parada 293 -> Escola";1;23;11,267000;1749,000000;8436,000000;11,492794;13,188449
+Cardiff;.\data\Cardiff.bus;50;10;1791903078;8;2;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;33;15,067000;1166,000000;8436,000000;11,492794;13,188449
+Cardiff;.\data\Cardiff.bus;50;10;1791903078;8;3;nao;nao;nao;nao;"Escola -> Parada 411 -> Parada 358 -> Parada 517 -> Escola";3;39;20,433000;2381,000000;8436,000000;11,492794;13,188449
+Cardiff;.\data\Cardiff.bus;50;10;1791903078;8;4;nao;nao;nao;nao;"Escola -> Parada 527 -> Parada 452 -> Escola";2;16;17,248000;1716,000000;8436,000000;11,492794;13,188449
+Cardiff;.\data\Cardiff.bus;50;10;1791903078;8;5;nao;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;45;13,058000;1424,000000;8436,000000;11,492794;13,188449
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;1;nao;nao;nao;nao;"Escola -> Parada 226 -> Parada 288 -> Escola";2;30;20,325000;2091,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;2;nao;nao;nao;nao;"Escola -> Parada 59 -> Parada 842 -> Parada 463 -> Escola";3;36;12,096000;1951,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;3;nao;nao;nao;nao;"Escola -> Parada 943 -> Parada 746 -> Parada 665 -> Escola";3;40;13,557000;1746,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;4;nao;nao;nao;nao;"Escola -> Parada 705 -> Escola";1;36;12,655000;1758,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;5;nao;nao;nao;nao;"Escola -> Parada 437 -> Escola";1;36;10,893000;1492,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;6;nao;nao;nao;nao;"Escola -> Parada 559 -> Escola";1;20;10,193000;1310,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;7;nao;nao;nao;nao;"Escola -> Parada 615 -> Escola";1;40;9,562000;1432,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;8;nao;nao;nao;nao;"Escola -> Parada 637 -> Escola";1;39;6,706000;1008,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;9;nao;nao;nao;nao;"Escola -> Parada 319 -> Escola";1;35;4,918000;821,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;10;nao;nao;nao;nao;"Escola -> Parada 804 -> Escola";1;46;11,339000;1399,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;11;nao;nao;nao;nao;"Escola -> Parada 163 -> Escola";1;19;4,137000;744,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;12;nao;nao;nao;nao;"Escola -> Parada 544 -> Escola";1;32;9,547000;1482,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;13;nao;nao;nao;nao;"Escola -> Parada 537 -> Escola";1;33;8,142000;1282,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;14;nao;nao;nao;nao;"Escola -> Parada 208 -> Escola";1;36;6,235000;781,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;15;nao;nao;nao;nao;"Escola -> Parada 586 -> Escola";1;35;3,648000;512,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;16;nao;nao;nao;nao;"Escola -> Parada 501 -> Escola";1;37;4,539000;784,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;17;nao;nao;nao;nao;"Escola -> Parada 422 -> Escola";1;40;5,190000;738,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;18;nao;nao;nao;nao;"Escola -> Parada 335 -> Parada 93 -> Escola";2;31;6,421000;887,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;19;nao;nao;nao;nao;"Escola -> Parada 221 -> Escola";1;38;5,945000;886,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;51;1;1387097953;8;20;sim;nao;nao;nao;"Escola -> Parada 154 -> Escola";1;21;2,504000;290,000000;23394,000000;96,186434;102,996556
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;1;nao;nao;nao;nao;"Escola -> Parada 541 -> Parada 522 -> Escola";2;36;6,329000;928,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;2;nao;nao;nao;nao;"Escola -> Parada 339 -> Escola";1;39;7,454000;1198,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;3;nao;nao;nao;nao;"Escola -> Parada 423 -> Escola";1;37;4,908000;706,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;4;nao;nao;nao;nao;"Escola -> Parada 825 -> Escola";1;38;5,072000;853,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;5;nao;nao;nao;nao;"Escola -> Parada 795 -> Escola";1;34;6,602000;1042,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;6;nao;nao;nao;nao;"Escola -> Parada 663 -> Escola";1;34;8,418000;1114,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;7;nao;nao;nao;nao;"Escola -> Parada 708 -> Parada 159 -> Escola";2;37;10,574000;1475,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;8;nao;nao;nao;nao;"Escola -> Parada 120 -> Escola";1;39;5,701000;846,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;9;nao;nao;nao;nao;"Escola -> Parada 68 -> Escola";1;44;8,860000;1405,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;10;nao;nao;nao;nao;"Escola -> Parada 873 -> Escola";1;41;8,110000;1246,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;11;sim;nao;nao;nao;"Escola -> Parada 877 -> Escola";1;36;4,400000;757,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;12;nao;nao;nao;nao;"Escola -> Parada 678 -> Parada 208 -> Escola";2;38;6,234000;780,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;13;nao;nao;nao;nao;"Escola -> Parada 227 -> Escola";1;33;10,092000;1459,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;14;nao;nao;nao;nao;"Escola -> Parada 335 -> Parada 93 -> Escola";2;31;6,421000;887,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;15;nao;nao;nao;nao;"Escola -> Parada 705 -> Escola";1;39;12,655000;1758,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;16;nao;nao;nao;nao;"Escola -> Parada 641 -> Escola";1;38;11,445000;1560,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;17;nao;nao;nao;nao;"Escola -> Parada 475 -> Escola";1;48;8,207000;1263,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;52;2;2812006613;8;18;nao;nao;nao;nao;"Escola -> Parada 221 -> Escola";1;38;5,945000;886,000000;20163,000000;80,455494;84,920760
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;1;nao;nao;nao;nao;"Escola -> Parada 227 -> Escola";1;35;10,092000;1459,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;2;nao;nao;nao;nao;"Escola -> Parada 409 -> Escola";1;19;3,870000;538,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;3;nao;nao;nao;nao;"Escola -> Parada 316 -> Escola";1;29;7,232000;1090,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;4;nao;nao;nao;nao;"Escola -> Parada 32 -> Escola";1;27;6,659000;960,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;5;nao;nao;nao;nao;"Escola -> Parada 223 -> Escola";1;39;9,647000;1498,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;6;nao;nao;nao;nao;"Escola -> Parada 761 -> Escola";1;38;5,182000;738,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;7;nao;nao;nao;nao;"Escola -> Parada 806 -> Escola";1;40;13,701000;1730,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;8;nao;nao;nao;nao;"Escola -> Parada 912 -> Escola";1;34;6,524000;1009,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;9;nao;nao;nao;nao;"Escola -> Parada 631 -> Escola";1;42;6,586000;1031,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;10;nao;nao;nao;nao;"Escola -> Parada 716 -> Escola";1;41;6,062000;893,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;11;nao;nao;nao;nao;"Escola -> Parada 559 -> Escola";1;35;10,193000;1310,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;12;nao;nao;nao;nao;"Escola -> Parada 462 -> Parada 627 -> Parada 886 -> Escola";3;40;8,494000;1150,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;13;nao;nao;nao;nao;"Escola -> Parada 99 -> Escola";1;23;9,785000;1357,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;14;nao;nao;nao;nao;"Escola -> Parada 386 -> Escola";1;26;5,967000;1021,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;15;nao;nao;nao;nao;"Escola -> Parada 418 -> Escola";1;38;6,224000;993,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;16;nao;nao;nao;nao;"Escola -> Parada 228 -> Escola";1;36;11,972000;1647,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;17;nao;nao;nao;nao;"Escola -> Parada 596 -> Escola";1;32;4,922000;821,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;18;sim;nao;nao;nao;"Escola -> Parada 634 -> Escola";1;27;3,242000;418,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;19;nao;nao;nao;nao;"Escola -> Parada 484 -> Escola";1;39;6,249000;972,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;53;3;1553870454;8;20;nao;nao;nao;nao;"Escola -> Parada 3 -> Escola";1;40;12,523000;1683,000000;22318,000000;99,784329;106,374877
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;1;nao;nao;nao;nao;"Escola -> Parada 93 -> Escola";1;21;4,546000;568,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;2;nao;nao;nao;nao;"Escola -> Parada 848 -> Parada 790 -> Escola";2;36;5,237000;952,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;3;nao;nao;nao;nao;"Escola -> Parada 485 -> Escola";1;37;6,047000;944,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;4;nao;nao;nao;nao;"Escola -> Parada 202 -> Escola";1;22;6,954000;1041,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;5;nao;nao;nao;nao;"Escola -> Parada 861 -> Escola";1;35;4,499000;780,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;6;nao;nao;nao;nao;"Escola -> Parada 120 -> Escola";1;41;5,701000;846,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;7;nao;nao;nao;nao;"Escola -> Parada 537 -> Escola";1;40;8,142000;1282,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;8;nao;nao;nao;nao;"Escola -> Parada 376 -> Escola";1;39;8,930000;1416,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;9;nao;nao;nao;nao;"Escola -> Parada 298 -> Parada 235 -> Escola";2;33;14,913000;1831,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;10;nao;nao;nao;nao;"Escola -> Parada 208 -> Escola";1;36;6,235000;781,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;11;nao;nao;nao;nao;"Escola -> Parada 672 -> Escola";1;37;12,459000;1673,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;12;nao;nao;nao;nao;"Escola -> Parada 468 -> Escola";1;39;4,618000;787,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;13;nao;nao;nao;nao;"Escola -> Parada 833 -> Parada 775 -> Escola";2;37;9,551000;1213,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;14;nao;nao;nao;nao;"Escola -> Parada 907 -> Escola";1;34;6,264000;940,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;15;nao;nao;nao;nao;"Escola -> Parada 162 -> Escola";1;40;10,761000;1474,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;16;sim;nao;nao;nao;"Escola -> Parada 292 -> Escola";1;40;4,284000;608,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;17;nao;nao;nao;nao;"Escola -> Parada 503 -> Escola";1;41;8,076000;1240,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;18;nao;nao;nao;nao;"Escola -> Parada 550 -> Escola";1;37;9,332000;1336,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;54;4;1605464926;8;19;nao;nao;nao;nao;"Escola -> Parada 632 -> Parada 541 -> Escola";2;35;6,691000;895,000000;20607,000000;120,606901;125,365786
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;1;nao;nao;nao;nao;"Escola -> Parada 73 -> Escola";1;38;6,544000;1009,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;2;nao;nao;nao;nao;"Escola -> Parada 690 -> Parada 567 -> Escola";2;38;11,448000;1394,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;3;nao;nao;nao;nao;"Escola -> Parada 121 -> Parada 825 -> Escola";2;33;7,584000;1085,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;4;nao;nao;nao;nao;"Escola -> Parada 31 -> Escola";1;35;5,222000;636,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;5;nao;nao;nao;nao;"Escola -> Parada 93 -> Escola";1;21;4,546000;568,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;6;nao;nao;nao;nao;"Escola -> Parada 464 -> Parada 315 -> Escola";2;39;6,245000;1017,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;7;nao;nao;nao;nao;"Escola -> Parada 169 -> Escola";1;36;7,472000;1140,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;8;nao;nao;nao;nao;"Escola -> Parada 802 -> Escola";1;32;7,322000;1120,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;9;nao;nao;nao;nao;"Escola -> Parada 7 -> Escola";1;26;8,765000;1222,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;10;nao;nao;nao;nao;"Escola -> Parada 142 -> Parada 227 -> Parada 673 -> Escola";3;38;17,188000;2078,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;11;nao;nao;nao;nao;"Escola -> Parada 186 -> Escola";1;37;13,321000;1676,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;12;nao;nao;nao;nao;"Escola -> Parada 662 -> Escola";1;38;10,191000;1389,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;13;nao;nao;nao;nao;"Escola -> Parada 749 -> Escola";1;35;8,476000;1273,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;14;sim;nao;nao;nao;"Escola -> Parada 706 -> Escola";1;34;4,174000;706,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;15;nao;nao;nao;nao;"Escola -> Parada 507 -> Escola";1;31;6,542000;1013,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;16;nao;nao;nao;nao;"Escola -> Parada 594 -> Parada 229 -> Escola";2;38;13,620000;1821,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;17;nao;nao;nao;nao;"Escola -> Parada 449 -> Escola";1;40;8,310000;1307,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;18;nao;nao;nao;nao;"Escola -> Parada 102 -> Parada 262 -> Escola";2;39;9,421000;1435,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;19;nao;nao;nao;nao;"Escola -> Parada 485 -> Escola";1;38;6,047000;944,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;55;5;980383131;8;20;nao;nao;nao;nao;"Escola -> Parada 335 -> Escola";1;14;5,587000;764,000000;23597,000000;41,355564;45,765085
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;1;nao;nao;nao;nao;"Escola -> Parada 551 -> Escola";1;39;5,601000;914,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;2;nao;nao;nao;nao;"Escola -> Parada 385 -> Parada 678 -> Escola";2;39;7,903000;1208,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;3;nao;nao;nao;nao;"Escola -> Parada 833 -> Escola";1;29;9,552000;1214,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;4;nao;nao;nao;nao;"Escola -> Parada 392 -> Escola";1;40;6,654000;970,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;5;nao;nao;nao;nao;"Escola -> Parada 212 -> Parada 136 -> Escola";2;36;14,879000;1963,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;6;nao;nao;nao;nao;"Escola -> Parada 459 -> Escola";1;39;10,076000;1546,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;7;nao;nao;nao;nao;"Escola -> Parada 802 -> Escola";1;42;7,322000;1120,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;8;sim;nao;nao;nao;"Escola -> Parada 593 -> Escola";1;21;3,914000;552,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;9;nao;nao;nao;nao;"Escola -> Parada 907 -> Escola";1;40;6,264000;940,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;10;nao;nao;nao;nao;"Escola -> Parada 868 -> Escola";1;22;6,325000;832,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;11;nao;nao;nao;nao;"Escola -> Parada 762 -> Escola";1;39;4,734000;674,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;12;nao;nao;nao;nao;"Escola -> Parada 229 -> Escola";1;37;11,851000;1637,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;13;nao;nao;nao;nao;"Escola -> Parada 861 -> Parada 862 -> Parada 52 -> Parada 408 -> Escola";4;33;9,932000;1520,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;14;nao;nao;nao;nao;"Escola -> Parada 825 -> Escola";1;35;5,072000;853,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;15;nao;nao;nao;nao;"Escola -> Parada 468 -> Escola";1;33;4,618000;787,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;16;nao;nao;nao;nao;"Escola -> Parada 102 -> Parada 159 -> Escola";2;40;7,684000;1142,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;17;nao;nao;nao;nao;"Escola -> Parada 665 -> Parada 354 -> Escola";2;34;9,886000;1354,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;18;nao;nao;nao;nao;"Escola -> Parada 484 -> Escola";1;40;6,249000;972,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;56;6;1007225122;8;19;nao;nao;nao;nao;"Escola -> Parada 550 -> Escola";1;42;9,332000;1336,000000;21534,000000;135,400832;141,687777
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;1;sim;nao;nao;nao;"Escola -> Parada 273 -> Escola";1;24;2,492000;452,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;2;nao;nao;nao;nao;"Escola -> Parada 228 -> Escola";1;33;11,972000;1647,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;3;nao;nao;nao;nao;"Escola -> Parada 745 -> Escola";1;40;8,388000;1288,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;4;nao;nao;nao;nao;"Escola -> Parada 769 -> Escola";1;25;3,954000;504,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;5;nao;nao;nao;nao;"Escola -> Parada 524 -> Escola";1;38;9,429000;1383,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;6;nao;nao;nao;nao;"Escola -> Parada 631 -> Parada 488 -> Escola";2;35;10,765000;1699,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;7;nao;nao;nao;nao;"Escola -> Parada 110 -> Escola";1;40;5,618000;837,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;8;nao;nao;nao;nao;"Escola -> Parada 287 -> Escola";1;18;5,950000;752,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;9;nao;nao;nao;nao;"Escola -> Parada 836 -> Escola";1;40;7,132000;918,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;10;nao;nao;nao;nao;"Escola -> Parada 186 -> Escola";1;37;13,321000;1676,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;11;nao;nao;nao;nao;"Escola -> Parada 20 -> Parada 257 -> Escola";2;39;14,882000;1988,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;12;nao;nao;nao;nao;"Escola -> Parada 600 -> Escola";1;23;6,729000;1023,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;13;nao;nao;nao;nao;"Escola -> Parada 603 -> Escola";1;35;5,064000;867,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;14;nao;nao;nao;nao;"Escola -> Parada 25 -> Escola";1;36;4,169000;768,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;15;nao;nao;nao;nao;"Escola -> Parada 802 -> Escola";1;42;7,322000;1120,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;16;nao;nao;nao;nao;"Escola -> Parada 550 -> Escola";1;40;9,332000;1336,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;17;nao;nao;nao;nao;"Escola -> Parada 570 -> Escola";1;38;6,481000;940,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;18;nao;nao;nao;nao;"Escola -> Parada 335 -> Parada 541 -> Escola";2;35;6,551000;877,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;19;nao;nao;nao;nao;"Escola -> Parada 212 -> Escola";1;32;11,597000;1567,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;57;7;1261492193;8;20;nao;nao;nao;nao;"Escola -> Parada 154 -> Escola";1;30;2,504000;290,000000;21932,000000;82,788392;86,580978
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;1;sim;nao;nao;nao;"Escola -> Parada 678 -> Parada 42 -> Escola";2;37;3,361000;433,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;2;nao;nao;nao;nao;"Escola -> Parada 670 -> Parada 458 -> Escola";2;37;19,193000;2695,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;3;nao;nao;nao;nao;"Escola -> Parada 810 -> Parada 313 -> Escola";2;40;11,976000;1807,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;4;nao;nao;nao;nao;"Escola -> Parada 593 -> Escola";1;30;3,914000;552,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;5;nao;nao;nao;nao;"Escola -> Parada 563 -> Escola";1;38;7,464000;1196,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;6;nao;nao;nao;nao;"Escola -> Parada 215 -> Escola";1;37;7,058000;877,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;7;nao;nao;nao;nao;"Escola -> Parada 319 -> Escola";1;35;4,918000;821,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;8;nao;nao;nao;nao;"Escola -> Parada 336 -> Escola";1;50;9,935000;1234,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;9;nao;nao;nao;nao;"Escola -> Parada 743 -> Escola";1;31;7,291000;1132,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;10;nao;nao;nao;nao;"Escola -> Parada 358 -> Escola";1;28;12,249000;1649,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;11;nao;nao;nao;nao;"Escola -> Parada 386 -> Escola";1;41;5,967000;1021,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;12;nao;nao;nao;nao;"Escola -> Parada 825 -> Escola";1;41;5,072000;853,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;13;nao;nao;nao;nao;"Escola -> Parada 340 -> Escola";1;30;6,025000;920,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;14;nao;nao;nao;nao;"Escola -> Parada 833 -> Escola";1;29;9,552000;1214,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;15;nao;nao;nao;nao;"Escola -> Parada 412 -> Escola";1;39;7,828000;1220,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;16;nao;nao;nao;nao;"Escola -> Parada 553 -> Parada 541 -> Parada 335 -> Escola";3;40;6,599000;882,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;17;nao;nao;nao;nao;"Escola -> Parada 235 -> Escola";1;26;11,317000;1531,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;18;nao;nao;nao;nao;"Escola -> Parada 354 -> Escola";1;32;9,887000;1355,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;58;8;4243407436;8;19;nao;nao;nao;nao;"Escola -> Parada 484 -> Escola";1;39;6,249000;972,000000;22364,000000;86,738001;89,988686
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;1;nao;nao;nao;sim;"Escola -> Parada 99 -> Parada 226 -> Parada 96 -> Escola";3;33;13,989000;1841,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;2;nao;nao;nao;sim;"Escola -> Parada 870 -> Escola";1;37;6,754000;1049,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;3;nao;nao;nao;sim;"Escola -> Parada 186 -> Parada 543 -> Escola";2;38;11,900000;1659,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;4;nao;nao;nao;sim;"Escola -> Parada 208 -> Escola";1;34;6,235000;781,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;5;nao;nao;nao;sim;"Escola -> Parada 169 -> Escola";1;32;7,472000;1140,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;6;nao;nao;nao;sim;"Escola -> Parada 878 -> Escola";1;24;4,498000;767,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;7;nao;nao;nao;sim;"Escola -> Parada 76 -> Escola";1;33;12,215000;1685,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;8;nao;nao;nao;sim;"Escola -> Parada 119 -> Escola";1;36;5,528000;828,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;9;nao;nao;nao;sim;"Escola -> Parada 593 -> Parada 297 -> Escola";2;38;9,122000;1306,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;10;nao;nao;nao;sim;"Escola -> Parada 510 -> Escola";1;37;5,189000;791,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;11;nao;nao;nao;sim;"Escola -> Parada 422 -> Escola";1;34;5,190000;738,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;12;nao;nao;nao;sim;"Escola -> Parada 536 -> Escola";1;29;4,385000;727,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;13;nao;nao;nao;sim;"Escola -> Parada 833 -> Escola";1;29;9,552000;1214,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;14;nao;nao;nao;sim;"Escola -> Parada 227 -> Escola";1;35;10,092000;1459,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;15;nao;nao;nao;sim;"Escola -> Parada 802 -> Escola";1;40;7,322000;1120,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;16;nao;nao;nao;sim;"Escola -> Parada 632 -> Parada 142 -> Escola";2;30;6,955000;971,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;17;sim;nao;nao;sim;"Escola -> Parada 154 -> Escola";1;21;2,504000;290,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;18;nao;nao;nao;sim;"Escola -> Parada 470 -> Escola";1;40;6,047000;944,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;19;nao;nao;nao;sim;"Escola -> Parada 354 -> Escola";1;40;9,887000;1355,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;59;9;2710021800;8;20;nao;nao;nao;sim;"Escola -> Parada 449 -> Escola";1;40;8,310000;1307,000000;21972,000000;121,467255;126,036913
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;1;nao;nao;nao;nao;"Escola -> Parada 934 -> Parada 21 -> Escola";2;39;12,611000;1854,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;2;nao;nao;nao;nao;"Escola -> Parada 285 -> Escola";1;40;10,325000;1281,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;3;nao;nao;nao;nao;"Escola -> Parada 485 -> Escola";1;38;6,047000;944,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;4;nao;nao;nao;nao;"Escola -> Parada 93 -> Parada 127 -> Escola";2;24;4,545000;568,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;5;nao;nao;nao;nao;"Escola -> Parada 271 -> Escola";1;32;4,029000;629,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;6;nao;nao;nao;nao;"Escola -> Parada 218 -> Escola";1;42;12,027000;1483,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;7;nao;nao;nao;nao;"Escola -> Parada 229 -> Escola";1;35;11,851000;1637,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;8;nao;nao;nao;nao;"Escola -> Parada 458 -> Parada 354 -> Escola";2;36;13,766000;1818,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;9;nao;nao;nao;nao;"Escola -> Parada 618 -> Parada 775 -> Escola";2;40;5,265000;639,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;10;nao;nao;nao;nao;"Escola -> Parada 641 -> Escola";1;38;11,445000;1560,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;11;nao;nao;nao;nao;"Escola -> Parada 603 -> Escola";1;38;5,064000;867,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;12;nao;nao;nao;nao;"Escola -> Parada 624 -> Escola";1;38;7,416000;1151,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;13;nao;nao;nao;nao;"Escola -> Parada 746 -> Escola";1;38;8,741000;1219,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;14;nao;nao;nao;nao;"Escola -> Parada 507 -> Escola";1;31;6,542000;1013,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;15;nao;nao;nao;nao;"Escola -> Parada 87 -> Escola";1;39;4,106000;526,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;16;nao;nao;nao;nao;"Escola -> Parada 623 -> Escola";1;28;5,207000;871,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;17;sim;nao;nao;nao;"Escola -> Parada 824 -> Escola";1;40;3,400000;616,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;18;nao;nao;nao;nao;"Escola -> Parada 411 -> Escola";1;33;7,167000;1114,000000;20709,000000;100,111318;104,046071
+Edinburgh-1;.\data\Edinburgh-1.bus;60;10;3289927555;8;19;nao;nao;nao;nao;"Escola -> Parada 506 -> Parada 335 -> Escola";2;31;7,010000;919,000000;20709,000000;100,111318;104,046071
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;1;nao;nao;nao;sim;"Escola -> Parada 124 -> Escola";1;27;1,590000;292,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;2;nao;nao;nao;sim;"Escola -> Parada 518 -> Escola";1;40;2,492000;460,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;3;nao;nao;nao;sim;"Escola -> Parada 884 -> Escola";1;40;7,502000;1286,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;4;nao;nao;nao;sim;"Escola -> Parada 895 -> Escola";1;37;3,029000;709,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;5;nao;nao;nao;sim;"Escola -> Parada 488 -> Escola";1;38;5,595000;1082,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;6;nao;nao;nao;sim;"Escola -> Parada 29 -> Escola";1;39;6,797000;1213,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;7;sim;nao;nao;sim;"Escola -> Parada 363 -> Escola";1;25;1,008000;201,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;8;nao;nao;nao;sim;"Escola -> Parada 618 -> Escola";1;37;3,106000;542,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;61;1;395587690;8;9;nao;nao;nao;sim;"Escola -> Parada 84 -> Escola";1;37;5,110000;829,000000;6614,000000;94,865535;98,081006
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;1;nao;nao;nao;nao;"Escola -> Parada 176 -> Escola";1;37;5,246000;901,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;2;nao;nao;nao;nao;"Escola -> Parada 71 -> Escola";1;42;3,200000;701,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;3;nao;nao;nao;nao;"Escola -> Parada 725 -> Escola";1;44;7,393000;1244,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;4;nao;nao;nao;nao;"Escola -> Parada 829 -> Escola";1;40;4,298000;813,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;5;sim;nao;nao;nao;"Escola -> Parada 572 -> Escola";1;40;1,628000;300,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;6;nao;nao;nao;nao;"Escola -> Parada 280 -> Escola";1;37;6,779000;1240,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;7;nao;nao;nao;nao;"Escola -> Parada 568 -> Escola";1;40;2,458000;456,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;62;2;3337208645;8;8;nao;nao;nao;nao;"Escola -> Parada 124 -> Parada 491 -> Escola";2;40;1,668000;341,000000;5996,000000;57,903621;61,230650
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;1;nao;nao;nao;nao;"Escola -> Parada 241 -> Escola";1;22;3,418000;607,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;2;nao;nao;nao;nao;"Escola -> Parada 110 -> Escola";1;39;5,601000;907,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;3;nao;nao;nao;nao;"Escola -> Parada 905 -> Escola";1;38;3,511000;751,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;4;nao;nao;nao;nao;"Escola -> Parada 145 -> Escola";1;35;7,263000;1296,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;5;nao;nao;nao;nao;"Escola -> Parada 584 -> Escola";1;40;3,170000;600,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;6;nao;nao;nao;nao;"Escola -> Parada 860 -> Escola";1;37;6,778000;1166,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;7;sim;nao;nao;nao;"Escola -> Parada 74 -> Escola";1;38;1,880000;344,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;8;nao;nao;nao;nao;"Escola -> Parada 471 -> Escola";1;31;6,552000;1199,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;63;3;1862732352;8;9;nao;nao;nao;nao;"Escola -> Parada 308 -> Escola";1;40;5,068000;810,000000;7680,000000;46,702960;50,297763
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;1;nao;nao;nao;nao;"Escola -> Parada 480 -> Escola";1;24;4,241000;913,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;2;nao;nao;nao;nao;"Escola -> Parada 609 -> Escola";1;37;4,614000;784,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;3;nao;nao;nao;nao;"Escola -> Parada 580 -> Escola";1;35;5,534000;896,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;4;nao;nao;nao;nao;"Escola -> Parada 403 -> Escola";1;39;6,945000;1265,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;5;nao;nao;nao;nao;"Escola -> Parada 757 -> Escola";1;32;6,423000;1113,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;6;sim;nao;nao;nao;"Escola -> Parada 572 -> Escola";1;23;1,628000;300,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;7;nao;nao;nao;nao;"Escola -> Parada 220 -> Escola";1;28;4,990000;1059,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;8;nao;nao;nao;nao;"Escola -> Parada 658 -> Escola";1;40;2,376000;426,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;9;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;30;6,322000;1173,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;64;4;120181579;8;10;nao;nao;nao;nao;"Escola -> Parada 388 -> Escola";1;32;3,178000;674,000000;8603,000000;57,138562;60,770628
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;1;nao;nao;nao;nao;"Escola -> Parada 707 -> Escola";1;40;7,223000;1267,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;2;nao;nao;nao;nao;"Escola -> Parada 355 -> Escola";1;25;4,146000;759,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;3;nao;nao;nao;nao;"Escola -> Parada 191 -> Escola";1;40;7,823000;1306,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;4;nao;nao;nao;nao;"Escola -> Parada 110 -> Escola";1;37;5,601000;907,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;5;nao;nao;nao;nao;"Escola -> Parada 286 -> Parada 626 -> Escola";2;39;6,265000;1046,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;6;nao;nao;nao;nao;"Escola -> Parada 326 -> Escola";1;30;3,596000;636,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;7;nao;nao;nao;nao;"Escola -> Parada 768 -> Escola";1;39;5,186000;1024,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;8;nao;nao;nao;nao;"Escola -> Parada 897 -> Escola";1;30;6,360000;1176,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;65;5;1850541474;8;9;sim;nao;nao;nao;"Escola -> Parada 169 -> Escola";1;40;1,516000;286,000000;8407,000000;62,696790;65,817477
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;1;nao;nao;nao;nao;"Escola -> Parada 674 -> Parada 493 -> Escola";2;39;6,935000;1200,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;2;nao;nao;nao;nao;"Escola -> Parada 796 -> Escola";1;39;5,608000;916,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;3;nao;nao;nao;nao;"Escola -> Parada 791 -> Escola";1;34;5,884000;1029,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;4;nao;nao;nao;nao;"Escola -> Parada 405 -> Parada 647 -> Escola";2;39;8,059000;1498,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;5;sim;nao;nao;nao;"Escola -> Parada 681 -> Escola";1;31;1,014000;201,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;6;nao;nao;nao;nao;"Escola -> Parada 601 -> Escola";1;36;2,994000;578,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;7;nao;nao;nao;nao;"Escola -> Parada 171 -> Escola";1;38;5,759000;1085,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;8;nao;nao;nao;nao;"Escola -> Parada 124 -> Escola";1;27;1,590000;292,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;66;6;746922810;8;9;nao;nao;nao;nao;"Escola -> Parada 176 -> Escola";1;37;5,246000;901,000000;7700,000000;134,749864;137,936805
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;1;nao;nao;nao;nao;"Escola -> Parada 735 -> Escola";1;37;7,040000;1186,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;2;nao;nao;nao;nao;"Escola -> Parada 174 -> Escola";1;40;4,746000;921,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;3;nao;nao;nao;nao;"Escola -> Parada 141 -> Escola";1;30;4,211000;824,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;4;nao;nao;nao;nao;"Escola -> Parada 362 -> Escola";1;37;3,968000;692,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;5;nao;nao;nao;nao;"Escola -> Parada 702 -> Escola";1;25;4,297000;813,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;6;nao;nao;nao;nao;"Escola -> Parada 865 -> Escola";1;25;6,779000;1165,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;7;nao;nao;nao;nao;"Escola -> Parada 72 -> Escola";1;34;6,108000;962,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;8;nao;nao;nao;nao;"Escola -> Parada 824 -> Escola";1;32;4,814000;969,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;9;nao;nao;nao;nao;"Escola -> Parada 274 -> Escola";1;28;2,244000;408,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;67;7;2120361354;8;10;sim;nao;nao;nao;"Escola -> Parada 74 -> Escola";1;32;1,880000;344,000000;8284,000000;63,633536;67,445218
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;1;nao;nao;nao;nao;"Escola -> Parada 189 -> Escola";1;34;4,462000;790,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;2;nao;nao;nao;nao;"Escola -> Parada 815 -> Escola";1;36;5,677000;1146,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;3;nao;nao;nao;nao;"Escola -> Parada 902 -> Escola";1;41;3,376000;702,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;4;nao;nao;nao;nao;"Escola -> Parada 907 -> Escola";1;27;3,698000;698,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;5;nao;nao;nao;nao;"Escola -> Parada 172 -> Escola";1;36;8,616000;1374,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;6;nao;nao;nao;nao;"Escola -> Parada 752 -> Escola";1;39;6,002000;1122,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;7;nao;nao;nao;nao;"Escola -> Parada 383 -> Escola";1;31;6,322000;1173,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;8;sim;nao;nao;nao;"Escola -> Parada 378 -> Escola";1;39;1,194000;248,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;68;8;661778198;8;9;nao;nao;nao;nao;"Escola -> Parada 176 -> Escola";1;37;5,246000;901,000000;8154,000000;30,591846;34,536247
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;1;nao;nao;nao;nao;"Escola -> Parada 211 -> Escola";1;39;6,591000;1158,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;2;nao;nao;nao;nao;"Escola -> Parada 45 -> Escola";1;27;2,417000;527,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;3;nao;nao;nao;nao;"Escola -> Parada 433 -> Escola";1;34;5,122000;854,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;4;sim;nao;nao;nao;"Escola -> Parada 9 -> Escola";1;30;1,226000;241,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;5;nao;nao;nao;nao;"Escola -> Parada 839 -> Escola";1;40;6,031000;1069,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;6;nao;nao;nao;nao;"Escola -> Parada 115 -> Escola";1;36;3,282000;569,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;7;nao;nao;nao;nao;"Escola -> Parada 824 -> Escola";1;38;4,814000;969,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;8;nao;nao;nao;nao;"Escola -> Parada 44 -> Escola";1;38;5,346000;866,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;69;9;1828927181;8;9;nao;nao;nao;nao;"Escola -> Parada 222 -> Escola";1;38;6,422000;1113,000000;7366,000000;60,332242;63,519943
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;1;nao;nao;nao;nao;"Escola -> Parada 724 -> Escola";1;39;6,191000;1086,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;2;nao;nao;nao;nao;"Escola -> Parada 862 -> Escola";1;26;7,371000;1237,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;3;nao;nao;nao;nao;"Escola -> Parada 479 -> Escola";1;27;2,462000;546,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;4;nao;nao;nao;nao;"Escola -> Parada 799 -> Escola";1;24;5,240000;1071,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;5;nao;nao;nao;nao;"Escola -> Parada 228 -> Escola";1;35;4,457000;869,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;6;nao;nao;nao;nao;"Escola -> Parada 435 -> Escola";1;37;5,178000;860,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;7;nao;nao;nao;nao;"Escola -> Parada 882 -> Escola";1;34;4,366000;812,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;8;nao;nao;nao;nao;"Escola -> Parada 176 -> Escola";1;37;5,246000;901,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;9;nao;nao;nao;nao;"Escola -> Parada 274 -> Escola";1;40;2,244000;408,000000;7991,000000;74,500705;78,434625
+Edinburgh-2;.\data\Edinburgh-2.bus;70;10;331083922;8;10;sim;nao;nao;nao;"Escola -> Parada 363 -> Escola";1;21;1,008000;201,000000;7991,000000;74,500705;78,434625
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;1;nao;nao;nao;sim;"Escola -> Parada 109 -> Escola";1;40;15,901000;1019,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;2;nao;nao;nao;sim;"Escola -> Parada 2 -> Parada 76 -> Escola";2;40;14,129000;1229,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;3;nao;nao;nao;sim;"Escola -> Parada 394 -> Escola";1;37;13,639000;927,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;4;nao;nao;nao;sim;"Escola -> Parada 78 -> Escola";1;40;14,500000;1125,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;5;nao;nao;nao;sim;"Escola -> Parada 327 -> Escola";1;38;13,183000;949,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;6;nao;nao;nao;sim;"Escola -> Parada 157 -> Parada 47 -> Escola";2;40;19,392000;1202,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;71;1;1341151716;8;7;sim;nao;nao;sim;"Escola -> Parada 58 -> Escola";1;39;9,761000;803,000000;7254,000000;6,396502;8,004278
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;1;nao;nao;nao;nao;"Escola -> Parada 162 -> Escola";1;37;13,262000;886,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;2;nao;nao;nao;nao;"Escola -> Parada 281 -> Escola";1;23;13,829000;1052,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;3;nao;nao;nao;nao;"Escola -> Parada 81 -> Escola";1;32;16,956000;1249,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;4;sim;nao;nao;nao;"Escola -> Parada 118 -> Parada 372 -> Escola";2;38;10,371000;888,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;5;nao;nao;nao;nao;"Escola -> Parada 157 -> Escola";1;38;11,694000;824,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;6;nao;nao;nao;nao;"Escola -> Parada 41 -> Parada 264 -> Escola";2;37;12,836000;980,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;7;nao;nao;nao;nao;"Escola -> Parada 151 -> Escola";1;29;11,306000;958,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;72;2;3821944079;8;8;nao;nao;nao;nao;"Escola -> Parada 292 -> Escola";1;40;12,330000;951,000000;7788,000000;24,030036;25,363867
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;1;nao;nao;nao;nao;"Escola -> Parada 397 -> Parada 112 -> Escola";2;26;11,199000;887,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;2;nao;nao;nao;nao;"Escola -> Parada 527 -> Escola";1;40;14,540000;1129,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;3;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;21;11,117000;887,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;4;nao;nao;nao;nao;"Escola -> Parada 109 -> Escola";1;39;15,901000;1019,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;5;nao;nao;nao;nao;"Escola -> Parada 340 -> Parada 401 -> Escola";2;39;15,056000;1003,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;6;nao;nao;nao;nao;"Escola -> Parada 298 -> Parada 151 -> Escola";2;40;12,548000;1061,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;7;nao;nao;nao;nao;"Escola -> Parada 394 -> Parada 179 -> Escola";2;39;13,638000;926,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;73;3;1831164907;8;8;sim;nao;nao;nao;"Escola -> Parada 372 -> Escola";1;30;8,934000;752,000000;7664,000000;16,731956;17,813370
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;1;nao;nao;nao;nao;"Escola -> Parada 119 -> Parada 264 -> Escola";2;37;12,836000;980,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;2;nao;nao;nao;nao;"Escola -> Parada 292 -> Escola";1;40;12,330000;951,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;3;nao;nao;nao;nao;"Escola -> Parada 314 -> Parada 81 -> Escola";2;39;16,955000;1248,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;4;nao;nao;nao;nao;"Escola -> Parada 50 -> Escola";1;37;11,690000;923,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;5;nao;nao;nao;nao;"Escola -> Parada 162 -> Escola";1;30;13,262000;886,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;6;nao;nao;nao;nao;"Escola -> Parada 28 -> Escola";1;23;13,829000;1052,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;7;nao;nao;nao;nao;"Escola -> Parada 151 -> Escola";1;30;11,306000;958,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;74;4;3222851995;8;8;sim;nao;nao;nao;"Escola -> Parada 118 -> Escola";1;38;10,372000;889,000000;7887,000000;24,887889;26,083019
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;1;nao;nao;nao;nao;"Escola -> Parada 394 -> Escola";1;37;13,639000;927,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;2;nao;nao;nao;nao;"Escola -> Parada 555 -> Escola";1;26;11,349000;810,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;3;nao;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;40;14,500000;1125,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;4;nao;nao;nao;nao;"Escola -> Parada 109 -> Escola";1;39;15,901000;1019,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;5;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;22;11,117000;887,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;6;nao;nao;nao;nao;"Escola -> Parada 327 -> Parada 151 -> Escola";2;39;12,748000;1090,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;7;nao;nao;nao;nao;"Escola -> Parada 50 -> Parada 340 -> Escola";2;39;15,910000;1155,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;75;5;3837077245;8;8;sim;nao;nao;nao;"Escola -> Parada 372 -> Escola";1;32;8,934000;752,000000;7765,000000;18,524435;19,823790
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;1;nao;nao;nao;nao;"Escola -> Parada 211 -> Parada 397 -> Escola";2;32;16,595000;1095,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;2;nao;nao;nao;nao;"Escola -> Parada 98 -> Escola";1;37;11,343000;901,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;3;nao;nao;nao;nao;"Escola -> Parada 498 -> Parada 120 -> Escola";2;40;14,329000;1211,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;4;nao;nao;nao;nao;"Escola -> Parada 255 -> Escola";1;37;17,776000;1187,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;5;nao;nao;nao;nao;"Escola -> Parada 50 -> Escola";1;35;11,690000;923,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;6;nao;nao;nao;nao;"Escola -> Parada 343 -> Escola";1;40;16,511000;1194,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;7;nao;nao;nao;nao;"Escola -> Parada 54 -> Escola";1;25;10,507000;839,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;76;6;2978144236;8;8;sim;nao;nao;nao;"Escola -> Parada 372 -> Escola";1;28;8,934000;752,000000;8102,000000;14,385568;15,866555
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;1;nao;nao;nao;nao;"Escola -> Parada 467 -> Parada 159 -> Escola";2;40;16,581000;1296,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;2;nao;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;40;14,500000;1125,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;3;sim;nao;nao;nao;"Escola -> Parada 372 -> Escola";1;39;8,934000;752,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;4;nao;nao;nao;nao;"Escola -> Parada 394 -> Parada 218 -> Escola";2;38;13,638000;926,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;5;nao;nao;nao;nao;"Escola -> Parada 556 -> Escola";1;40;11,690000;923,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;6;nao;nao;nao;nao;"Escola -> Parada 109 -> Escola";1;39;15,901000;1019,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;77;7;4055136414;8;7;nao;nao;nao;nao;"Escola -> Parada 98 -> Parada 340 -> Escola";2;38;19,945000;1367,000000;7408,000000;26,688925;28,951200
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;1;nao;nao;nao;nao;"Escola -> Parada 110 -> Parada 78 -> Escola";2;40;14,499000;1125,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;2;nao;nao;nao;nao;"Escola -> Parada 410 -> Parada 340 -> Parada 335 -> Escola";3;27;15,193000;1025,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;3;nao;nao;nao;nao;"Escola -> Parada 544 -> Escola";1;40;14,155000;965,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;4;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;29;11,117000;887,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;5;nao;nao;nao;nao;"Escola -> Parada 109 -> Escola";1;39;15,901000;1019,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;6;nao;nao;nao;nao;"Escola -> Parada 407 -> Escola";1;23;11,654000;914,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;7;sim;nao;nao;nao;"Escola -> Parada 382 -> Escola";1;38;10,121000;878,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;78;8;2198006964;8;8;nao;nao;nao;nao;"Escola -> Parada 556 -> Escola";1;38;11,690000;923,000000;7736,000000;17,031951;18,581750
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;1;nao;nao;nao;nao;"Escola -> Parada 394 -> Escola";1;37;13,639000;927,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;2;nao;nao;nao;nao;"Escola -> Parada 281 -> Escola";1;23;13,829000;1052,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;3;nao;nao;nao;nao;"Escola -> Parada 401 -> Escola";1;38;11,694000;824,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;4;nao;nao;nao;nao;"Escola -> Parada 430 -> Parada 316 -> Escola";2;30;13,625000;1181,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;5;nao;nao;nao;nao;"Escola -> Parada 81 -> Escola";1;32;16,956000;1249,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;6;nao;nao;nao;nao;"Escola -> Parada 162 -> Escola";1;37;13,262000;886,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;7;nao;nao;nao;nao;"Escola -> Parada 298 -> Parada 151 -> Escola";2;40;12,548000;1061,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;79;9;2155372102;8;8;sim;nao;nao;nao;"Escola -> Parada 58 -> Escola";1;37;9,761000;803,000000;7983,000000;11,688342;13,696887
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;1;nao;nao;nao;nao;"Escola -> Parada 575 -> Parada 507 -> Escola";2;38;14,579000;1186,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;2;nao;nao;nao;nao;"Escola -> Parada 397 -> Escola";1;34;10,016000;764,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;3;nao;nao;nao;nao;"Escola -> Parada 423 -> Escola";1;32;15,564000;996,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;4;nao;nao;nao;nao;"Escola -> Parada 198 -> Parada 532 -> Escola";2;40;19,128000;1188,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;5;nao;nao;nao;nao;"Escola -> Parada 557 -> Escola";1;23;13,005000;892,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;6;nao;nao;nao;nao;"Escola -> Parada 266 -> Escola";1;31;11,117000;887,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;7;nao;nao;nao;nao;"Escola -> Parada 292 -> Escola";1;39;12,330000;951,000000;7622,000000;17,764068;19,484143
+MiltonKeynes;.\data\MiltonKeynes.bus;80;10;1994016109;8;8;sim;nao;nao;nao;"Escola -> Parada 0 -> Escola";1;37;9,104000;758,000000;7622,000000;17,764068;19,484143
+Porthcawl;.\data\Porthcawl.bus;81;1;2679857523;8;1;nao;nao;sim;sim;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;1,894746;2,036464
+Porthcawl;.\data\Porthcawl.bus;81;1;2679857523;8;2;sim;nao;sim;sim;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;1,894746;2,036464
+Porthcawl;.\data\Porthcawl.bus;82;2;2441391258;8;1;nao;nao;nao;nao;"Escola -> Parada 112 -> Parada 40 -> Parada 60 -> Escola";3;35;15,821000;1664,000000;2648,000000;1,937233;2,072675
+Porthcawl;.\data\Porthcawl.bus;82;2;2441391258;8;2;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;31;10,191000;984,000000;2648,000000;1,937233;2,072675
+Porthcawl;.\data\Porthcawl.bus;83;3;496577232;8;1;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;1,882496;2,029184
+Porthcawl;.\data\Porthcawl.bus;83;3;496577232;8;2;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;1,882496;2,029184
+Porthcawl;.\data\Porthcawl.bus;84;4;1299440006;8;1;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;3,255880;3,403689
+Porthcawl;.\data\Porthcawl.bus;84;4;1299440006;8;2;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;3,255880;3,403689
+Porthcawl;.\data\Porthcawl.bus;85;5;1362730766;8;1;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;2,135682;2,263918
+Porthcawl;.\data\Porthcawl.bus;85;5;1362730766;8;2;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;2,135682;2,263918
+Porthcawl;.\data\Porthcawl.bus;86;6;2135924991;8;1;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;2,795618;3,001971
+Porthcawl;.\data\Porthcawl.bus;86;6;2135924991;8;2;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;2,795618;3,001971
+Porthcawl;.\data\Porthcawl.bus;87;7;1781665012;8;1;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;2,662811;2,903783
+Porthcawl;.\data\Porthcawl.bus;87;7;1781665012;8;2;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;2,662811;2,903783
+Porthcawl;.\data\Porthcawl.bus;88;8;2934591847;8;1;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;2,125239;2,328195
+Porthcawl;.\data\Porthcawl.bus;88;8;2934591847;8;2;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;2,125239;2,328195
+Porthcawl;.\data\Porthcawl.bus;89;9;3720769483;8;1;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;1,874958;2,010708
+Porthcawl;.\data\Porthcawl.bus;89;9;3720769483;8;2;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;1,874958;2,010708
+Porthcawl;.\data\Porthcawl.bus;90;10;3937190838;8;1;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 60 -> Escola";2;30;15,292000;1614,000000;2598,000000;1,540408;1,659210
+Porthcawl;.\data\Porthcawl.bus;90;10;3937190838;8;2;sim;nao;nao;nao;"Escola -> Parada 78 -> Escola";1;36;10,191000;984,000000;2598,000000;1,540408;1,659210
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;1;nao;nao;nao;sim;"Escola -> Parada 160 -> Parada 129 -> Parada 172 -> Parada 67 -> Escola";4;38;35,359000;2574,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;2;nao;nao;nao;sim;"Escola -> Parada 89 -> Parada 154 -> Parada 37 -> Escola";3;35;26,682000;2049,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;3;nao;nao;nao;sim;"Escola -> Parada 155 -> Parada 146 -> Parada 17 -> Escola";3;38;20,576000;1769,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;4;nao;nao;nao;sim;"Escola -> Parada 2 -> Parada 38 -> Parada 105 -> Parada 120 -> Parada 64 -> Escola";5;34;28,938000;2367,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;5;sim;nao;nao;sim;"Escola -> Parada 93 -> Parada 171 -> Escola";2;36;18,949000;1419,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;91;1;1075697607;8;6;nao;nao;nao;sim;"Escola -> Parada 159 -> Parada 124 -> Parada 42 -> Escola";3;28;20,717000;1410,000000;11588,000000;7,118146;7,258162
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;1;nao;nao;nao;nao;"Escola -> Parada 113 -> Parada 39 -> Parada 46 -> Escola";3;39;36,969000;2758,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;2;nao;nao;nao;nao;"Escola -> Parada 33 -> Parada 104 -> Parada 10 -> Escola";3;38;20,860000;1879,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;3;nao;nao;nao;nao;"Escola -> Parada 37 -> Parada 58 -> Parada 119 -> Escola";3;35;26,682000;2090,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;4;sim;nao;nao;nao;"Escola -> Parada 43 -> Parada 171 -> Escola";2;36;19,468000;1452,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;5;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 120 -> Parada 14 -> Parada 172 -> Parada 103 -> Parada 2 -> Escola";6;33;30,471000;2212,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;92;2;467846273;8;6;nao;nao;nao;nao;"Escola -> Parada 159 -> Parada 124 -> Parada 42 -> Escola";3;28;20,717000;1410,000000;11801,000000;6,056180;6,172640
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;1;nao;nao;nao;nao;"Escola -> Parada 33 -> Parada 4 -> Parada 23 -> Escola";3;38;22,254000;1769,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;2;nao;nao;nao;nao;"Escola -> Parada 15 -> Parada 149 -> Parada 2 -> Escola";3;39;32,122000;2543,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;3;nao;nao;nao;nao;"Escola -> Parada 45 -> Parada 37 -> Parada 119 -> Escola";3;34;28,748000;2141,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;4;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 8 -> Parada 168 -> Parada 67 -> Parada 172 -> Parada 34 -> Escola";6;33;32,524000;2424,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;5;nao;nao;nao;nao;"Escola -> Parada 58 -> Parada 124 -> Parada 42 -> Escola";3;29;27,717000;2134,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;93;3;2074616363;8;6;sim;nao;nao;nao;"Escola -> Parada 93 -> Parada 171 -> Escola";2;36;18,949000;1419,000000;12430,000000;4,222881;4,339307
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;1;nao;nao;nao;nao;"Escola -> Parada 35 -> Parada 151 -> Parada 172 -> Parada 67 -> Parada 128 -> Parada 76 -> Escola";6;31;27,759000;2185,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;2;nao;nao;nao;nao;"Escola -> Parada 64 -> Parada 8 -> Parada 168 -> Parada 80 -> Escola";4;33;35,380000;2456,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;3;nao;nao;nao;nao;"Escola -> Parada 68 -> Escola";1;29;29,519000;2041,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;4;nao;nao;nao;nao;"Escola -> Parada 115 -> Parada 161 -> Escola";2;40;24,482000;1871,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;5;nao;nao;nao;nao;"Escola -> Parada 42 -> Parada 159 -> Parada 25 -> Parada 58 -> Escola";4;36;23,417000;1837,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;94;4;2128121018;8;6;sim;nao;nao;nao;"Escola -> Parada 93 -> Parada 171 -> Parada 97 -> Escola";3;40;20,944000;1724,000000;12114,000000;4,302960;4,421620
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;1;nao;nao;nao;nao;"Escola -> Parada 127 -> Parada 120 -> Parada 70 -> Escola";3;24;25,903000;1870,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;2;nao;nao;nao;nao;"Escola -> Parada 106 -> Escola";1;29;29,833000;2135,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;3;nao;nao;nao;nao;"Escola -> Parada 36 -> Parada 54 -> Parada 129 -> Parada 172 -> Parada 71 -> Parada 76 -> Parada 80 -> Escola";7;40;38,500000;2838,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;4;nao;nao;nao;nao;"Escola -> Parada 115 -> Parada 4 -> Escola";2;40;24,483000;1851,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;5;nao;nao;nao;nao;"Escola -> Parada 154 -> Parada 110 -> Parada 159 -> Parada 41 -> Parada 97 -> Escola";5;40;29,675000;2400,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;95;5;4232947045;8;6;sim;nao;nao;nao;"Escola -> Parada 171 -> Parada 93 -> Escola";2;36;18,675000;1326,000000;12420,000000;3,495902;3,613008
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;1;nao;nao;nao;nao;"Escola -> Parada 63 -> Parada 103 -> Parada 2 -> Escola";3;39;31,777000;2501,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;2;nao;nao;nao;nao;"Escola -> Parada 64 -> Parada 79 -> Parada 70 -> Parada 165 -> Parada 172 -> Parada 34 -> Escola";6;33;33,041000;2577,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;3;nao;nao;nao;nao;"Escola -> Parada 154 -> Parada 37 -> Parada 74 -> Escola";3;35;26,682000;2089,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;4;nao;nao;nao;nao;"Escola -> Parada 33 -> Parada 23 -> Parada 17 -> Escola";3;38;20,571000;1745,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;5;sim;nao;nao;nao;"Escola -> Parada 171 -> Parada 43 -> Parada 135 -> Escola";3;38;19,468000;1531,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;96;6;1000022711;8;6;nao;nao;nao;nao;"Escola -> Parada 159 -> Parada 124 -> Escola";2;26;20,717000;1412,000000;11855,000000;3,567904;3,712124
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;1;nao;nao;nao;nao;"Escola -> Parada 52 -> Parada 149 -> Parada 2 -> Escola";3;39;31,388000;2411,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;2;nao;nao;nao;nao;"Escola -> Parada 13 -> Parada 84 -> Parada 172 -> Parada 14 -> Parada 66 -> Parada 8 -> Escola";6;33;31,584000;2472,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;3;sim;nao;nao;nao;"Escola -> Parada 93 -> Parada 171 -> Escola";2;36;18,949000;1419,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;4;nao;nao;nao;nao;"Escola -> Parada 89 -> Parada 37 -> Parada 58 -> Escola";3;35;26,682000;2050,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;5;nao;nao;nao;nao;"Escola -> Parada 64 -> Parada 104 -> Parada 23 -> Escola";3;38;25,521000;2168,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;97;7;2231171609;8;6;nao;nao;nao;nao;"Escola -> Parada 159 -> Parada 124 -> Parada 42 -> Escola";3;28;20,717000;1410,000000;11930,000000;4,920303;5,065554
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;1;sim;nao;nao;nao;"Escola -> Parada 146 -> Parada 17 -> Escola";2;26;15,112000;1285,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;2;nao;nao;nao;nao;"Escola -> Parada 46 -> Parada 32 -> Escola";2;34;33,080000;2373,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;3;nao;nao;nao;nao;"Escola -> Parada 64 -> Parada 49 -> Parada 151 -> Parada 172 -> Parada 67 -> Parada 18 -> Parada 8 -> Escola";7;38;36,635000;2583,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;4;nao;nao;nao;nao;"Escola -> Parada 89 -> Parada 154 -> Parada 25 -> Escola";3;35;27,772000;2158,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;5;nao;nao;nao;nao;"Escola -> Parada 155 -> Parada 159 -> Parada 115 -> Parada 41 -> Escola";4;40;32,966000;2333,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;98;8;1876302258;8;6;nao;nao;nao;nao;"Escola -> Parada 171 -> Parada 3 -> Escola";2;36;18,675000;1326,000000;12058,000000;2,879145;2,999546
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;1;nao;nao;nao;nao;"Escola -> Parada 99 -> Parada 80 -> Escola";2;21;21,123000;1429,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;2;nao;nao;nao;nao;"Escola -> Parada 52 -> Parada 129 -> Parada 172 -> Parada 67 -> Escola";4;38;35,042000;2545,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;3;nao;nao;nao;nao;"Escola -> Parada 90 -> Parada 35 -> Parada 38 -> Parada 66 -> Parada 120 -> Parada 97 -> Escola";6;38;39,818000;2986,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;4;nao;nao;nao;nao;"Escola -> Parada 45 -> Parada 25 -> Parada 58 -> Escola";3;34;23,417000;1851,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;5;nao;nao;nao;nao;"Escola -> Parada 115 -> Parada 161 -> Escola";2;40;24,482000;1871,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;99;9;2632361940;8;6;sim;nao;nao;nao;"Escola -> Parada 136 -> Parada 93 -> Parada 171 -> Escola";3;38;18,703000;1495,000000;12177,000000;5,476369;5,606957
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;1;nao;nao;nao;nao;"Escola -> Parada 63 -> Parada 172 -> Parada 128 -> Parada 32 -> Escola";4;40;34,264000;2443,000000;12081,000000;4,139610;4,266611
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;2;nao;nao;nao;nao;"Escola -> Parada 125 -> Parada 5 -> Parada 58 -> Escola";3;35;28,435000;2176,000000;12081,000000;4,139610;4,266611
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;3;nao;nao;nao;nao;"Escola -> Parada 12 -> Parada 71 -> Parada 34 -> Parada 18 -> Parada 8 -> Escola";5;32;36,779000;2876,000000;12081,000000;4,139610;4,266611
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;4;nao;nao;nao;nao;"Escola -> Parada 33 -> Parada 17 -> Parada 146 -> Escola";3;38;20,541000;1633,000000;12081,000000;4,139610;4,266611
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;5;nao;nao;nao;nao;"Escola -> Parada 159 -> Parada 124 -> Parada 135 -> Escola";3;28;20,717000;1534,000000;12081,000000;4,139610;4,266611
+Suffolk;.\data\Suffolk.bus;100;10;3227852600;8;6;sim;nao;nao;nao;"Escola -> Parada 93 -> Parada 171 -> Escola";2;36;18,949000;1419,000000;12081,000000;4,139610;4,266611
