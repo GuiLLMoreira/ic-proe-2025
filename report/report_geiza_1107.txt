@@ -1,6 +1,6 @@
-Assunto: Atualizacoes na feature de experimentacao e resultados dos experimentos
+Assunto: [IC - 2025 - PROE BRKGA] Atualizacoes no código, experimentacao e resultados dos experimentos 
 
-Prezada Professora,
+Bom dia Prof. tudo bem?
 
 Segue um resumo das atualizacoes realizadas na feature de experimentacao do projeto e dos resultados obtidos nos experimentos mais recentes.
 
