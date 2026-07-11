@@ -1,0 +1,21 @@
+digraph SolucaoPROE {
+  graph [layout=neato, overlap=false, splines=true];
+  node [shape=circle, fontsize=10];
+  edge [fontsize=9];
+
+  Escola [label="Escola\nYsgol y Ferch o'r Sger", shape=box, pos="-3.70401820,51.52219330!"];
+
+  P60 [label="Parada 60\nOrig. 61\nDem. 5", pos="-3.66630508,51.53234141!"];
+  P78 [label="Parada 78\nOrig. 79\nDem. 36", pos="-3.68397116,51.48557180!"];
+  P127 [label="Parada 127\nOrig. 128\nDem. 25", pos="-3.70204692,51.48943826!"];
+
+  // Rota 1
+  Escola -> P78 [label="R1"];
+  P78 -> Escola [label="R1"];
+
+  // Rota 2
+  Escola -> P127 [label="R2"];
+  P127 -> P60 [label="R2"];
+  P60 -> Escola [label="R2"];
+
+}
