@@ -1,0 +1,173 @@
+Assunto: Atualizacoes na feature de experimentacao e resultados dos experimentos
+
+Prezada Professora,
+
+Segue um resumo das atualizacoes realizadas na feature de experimentacao do projeto e dos resultados obtidos nos experimentos mais recentes.
+
+1. Atualizacoes implementadas na feature de experimentacao
+
+Foram feitas melhorias no executavel experimental `proe_testes`, com o objetivo de facilitar a comparacao entre execucoes, registrar todas as rotas geradas e tornar as tabelas mais adequadas para analise.
+
+As principais atualizacoes foram:
+
+- Alteracao do separador decimal nas tabelas CSV:
+  - Os valores numericos passaram a ser exportados com virgula como separador decimal.
+  - Exemplo: `145,951000` em vez de `145.951000`.
+
+- Inclusao do `maximum_running_time` no nome dos arquivos de saida:
+  - Os arquivos agora indicam explicitamente o runtime usado.
+  - Exemplo:
+    - `experimentos_maximum_run_time_60s_resumo_table.csv`
+    - `experimentos_maximum_run_time_300s_resumo_table.csv`
+    - `experimentos_maximum_run_time_600s_resumo_table.csv`
+
+- Criacao de arquivos de configuracao separados para cada runtime:
+  - `config_maximum_run_time_60.conf`
+  - `config_maximum_run_time_300.conf`
+  - `config_maximum_run_time_600.conf`
+
+- Registro de todas as rotas de cada execucao:
+  - Foi criada uma tabela especifica para armazenar todas as rotas geradas em todas as execucoes.
+  - O arquivo segue o padrao:
+    - `experimentos_<runtime>_todas_rotas_table.csv`
+
+- Ajuste da tabela de melhor solucao:
+  - Antes, a tabela de melhor solucao exportava apenas a melhor solucao global da bateria experimental.
+  - Agora, ela exporta a melhor solucao por instancia.
+  - Ou seja, passa a conter a melhor solucao para Adelaide, Bridgend, Brisbane, Canberra, Cardiff, Edinburgh-1, Edinburgh-2, MiltonKeynes, Porthcawl e Suffolk.
+
+- Identificacao da melhor rota especifica:
+  - Foi adicionada a identificacao da melhor rota especifica, considerando menor distancia e, em caso de empate, menor tempo.
+  - Tambem foram adicionadas colunas indicando:
+    - melhor rota da execucao;
+    - melhor rota geral;
+    - rota pertencente a melhor solucao global;
+    - rota pertencente a melhor solucao da instancia.
+
+- Inclusao de tempos nas tabelas de rotas:
+  - As tabelas de rotas agora incluem:
+    - tempo da rota;
+    - tempo total das rotas da execucao;
+    - tempo de execucao do algoritmo;
+    - tempo de parede da execucao.
+
+- Melhorias nos logs:
+  - O log experimental passou a registrar:
+    - melhor solucao global;
+    - melhores solucoes por instancia;
+    - melhor rota especifica encontrada.
+
+2. Comandos utilizados para execucao
+
+O formato geral do comando e:
+
+.\build\proe_testes.exe <configuracao> <execucoes_por_instancia> <master_seed> <threads> <diretorio_instancias>
+
+Exemplos:
+
+.\build\proe_testes.exe .\config_maximum_run_time_60.conf 1 123 1 .\data
+.\build\proe_testes.exe .\config_maximum_run_time_300.conf 1 123 1 .\data
+.\build\proe_testes.exe .\config_maximum_run_time_600.conf 1 123 1 .\data
+
+Tambem foi realizada uma bateria mais completa com `maximum_running_time = 300s`, contendo 10 execucoes por instancia e 8 threads.
+
+3. Comparacao dos runtimes: 60s, 300s e 600s
+
+Foi feita uma comparacao inicial entre os runtimes de 60s, 300s e 600s. Essa comparacao usou uma execucao por instancia.
+
+Resumo dos resultados:
+
+Instancia       | FO 60s       | FO 300s      | FO 600s      | Impacto observado
+----------------|--------------|--------------|--------------|--------------------
+Adelaide        | 151,851      | 145,951      | 145,951      | Melhorou de 60s para 300s
+Bridgend        | 100299,461   | 100299,461   | 100299,461   | Sem alteracao
+Brisbane        | 319,717      | 319,400      | 319,400      | Melhorou levemente
+Canberra        | 286,990      | 286,990      | 286,990      | Sem alteracao
+Cardiff         | 500075,860   | 500075,860   | 500075,860   | Sem alteracao
+Edinburgh-1     | 1500155,291  | 1500147,262  | 1500147,262  | Melhorou levemente
+Edinburgh-2     | 600045,768   | 45,349       | 45,349       | Melhorou muito
+MiltonKeynes    | 105,186      | 105,186      | 105,186      | Sem alteracao
+Porthcawl       | 25,483       | 25,483       | 25,483       | Sem alteracao
+Suffolk         | 158,202      | 158,202      | 158,202      | Sem alteracao
+
+Comparacao agregada:
+
+Runtime | Soma das funcoes objetivo | Media das funcoes objetivo
+--------|----------------------------|----------------------------
+60s     | 2701623,809                | 270162,381
+300s    | 2101609,144                | 210160,914
+600s    | 2101609,144                | 210160,914
+
+O aumento de 60s para 300s reduziu a soma das funcoes objetivo em aproximadamente 600014,665. A maior parte desse ganho veio da instancia Edinburgh-2, que em 60s ainda apresentava penalidade de 600000,000 e, em 300s, passou para uma solucao sem penalidade.
+
+Ao aumentar de 300s para 600s, nao houve melhoria adicional na funcao objetivo em nenhuma das instancias analisadas. Portanto, para essa comparacao inicial, 300s pareceu ser suficiente para atingir a mesma qualidade observada em 600s.
+
+4. Experimento principal com 300s, 10 execucoes por instancia e 8 threads
+
+Tambem foi realizada uma bateria mais robusta com `maximum_running_time = 300s`, considerando 10 execucoes por instancia e 8 threads.
+
+E importante destacar que essa rodada nao e diretamente comparavel com a rodada anterior de 300s apenas como teste de paralelismo, pois dois fatores mudaram ao mesmo tempo:
+
+- a rodada inicial de 300s utilizou 1 thread e 1 execucao por instancia;
+- a rodada mais recente de 300s utilizou 8 threads e 10 execucoes por instancia.
+
+Portanto, a melhoria observada na qualidade das melhores solucoes pode ser consequencia tanto do uso de mais threads quanto, principalmente, do maior numero de seeds testadas. Para isolar exclusivamente o efeito das threads, seria necessario rodar o mesmo conjunto de instancias com o mesmo numero de execucoes e as mesmas seeds, variando apenas o parametro de threads.
+
+Resumo da tabela de resultados:
+
+Instancia       | Melhor FO     | Media FO      | Pior FO       | Desvio padrao FO | Media rotas | Melhor seed
+----------------|---------------|---------------|---------------|------------------|-------------|-------------
+Adelaide        | 139,893       | 146,797800    | 153,536       | 4,168578         | 16,200000   | 2991312382
+Bridgend        | 100290,077    | 150297,478200 | 600305,908    | 158116,845049    | 10,400000   | 1764906721
+Brisbane        | 296,220       | 311,843900    | 326,070       | 10,843949        | 22,000000   | 1883653459
+Canberra        | 286,785       | 298,365300    | 315,991       | 8,973773         | 14,200000   | 783796023
+Cardiff         | 500075,669    | 500077,042500 | 500078,547    | 0,810469         | 4,800000    | 2724731384
+Edinburgh-1     | 153,146       | 440152,943500 | 1300137,427   | 462358,261655    | 19,400000   | 2710021800
+Edinburgh-2     | 36,229        | 70042,489000  | 600032,670    | 188852,864009    | 9,200000    | 395587690
+MiltonKeynes    | 100,505       | 103,606100    | 107,685       | 2,104495         | 7,800000    | 1341151716
+Porthcawl       | 25,483        | 25,535900     | 26,012        | 0,167284         | 2,000000    | 2679857523
+Suffolk         | 151,221       | 159,087900    | 167,069       | 5,385492         | 6,000000    | 1075697607
+
+Comparacao entre a rodada de 300s com 1 thread e 1 execucao por instancia e a rodada de 300s com 8 threads e 10 execucoes por instancia:
+
+Instancia       | FO 300s / 1 thread / 1 execucao | Melhor FO 300s / 8 threads / 10 execucoes | Melhoria observada
+----------------|----------------------------------|--------------------------------------------|-------------------
+Adelaide        | 145,951                          | 139,893                                    | 6,058
+Bridgend        | 100299,461                       | 100290,077                                 | 9,384
+Brisbane        | 319,400                          | 296,220                                    | 23,180
+Canberra        | 286,990                          | 286,785                                    | 0,205
+Cardiff         | 500075,860                       | 500075,669                                 | 0,191
+Edinburgh-1     | 1500147,262                      | 153,146                                    | 1499994,116
+Edinburgh-2     | 45,349                           | 36,229                                     | 9,120
+MiltonKeynes    | 105,186                          | 100,505                                    | 4,681
+Porthcawl       | 25,483                           | 25,483                                     | 0,000
+Suffolk         | 158,202                          | 151,221                                    | 6,981
+
+Na soma das melhores funcoes objetivo por instancia, a rodada de 300s com 1 thread e 1 execucao obteve `2101609,144`, enquanto a rodada de 300s com 8 threads e 10 execucoes obteve `601555,228`. Isso representa uma reducao de `1500053,916`, equivalente a aproximadamente `71,38%`.
+
+O maior ganho ocorreu em `Edinburgh-1`, que passou de uma solucao com funcao objetivo `1500147,262` para uma solucao com funcao objetivo `153,146`. Esse resultado indica que a bateria com mais execucoes encontrou uma seed muito superior para essa instancia.
+
+5. Interpretacao dos resultados
+
+A comparacao entre 60s, 300s e 600s indica que o limite de 60s pode ser insuficiente para algumas instancias, principalmente quando a solucao inicial ainda apresenta penalidades elevadas. O caso mais evidente foi Edinburgh-2, em que o aumento para 300s eliminou a penalidade e reduziu drasticamente a funcao objetivo.
+
+Por outro lado, o aumento de 300s para 600s nao trouxe melhoria na qualidade das solucoes na comparacao feita. Isso sugere que, para essa configuracao e esse conjunto de instancias, 300s oferece um bom compromisso entre tempo computacional e qualidade.
+
+Na bateria com 300s, 8 threads e 10 execucoes por instancia, observou-se variabilidade entre as seeds, especialmente em Bridgend, Edinburgh-1 e Edinburgh-2. Isso reforca a importancia de executar multiplas seeds, pois algumas execucoes encontram solucoes muito melhores do que outras.
+
+A comparacao com a rodada anterior de 300s, 1 thread e 1 execucao por instancia mostra melhoria expressiva na melhor solucao encontrada. No entanto, essa diferenca nao deve ser interpretada como impacto puro das 8 threads, porque a rodada mais recente tambem testou mais seeds. O fator mais evidente para ganho de qualidade foi o aumento no numero de execucoes por instancia, que ampliou a chance de encontrar solucoes melhores.
+
+Em algumas instancias, como Bridgend e Cardiff, ainda aparecem valores elevados de funcao objetivo associados a penalidades. Isso indica que essas instancias podem exigir novos ajustes no modelo, na configuracao do BRKGA ou na estrategia de penalizacao/decodificacao.
+
+6. Conclusao
+
+As atualizacoes implementadas melhoraram a capacidade de analise experimental do projeto. Agora e possivel rastrear todas as rotas geradas, comparar solucoes por instancia, identificar a melhor rota especifica e diferenciar automaticamente os arquivos de saida pelo runtime utilizado.
+
+Quanto aos experimentos, o runtime de 300s se mostrou mais adequado do que 60s, pois permitiu encontrar solucoes melhores e, em alguns casos, eliminar penalidades relevantes. Ja o runtime de 600s nao apresentou ganho adicional em relacao a 300s na comparacao inicial.
+
+Dessa forma, a recomendacao atual e utilizar `maximum_running_time = 300s` como configuracao principal para os proximos experimentos, mantendo multiplas execucoes por instancia para reduzir o efeito da aleatoriedade das seeds. A rodada com 8 threads e 10 execucoes apresentou melhores solucoes do que a rodada com 1 thread e 1 execucao, mas ainda nao permite concluir isoladamente que as threads melhoraram a qualidade da solucao. Para testar esse efeito de forma controlada, o proximo experimento deveria fixar o mesmo numero de execucoes e as mesmas seeds, variando apenas o numero de threads.
+
+Como proximos passos, sugere-se investigar as instancias que ainda apresentam penalidades elevadas, especialmente Bridgend e Cardiff, e avaliar se ajustes no decoder ou nas penalidades podem melhorar a viabilidade das solucoes.
+
+Atenciosamente,
+Guilherme
